@@ -1,0 +1,7 @@
+*.exe
+*.wav
+*.o
+*.mid
+soundfont/
+mda_player_hw
+test.exe

@@ -1,0 +1,42 @@
+# Makefile.hw - 独立编译硬件版本，不干扰旧 Makefile
+CROSS_COMPILE ?= riscv64-unknown-linux-gnu-   # 若为 ARM 则改为 arm-linux-gnueabihf-
+CC = $(CROSS_COMPILE)g++
+AR = $(CROSS_COMPILE)ar
+
+# 目录（假设所有源文件在当前目录）
+SRC_DIR = .
+BUILD_DIR = build_hw
+TARGET = mda_player_hw
+
+# ALSA-lib 交叉编译安装路径（需事先编译好）
+ALSA_DIR = $(PWD)/alsa-lib-install
+ALSA_INC = -I$(ALSA_DIR)/include
+ALSA_LIB = $(ALSA_DIR)/lib/libasound.a
+
+CFLAGS = -std=c++17 -O2 -Wall -I$(SRC_DIR) $(ALSA_INC)
+LDFLAGS = $(ALSA_LIB) -lm -lpthread
+
+SOURCES = $(SRC_DIR)/mdaEPiano.cpp \
+          $(SRC_DIR)/main_hw.cpp
+OBJECTS = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SOURCES))
+
+all: $(BUILD_DIR) $(TARGET)
+
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+	@echo "✅ 编译成功: $(TARGET)"
+
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -rf $(BUILD_DIR) $(TARGET)
+
+deploy: $(TARGET)
+	scp $(TARGET) root@192.168.1.100:/tmp/
+	@echo "✅ 已部署到板子"
+
+.PHONY: all clean deploy
