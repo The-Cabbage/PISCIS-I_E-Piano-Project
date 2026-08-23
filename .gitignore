@@ -5,3 +5,17 @@
 soundfont/
 mda_player_hw
 test.exe
+# 编译产物
+*.dll
+*.so
+*.dylib
+
+# 音频输出（太大的 WAV 文件）
+*.wav
+
+# 备份文件（你有个“副本”文件，别传上去）
+*副本*
+
+# IDE 配置（如果有）
+.vscode/
+.idea/
