@@ -96,7 +96,7 @@ int main() {
 
     // ---------- 1. 初始化 MDA 引擎 ----------
     auto engine = std::make_unique<mdaEPiano>();
-    engine->setVolume(0.8f);
+    engine->setLoudness(0.8f);   // 
 
     // ---------- 2. 打开 ALSA 设备 ----------
     err = snd_pcm_open(&pcm_handle, "default", SND_PCM_STREAM_PLAYBACK, 0);
