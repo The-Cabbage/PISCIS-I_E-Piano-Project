@@ -402,7 +402,7 @@ struct config_t {
 };
 // ========== 以下为 PC 测试环境添加的定义 ==========
 #define AUDIO_SAMPLE_RATE 44100
-#define AUDIO_BLOCK_SAMPLES 128
+#define AUDIO_BLOCK_SAMPLES 256
 #define ENC_MASTER_VOLUME_MIN 0
 #define ENC_MASTER_VOLUME_MAX 99
 #define SAMPLE_RATE AUDIO_SAMPLE_RATE   // 有些地方直接用 SAMPLE_RATE

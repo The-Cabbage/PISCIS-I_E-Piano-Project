@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
     }
 
     // 设置音量
-    engine->setVolume(0.8f);
+    engine->setVolume(0.5f);
 
     // 渲染音频（FluidSynth 引擎会在内部播放 MIDI）
     const int sampleRate = 44100;

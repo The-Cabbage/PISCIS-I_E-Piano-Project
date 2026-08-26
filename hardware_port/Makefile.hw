@@ -1,23 +1,23 @@
-# Makefile.hw - 独立编译硬件版本，不干扰旧 Makefile
-CROSS_COMPILE ?= riscv64-unknown-linux-gnu-   # 若为 ARM 则改为 arm-linux-gnueabihf-
+# Makefile.hw - 硬件移植编译（Luckfox Pico Zero）
+CROSS_COMPILE = arm-rockchip830-linux-uclibcgnueabihf-
 CC = $(CROSS_COMPILE)g++
-AR = $(CROSS_COMPILE)ar
+# AR = $(CROSS_COMPILE)ar  # 不需要，已注释
 
-# 目录（假设所有源文件在当前目录）
+# 目录
 SRC_DIR = .
 BUILD_DIR = build_hw
 TARGET = mda_player_hw
 
-# ALSA-lib 交叉编译安装路径（需事先编译好）
-ALSA_DIR = $(PWD)/alsa-lib-install
-ALSA_INC = -I$(ALSA_DIR)/include
-ALSA_LIB = $(ALSA_DIR)/lib/libasound.a
+# ALSA 配置（板端自带，使用动态链接）
+CFLAGS = -std=c++17 -O2 -Wall -I$(SRC_DIR)
+LDFLAGS = -lasound -lm -lpthread
 
-CFLAGS = -std=c++17 -O2 -Wall -I$(SRC_DIR) $(ALSA_INC)
-LDFLAGS = $(ALSA_LIB) -lm -lpthread
-
+# 源文件列表（补全所有依赖）
 SOURCES = $(SRC_DIR)/mdaEPiano.cpp \
-          $(SRC_DIR)/main_hw.cpp
+          $(SRC_DIR)/MdaEPianoEngine.cpp \
+          $(SRC_DIR)/main_hw.cpp \
+          $(SRC_DIR)/MidiParser.cpp
+
 OBJECTS = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SOURCES))
 
 all: $(BUILD_DIR) $(TARGET)

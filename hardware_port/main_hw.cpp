@@ -1,5 +1,4 @@
-// main_hw.cpp - 硬件实时音频 + 串口 MIDI 输入 (直接使用 mdaEPiano)
-#include <alsa/asoundlib.h>
+// main_hw.cpp - 硬件实时音频 + 串口 MIDI 输入#include <alsa/asoundlib.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <termios.h>
@@ -9,8 +8,10 @@
 #include <cstdlib>
 #include <cstring>
 #include <signal.h>
-#include "mdaEPiano.h"
+
+#include "MdaEPianoEngine.h"
 #include "config_hw.h"
+#include "MidiHandler.hpp"
 
 // ==================== 全局变量定义（供 mdaEPiano.cpp 链接） ====================
 config_t configuration = {0};
@@ -24,8 +25,8 @@ static const unsigned int SAMPLE_RATE_HZ = AUDIO_SAMPLE_RATE;
 static const snd_pcm_uframes_t PERIOD_SIZE = AUDIO_BLOCK_SAMPLES;
 static const unsigned int CHANNELS = 2;
 
-// 串口配置（根据实际修改）
-static const char* UART_DEVICE = "/dev/ttyS0";
+// 串口配置（根据实际板子调整）
+static const char* UART_DEVICE = "/dev/ttyS3";   // Luckfox Pico Zero 常用串口
 static const speed_t UART_BAUD = B115200;
 
 static volatile bool g_running = true;
@@ -35,53 +36,6 @@ void signal_handler(int sig) {
     (void)sig;
     g_running = false;
 }
-
-// ==================== MIDI 运行状态解析器 ====================
-class MidiParser {
-public:
-    MidiParser() : m_running_status(0), m_data_index(0) {}
-
-    bool parse(uint8_t byte, int* out_status, int* out_data1, int* out_data2) {
-        if (byte & 0x80) {
-            m_running_status = byte;
-            m_data_index = 0;
-            if ((byte & 0xF0) == 0xF0) return false; // 系统消息暂不处理
-            return false;
-        } else {
-            if (m_running_status == 0) return false;
-            m_data[m_data_index++] = byte;
-            int msg_len = 0;
-            int status_high = m_running_status & 0xF0;
-            if (status_high == 0x80 || status_high == 0x90 ||
-                status_high == 0xA0 || status_high == 0xB0 ||
-                status_high == 0xE0) {
-                msg_len = 2;
-            } else if (status_high == 0xC0 || status_high == 0xD0) {
-                msg_len = 1;
-            } else {
-                m_data_index = 0;
-                return false;
-            }
-            if (m_data_index == msg_len) {
-                *out_status = m_running_status;
-                *out_data1 = m_data[0];
-                *out_data2 = (msg_len == 2) ? m_data[1] : 0;
-                m_data_index = 0;
-                // Note On 且 velocity 0 转为 Note Off
-                if ((*out_status & 0xF0) == 0x90 && *out_data2 == 0) {
-                    *out_status = 0x80 | (*out_status & 0x0F);
-                }
-                return true;
-            }
-            return false;
-        }
-    }
-
-private:
-    uint8_t m_running_status;
-    uint8_t m_data[2];
-    int m_data_index;
-};
 
 // ==================== 主函数 ====================
 int main() {
@@ -94,19 +48,28 @@ int main() {
     signal(SIGINT, signal_handler);
     signal(SIGTERM, signal_handler);
 
-    // ---------- 1. 初始化 MDA 引擎 ----------
-    auto engine = std::make_unique<mdaEPiano>();
-    engine->setLoudness(0.8f);   // 
+    // ---------- 1. 初始化引擎（封装类，带混响/合唱） ----------
+    auto engine = std::make_unique<MdaEPianoEngine>();
+    engine->setVolume(0.8f);                     // 音量 0.0 ~ 1.0
 
-    // ---------- 2. 打开 ALSA 设备 ----------
-    err = snd_pcm_open(&pcm_handle, "default", SND_PCM_STREAM_PLAYBACK, 0);
+    // 可选：调整混响和合唱参数
+    // engine->setReverbWetLevel(0.25f);
+    // engine->setChorusMix(0.35f);
+    // engine->setChorusRate(1.2f);
+
+    // ---------- 2. 初始化 MIDI 处理器 ----------
+    daisy::MidiHandler midiHandler;
+    midiHandler.Init();
+
+    // ---------- 3. 打开 ALSA 设备 ----------
+    err = snd_pcm_open(&pcm_handle, "hw:0,0", SND_PCM_STREAM_PLAYBACK, 0);
     if (err < 0) {
-        std::cerr << "❌ 无法打开 ALSA 设备 'default': " << snd_strerror(err) << std::endl;
+        std::cerr << "❌ 无法打开 ALSA 设备 'hw:0,0': " << snd_strerror(err) << std::endl;
         return EXIT_FAILURE;
     }
 
-    // ---------- 3. 设置硬件参数 ----------
-    snd_pcm_hw_params_malloc(&hw_params);
+    // ---------- 4. 设置 ALSA 硬件参数 ----------
+ snd_pcm_hw_params_malloc(&hw_params);
     if (!hw_params) {
         std::cerr << "❌ 内存分配失败" << std::endl;
         snd_pcm_close(pcm_handle);
@@ -139,14 +102,14 @@ int main() {
     snd_pcm_hw_params_free(hw_params);
     hw_params = nullptr;
 
-    // ---------- 4. 分配音频缓冲区 ----------
+    // ---------- 5. 分配音频缓冲区 ----------
     interleaved_buffer = (int16_t*)malloc(buffer_bytes);
     if (!interleaved_buffer) {
         std::cerr << "❌ 缓冲区内存分配失败" << std::endl;
         goto cleanup;
     }
 
-    // ---------- 5. 打开串口 ----------
+    // ---------- 6. 打开串口 ----------
     int uart_fd = open(UART_DEVICE, O_RDWR | O_NOCTTY | O_NDELAY);
     if (uart_fd < 0) {
         std::cerr << "❌ 无法打开串口 " << UART_DEVICE << ": " << strerror(errno) << std::endl;
@@ -182,9 +145,6 @@ int main() {
 
     std::cout << "✅ 串口已打开，等待 MIDI 输入..." << std::endl;
 
-    // ---------- 6. MIDI 解析器 ----------
-    MidiParser parser;
-
     // ---------- 7. 主循环 ----------
     int16_t bufferL[PERIOD_SIZE];
     int16_t bufferR[PERIOD_SIZE];
@@ -192,30 +152,65 @@ int main() {
     struct timeval tv;
 
     while (g_running) {
+        // --- 检查串口是否有数据 ---
         FD_ZERO(&read_fds);
         FD_SET(uart_fd, &read_fds);
         tv.tv_sec = 0;
-        tv.tv_usec = 1000;
+        tv.tv_usec = 1000;   // 1ms 超时
 
         int ret = select(uart_fd + 1, &read_fds, NULL, NULL, &tv);
         if (ret > 0 && FD_ISSET(uart_fd, &read_fds)) {
             uint8_t byte;
             ssize_t n = read(uart_fd, &byte, 1);
             if (n == 1) {
-                int status, data1, data2;
-                if (parser.parse(byte, &status, &data1, &data2)) {
-                    int cmd = status & 0xF0;
-                    switch (cmd) {
-                        case 0x80: engine->noteOn(data1, 0); break;
-                        case 0x90: engine->noteOn(data1, data2); break;
-                        default: break;
-                    }
-                }
+                // 将字节推入 MIDI 解析器
+                midiHandler.PushByte(byte);
             }
         }
 
-        // 渲染音频
-        engine->process(bufferR, bufferL);  // 参数顺序：右，左
+        // --- 处理所有待处理的 MIDI 事件 ---
+     while (midiHandler.HasEvents()) {
+            auto ev = midiHandler.PopEvent();
+
+            switch (ev.type) {
+                case daisy::NoteOn:
+                    engine->noteOn(ev.data[0], ev.data[1]);
+                    break;
+
+                case daisy::NoteOff:
+                    engine->noteOff(ev.data[0]);
+                    break;
+
+                case daisy::ControlChange:
+                    if (ev.data[0] == 0x40) {   // 延音踏板 CC64
+                        engine->sustainPedal(ev.data[1] >= 64);
+                    }
+                    // 可扩展其他 CC（音量、声像等）
+                    break;
+
+                case daisy::PitchBend: {
+                    // 弯音轮 → 映射到微调参数 (MDA_EP_TUNE = 9)
+                    int16_t bend = (ev.data[1] << 7) | ev.data[0];
+                    float bendNorm = (static_cast<float>(bend) - 8192.0f) / 8192.0f;
+                    float tune = 0.5f + bendNorm * 0.2f;  // 0.3 ~ 0.7
+                    if (tune < 0.0f) tune = 0.0f;
+                    if (tune > 1.0f) tune = 1.0f;
+                    engine->setParameter(9, tune);        // MDA_EP_TUNE = 9
+                    break;
+                }
+
+                case daisy::ProgramChange:
+                    // 可扩展：切换音色等
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+
+        // --- 渲染音频 ---
+        engine->render(bufferL, bufferR, PERIOD_SIZE); // 注意参数顺序：左，右
 
         // 交错并写入 ALSA
         for (size_t i = 0; i < PERIOD_SIZE; i++) {
@@ -225,6 +220,7 @@ int main() {
 
         err = snd_pcm_writei(pcm_handle, interleaved_buffer, PERIOD_SIZE);
         if (err == -EPIPE) {
+            std::cerr << "⚠️ 音频缓冲区欠载，重新准备..." << std::endl;
             snd_pcm_prepare(pcm_handle);
         } else if (err < 0) {
             std::cerr << "❌ 写入音频失败: " << snd_strerror(err) << std::endl;

@@ -1,20 +1,18 @@
 // MdaEPianoEngine.cpp
 #include "MdaEPianoEngine.h"
+#include <cmath>
 
 MdaEPianoEngine::MdaEPianoEngine() {
-    // 初始化 MDA 引擎参数（使用公有方法）
-    engine.setLoudness(0.8f);   // 音量
+    engine.setLoudness(0.8f);
     engine.setDecay(0.4f);
     engine.setRelease(0.3f);
     engine.setHardness(0.6f);
     engine.setTreble(0.5f);
 
-    // ---- 混响参数 ----
     reverb.setRoomsize(0.8f);
     reverb.setDamping(0.5f);
     reverb.setWetLevel(0.3f);
 
-    // ---- 合唱参数（温暖合唱） ----
     chorus.setDelayMs(25.0f);
     chorus.setModulationRate(1.2f);
     chorus.setModulationDepth(0.55f);
@@ -35,34 +33,67 @@ void MdaEPianoEngine::allNotesOff() {
 }
 
 void MdaEPianoEngine::sustainPedal(bool pressed) {
-    // 通过 MIDI CC 实现延音
     engine.processMidiController(0x40, pressed ? 127 : 0);
 }
 
 void MdaEPianoEngine::setVolume(float volume) {
-    // 音量范围 0.0 ~ 1.0
     engine.setLoudness(volume * 0.8f + 0.2f);
 }
 
 void MdaEPianoEngine::setParameter(int index, float value) {
-    // 直接转发给引擎的公有方法（如果有）
-    // 目前引擎没有公开 setParameter，所以留空
-    // 可扩展为通过 switch 调用具体的 set 方法
+    switch (index) {
+        case MDA_EP_DECAY:
+            engine.setDecay(value);
+            break;
+        case MDA_EP_RELEASE:
+            engine.setRelease(value);
+            break;
+        case MDA_EP_HARDNESS:
+            engine.setHardness(value);
+            break;
+        case MDA_EP_TREBLE:
+            engine.setTreble(value);
+            break;
+        case MDA_EP_PAN_TREM:
+            engine.setPanTremolo(value);
+            break;
+        case MDA_EP_LFO_RATE:
+            engine.setPanLFO(value);
+            break;
+        case MDA_EP_VELOCITY_SENSE:
+            engine.setVelocitySense(value);
+            break;
+        case MDA_EP_STEREO:
+            engine.setStereo(value);
+            break;
+        case MDA_EP_MAX_POLY:
+            // value 范围 0~1，映射到 1~NVOICES
+            {
+                uint8_t poly = static_cast<uint8_t>(value * (NVOICES - 1)) + 1;
+                engine.setMaxPolyphony(poly);
+            }
+            break;
+        case MDA_EP_TUNE:
+            engine.setTune(value);
+            break;
+        case MDA_EP_DETUNE:
+            engine.setDetune(value);
+            break;
+        case MDA_EP_OVERDRIVE:
+            engine.setOverdrive(value);
+            break;
+        default:
+            // 未知参数，忽略
+            break;
+    }
 }
 
+// ============================================================
+// render：调用引擎处理，注意参数顺序
+// ============================================================
 void MdaEPianoEngine::render(int16_t* outputL, int16_t* outputR, uint32_t numSamples) {
-    // 注意：mdaEPiano::process 的参数顺序是 (右, 左)
-    // 并且它内部使用 AUDIO_BLOCK_SAMPLES 作为块大小
-    // 如果 numSamples 与 AUDIO_BLOCK_SAMPLES 不一致，需要分块处理
-    // 这里假设 numSamples == AUDIO_BLOCK_SAMPLES（由 config_hw.h 定义）
-
-    // 直接渲染（不开启效果器，降低 CPU 负载）
+    // mdaEPiano::process 参数顺序是 (右, 左)
     engine.process(outputR, outputL);
-
-    // 如果需要效果器，可在此处添加：
-    // int16_t wetL[AUDIO_BLOCK_SAMPLES], wetR[AUDIO_BLOCK_SAMPLES];
-    // chorus.process(outputL, outputR, wetL, wetR, numSamples);
-    // reverb.process(wetL, wetR, outputL, outputR, numSamples);
 }
 
 int32_t MdaEPianoEngine::getActiveVoices() const {
