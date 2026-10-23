@@ -1,3 +1,747 @@
+# PISCIS 竞品研究来源与用户反馈证据
+
+<a id="research-20261022"></a>
+## 2026-10-22 本轮证据台账
+
+[研究结论与矩阵](便携混合电子乐器_竞品与社区调研.md#current-summary) · [30项竞品CSV](竞品对比表.csv) · [历史242条来源](#legacy-sources-20260823)
+
+核查日期统一为 **2026-10-22**。本轮 62 项规格/销售/发布来源、19 个独立实际用户反馈页面，另列媒体与视频线索。S是证据类型编号，不表示全部为厂商；U按实际持有/操作自述编码，不验证真实身份或代表性。S32和U15是同一页的厂商首帖与用户回复，只计一个反馈页面。
+
+发布日期与核查日期分开；未标注的发布日期不以抓取时间代替。正文、检索正文、缓存与检索快照按实际可见范围记录。当前价格只表示该地区/币种/套装的公开报价，不含结账或履约验证。搜索得到的旧官方商品缓存不自动证明现售。
+
+矩阵与设计建议属于研究推断。CSV中的规格列由本节S证据支持；场景/动机若缺用户证据则明确写“厂商”或“推断”。没有原文的评分总数和厂商精选证言均不进入U样本。下方保留旧来源全文，避免将旧快照变成当前事实。
+
+## 规格、状态与发布来源 S
+
+<a id="s01"></a>
+### S01 HiChord Black / Silver Aluminum Edition
+
+- 原始链接：[HiChord Black / Silver Aluminum Edition](https://hichord.shop/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：当前页 USD 320、In Stock；不沿用旧批次预购文案。功能随批次和固件变化。
+
+<a id="s02"></a>
+### S02 HiChord Manual
+
+- 原始链接：[HiChord Manual](https://manual.hichord.shop/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：按当前手册解释按键和菜单；旧 Batch 2/4 用户反馈单列。主页与手册处理器频率表述有差异，本研究不采用。
+
+<a id="s03"></a>
+### S03 Minichord Synthesizer — Seeed Studio
+
+- 原始链接：[Minichord Synthesizer — Seeed Studio](https://www.seeedstudio.com/Minichord-Synthesizer-p-6414.html)
+- 来源性质：联合出品商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：正文 USD 174.99、In stock；另仓库摘要 USD 169 不混用。16 条评分不作为已读取的评论。
+
+<a id="s04"></a>
+### S04 minichord User manual
+
+- 原始链接：[minichord User manual](https://minichord.com/user_manual/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：21 和弦键、升号键、12 区触条、3 电位器；插耳机开机；约 7 小时是官方值。
+
+<a id="s05"></a>
+### S05 PO-33 K.O! 官方商店
+
+- 原始链接：[PO-33 K.O! 官方商店](https://teenage.engineering/store/po-33/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索快照；无尾斜线正文未显示金额。
+- 采用内容与限制：快照 USD 99；非结账库存核验。
+
+<a id="s06"></a>
+### S06 PO-33 User guide
+
+- 原始链接：[PO-33 User guide](https://teenage.engineering/guides/po-33/en)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：TONE/FILTER/TRIM 六参数共用两旋钮；裸板 ESD 警示；双 AAA；音频数据备份。
+
+<a id="s07"></a>
+### S07 PO-32 tonic 官方商店
+
+- 原始链接：[PO-32 tonic 官方商店](https://teenage.engineering/store/po-32/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索快照与页面正文。
+- 采用内容与限制：快照 USD 99；Microtonic 扩展不等于演奏必须用电脑。
+
+<a id="s08"></a>
+### S08 PO-30 series press release
+
+- 原始链接：[PO-30 series press release](https://teenage.engineering/_img/5a61b09bb60527000460c100_original.pdf)
+- 来源性质：厂商官方；发布日期：2018-01-25；核查：2026-10-22。
+- 可访问范围：官方 PDF 检索快照。
+- 采用内容与限制：PO-33 发布节点；不用于 PO-32 发布日期。
+
+<a id="s09"></a>
+### S09 Woovebox 现行产品与型号对照
+
+- 原始链接：[Woovebox 现行产品与型号对照](https://www.woovebox.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：区分 OG 2023、SE、Pro；尺寸含旋钮最高 31mm；USB-C 仅充电；不把旧 OG 重量套给新型号。
+
+<a id="s10"></a>
+### S10 Woovebox SE 官方商店
+
+- 原始链接：[Woovebox SE 官方商店](https://shop.woovebox.com/product/woovebox-se/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：AUD 375、有库存；净重 66g。174g 和 229×151×60mm 是商店运输字段，未作机身规格。
+
+<a id="s11"></a>
+### S11 Woovebox Pro 官方商店
+
+- 原始链接：[Woovebox Pro 官方商店](https://shop.woovebox.com/product/woovebox-pro/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：AUD 430、有库存；净重 69g；大电池及附件包，不是更多音源。
+
+<a id="s12"></a>
+### S12 Woovebox 美国零售报价
+
+- 原始链接：[Woovebox 美国零售报价](https://www.bhphotovideo.com/c/buy/Shop-by-Brand-Woovebox/ci/4/phd/8481/N/4294255798)
+- 来源性质：零售商；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索快照。
+- 采用内容与限制：SE USD 259、Pro USD 299、In Stock；与澳洲官网币种、运税口径不同。
+
+<a id="s13"></a>
+### S13 Learning the Woovebox
+
+- 原始链接：[Learning the Woovebox](https://www.woovebox.com/support/guides--tutorials/learning-curve)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索快照。
+- 采用内容与限制：官方也要求理解 Song mode；“零菜单潜入”是厂商定位，不能替代新手测试。
+
+<a id="s14"></a>
+### S14 zeptocore 官方商店
+
+- 原始链接：[zeptocore 官方商店](https://shop.infinitedigits.co/collections/zeptocore/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：成品 USD 159、In Stock；双 AAA 或 USB-C；内置扬声器；店页 68 条评分未获得逐条正文。
+
+<a id="s15"></a>
+### S15 Artiphon 当前官网
+
+- 原始链接：[Artiphon 当前官网](https://www.artiphon.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：仅产品回顾、第三方购买入口及告别式感谢；不把旧官网缓存价格当现价。
+
+<a id="s16"></a>
+### S16 Artiphon 日本代理商业务结束及 Chorda 规格
+
+- 原始链接：[Artiphon 日本代理商业务结束及 Chorda 规格](https://www.minet.jp/brand/artiphon/chorda/)
+- 来源性质：官方代理商；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：称总部停止运营；日本分销与支持于 2025-05-31 结束。给出 Chorda 552×59×29mm、490g。
+
+<a id="s17"></a>
+### S17 Artiphon Orba Family User Manual
+
+- 原始链接：[Artiphon Orba Family User Manual](https://www.bhphotovideo.com/lit_files/1203820.pdf)
+- 来源性质：厂商手册（零售商镜像）；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：PDF 检索正文。
+- 采用内容与限制：涵盖 Orba 1/2/3，不能跨型号套用采样、音频或存储能力。
+
+<a id="s18"></a>
+### S18 Orba 3 渠道规格及停售标记
+
+- 原始链接：[Orba 3 渠道规格及停售标记](https://www.bax-shop.co.uk/synthesizer/artiphon-orba-3-portable-multi-instrument-looper-sampler-controller)
+- 来源性质：零售商；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：渠道标 Discontinued；81×81×49mm、158g 为渠道规格，非本轮厂商正文确认；不采用网上自动手册的 21g 等冲突数字。
+
+<a id="s19"></a>
+### S19 M8 Tracker Model:02 官方商店
+
+- 原始链接：[M8 Tracker Model:02 官方商店](https://dirtywave.com/products/m8-tracker-model-02)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：USD 699，页面 Sold out；已有批次销售，不是未上市。
+
+<a id="s20"></a>
+### S20 M8 Operation Manual 6.5.2
+
+- 原始链接：[M8 Operation Manual 6.5.2](https://cdn.shopify.com/s/files/1/0455/0485/6229/files/m8_operation_manual_v20260421.pdf?v=1776791699)
+- 来源性质：厂商手册；发布日期：2026-04-21；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：PDF 第 98 页/印刷页 91：Model:02 为 92×129mm、290g、4300mAh、3.5英寸触屏；厚度及像素待核实。
+
+<a id="s21"></a>
+### S21 Dirtywave Resources & Downloads
+
+- 原始链接：[Dirtywave Resources & Downloads](https://dirtywave.com/pages/resources-downloads)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：手册更新 2026-04-21；固件页列 6.6.3C，2026-09-14；本研究未实机运行。
+
+<a id="s22"></a>
+### S22 OP-Z 官方产品页
+
+- 原始链接：[OP-Z 官方产品页](https://teenage.engineering/products/op-z)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：可独立运行；四无限编码器、51 机械键、可选 App；不得把 App 当必需音源。
+
+<a id="s23"></a>
+### S23 OP-Z 官方商店残留页
+
+- 原始链接：[OP-Z 官方商店残留页](https://teenage.engineering/store/op-z)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：仍有通用 Add to cart 文案，正文未显示价格；不能据此认定可实际购买。
+
+<a id="s24"></a>
+### S24 OP-Z 渠道停产标记
+
+- 原始链接：[OP-Z 渠道停产标记](https://djcity.com.au/product/teenage-engineering-op-z-wireless-synth-sampler-drum-machine/)
+- 来源性质：零售商；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：明确 Discontinued；原型号生产终止日期及厂商正式公告待核实。
+
+<a id="s25"></a>
+### S25 OP-1 field 官方商店
+
+- 原始链接：[OP-1 field 官方商店](https://teenage.engineering/store/op-1-field/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索快照与无尾斜线正文。
+- 采用内容与限制：快照 USD 1999；正文给出 288×102×29mm、589g。动态页金额未再次显示，按快照报价记录。
+
+<a id="s26"></a>
+### S26 OP-1 field 官方产品页
+
+- 原始链接：[OP-1 field 官方产品页](https://teenage.engineering/products/op-1)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：音源、磁带式工作流和视觉；不把原 OP-1 规格套到 field。
+
+<a id="s27"></a>
+### S27 CHOMPI 停产及开放源文件公告
+
+- 原始链接：[CHOMPI 停产及开放源文件公告](https://www.chompiclub.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：明确不再制造；Chase Bliss 处理存量，售罄不再补货；WAVE 为新 beta 固件，不是新硬件型号。
+
+<a id="s28"></a>
+### S28 CHOMPI TAPE / TEMPO 产品资料
+
+- 原始链接：[CHOMPI TAPE / TEMPO 产品资料](https://www.chompiclub.com/chompi)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：两种替代固件；TEMPO 新增预设/快照与节奏能力，不能继续把 2024 早期评测缺陷写成当前结论。
+
+<a id="s29"></a>
+### S29 Organelle S2 当前官方产品页
+
+- 原始链接：[Organelle S2 当前官方产品页](https://critterandguitari.com/products/organelle-m)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：URL 仍含 organelle-m，实际内容是 S2；USD 499；495g；9V 外供，不套用 M 的电池/扬声器。
+
+<a id="s30"></a>
+### S30 Critter & Guitari Museum
+
+- 原始链接：[Critter & Guitari Museum](https://critterandguitari.com/pages/museum)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：Organelle M 已由 S2 接替；201 Pocket Piano 为历史展品，渠道新品及具体停产日待核实。
+
+<a id="s31"></a>
+### S31 Organelle M / S / S2 官方手册
+
+- 原始链接：[Organelle M / S / S2 官方手册](https://critterandguitari.github.io/cg-docs/Organelle/og_sms2/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：patch 包含整个乐器处理逻辑；本机选载、浏览器管理；不能一概视为普通 preset。
+
+<a id="s32"></a>
+### S32 New Organelle OS v5 官方发布帖
+
+- 原始链接：[New Organelle OS v5 官方发布帖](https://forum.critterandguitari.com/t/new-organelle-os-v5/11291)
+- 来源性质：厂商发布＋混合社区回复；发布日期：2026-04-04；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：首帖确认支持 M/S/S2，8 个 PLAY 乐器；用户回复另按 U15 编码，页数不重复累计。
+
+<a id="s33"></a>
+### S33 Roland S-1 官方规格
+
+- 原始链接：[Roland S-1 官方规格](https://www.roland.com/global/products/s-1/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：26 多功能 pad、四位 LED、4.5 小时电池；机身尺寸和重量参照厂商手册 S33a。
+
+<a id="s33a"></a>
+### S33a Roland S-1 Reference Manual
+
+- 原始链接：[Roland S-1 Reference Manual](https://static.roland.com/assets/media/pdf/S-1_eng02_W.pdf)
+- 来源性质：厂商手册；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：PDF 检索正文。
+- 采用内容与限制：188×106×36.2mm、305g。
+
+<a id="s34"></a>
+### S34 Roland S-1 美国零售报价
+
+- 原始链接：[Roland S-1 美国零售报价](https://www.bhphotovideo.com/c/product/1763712-REG/roland_aira_compact_s_1_polyphonic.html/overview)
+- 来源性质：零售商；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：USD 269.99、In Stock；不是 2023 上市价。
+
+<a id="s35"></a>
+### S35 NTS-1 digital kit mkII 官方规格
+
+- 原始链接：[NTS-1 digital kit mkII 官方规格](https://www.korg.com/au/products/synthesizers/nts_1_mk2/specifications.php)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：USB 供电、129×78×39mm、122g；不把原 NTS-1 音源扩展直接认作 mkII 兼容。
+
+<a id="s36"></a>
+### S36 NTS-1 mkII 德国官方建议价
+
+- 原始链接：[NTS-1 mkII 德国官方建议价](https://www.korg.com/de/products/synthesizers/nts_1_mk2/specifications.php)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：EUR 189 含税建议价；不是实际成交或库存证明。
+
+<a id="s37"></a>
+### S37 Yamaha SEQTRAK 官方规格
+
+- 原始链接：[Yamaha SEQTRAK 官方规格](https://uk.yamaha.com/en/audio/music-audio-production/products/music-production-studios/seqtrak/specs.html)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：343×97×38mm、500g、3–4 小时；保存和深入编辑涉及专用 App。
+
+<a id="s38"></a>
+### S38 Yamaha SEQTRAK 美国官方商店
+
+- 原始链接：[Yamaha SEQTRAK 美国官方商店](https://shop.usa.yamaha.com/en/p/instruments/keyboards-synthesizers/synthesizers/seqtrak)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：USD 299.99、In Stock。
+
+<a id="s39"></a>
+### S39 Ableton Move tech specs
+
+- 原始链接：[Ableton Move tech specs](https://www.ableton.com/en/move/tech-specs/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：32 pads、16 step keys、9 触摸无限编码器，另有点击选择轮；128×64 OLED；宏参数预映射。
+
+<a id="s40"></a>
+### S40 Ableton Move 官方商店
+
+- 原始链接：[Ableton Move 官方商店](https://www.ableton.com/en/shop/move/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：当前页未暴露货币金额；313.5×146.3×34mm、970g。旧 USD499 仅保留历史，不作现价。
+
+<a id="s41"></a>
+### S41 Stylophone GEN X-2 官方商店
+
+- 原始链接：[Stylophone GEN X-2 官方商店](https://stylophone.com/product/stylophone-gen-x-2/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：GEN X-1 旧网址重定向至 X-2；GBP69.95、In stock；185×130×40mm；4AA、内置扬声器。
+
+<a id="s42"></a>
+### S42 Yamaha reface 官方规格表
+
+- 原始链接：[Yamaha reface 官方规格表](https://usa.yamaha.com/products/music_production/synthesizers/reface/specs.html)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：按 CP 列读取：530×175×60mm、1900g 不含电池、6AA、37 HQ mini keys。
+
+<a id="s43"></a>
+### S43 reface CP 美国官方商店
+
+- 原始链接：[reface CP 美国官方商店](https://shop.usa.yamaha.com/en/p/instruments/keyboards-synthesizers/synthesizers/reface-cp-electric-piano-portable-synthesizer)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：USD499.99、In Stock；不由旧零售评论量推算销量。
+
+<a id="s44"></a>
+### S44 Playdate 官方产品页
+
+- 原始链接：[Playdate 官方产品页](https://play.date/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：USD229 不含税运；76×74×9mm、400×240 黑白无背光、曲柄；游戏掌机，不是默认独立音乐乐器。
+
+<a id="s45"></a>
+### S45 norns 官方文档
+
+- 原始链接：[norns 官方文档](https://monome.org/docs/norns/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：官方 CM3+ 成品：3旋转控制＋3键、128×64OLED、内置电池；2024 控制器为慢转电位器，2025及后为编码器，不能统称同一手感。
+
+<a id="s46"></a>
+### S46 norns shield 官方文档
+
+- 原始链接：[norns shield 官方文档](https://monome.org/docs/norns/shield/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：shield 已不由 monome 生产；第三方DIY不等于官方成品。本表不采用约USD390 DIY总成本当 norns 成品售价。
+
+<a id="s47"></a>
+### S47 Tembo Kickstarter 项目页
+
+- 原始链接：[Tembo Kickstarter 项目页](https://www.kickstarter.com/projects/musicalbeings/tembo-a-new-musical-instrument-for-playful-music-making)
+- 来源性质：众筹项目官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：募资2026-03-11—04-21；最新更新2026-09-29；仅证明众筹记录，不证明全部交付。
+
+<a id="s48"></a>
+### S48 Tembo 当前官网
+
+- 原始链接：[Tembo 当前官网](https://musicalbeings.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：生产Batch1、Batch2候补；磁性8×5木板。原页面CTA Preorder与现行候补表述分别记录，不表述为现货。
+
+<a id="s49"></a>
+### S49 EH-01 Kickstarter 项目页
+
+- 原始链接：[EH-01 Kickstarter 项目页](https://www.kickstarter.com/projects/1397757174/eh-01-a-compact-experimental-sampler-synth)
+- 来源性质：众筹项目官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：募资2026-06-23—07-28；最近更新2026-10-07；交付完成待核实。
+
+<a id="s50"></a>
+### S50 EH-01 开发者官网
+
+- 原始链接：[EH-01 开发者官网](https://edgehogsystems.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：无菜单/屏幕、可改装；仍写 Now on Kickstarter，与已结束募资期冲突，以项目页日期区分。
+
+<a id="s51"></a>
+### S51 Bastl Kalimba 官方介绍与众筹计划
+
+- 原始链接：[Bastl Kalimba 官方介绍与众筹计划](https://bastl-instruments.com/instruments/kalimba)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：官方检索正文。
+- 采用内容与限制：2026-05-07发布众筹、6月6日结束；首批预计2026-12，非已交付；EUR389为已结束早鸟档，不是现价。
+
+<a id="s52"></a>
+### S52 ZEFIRO Indiegogo 项目
+
+- 原始链接：[ZEFIRO Indiegogo 项目](https://www.indiegogo.com/en/projects/artinoisesrl/zefiro-a-musical-experience-for-your-device)
+- 来源性质：众筹项目官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：项目故事检索正文。
+- 采用内容与限制：USB-C插手机发声；原预计2025-03交付不是本轮交付确认。评论未读到。
+
+<a id="s53"></a>
+### S53 Artinoise zefiro 官方页
+
+- 原始链接：[Artinoise zefiro 官方页](https://www.artinoise.com/zefiro/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：明确 USB-C MIDI breath controller；不具备独立音源，排除直接竞品。
+
+<a id="s54"></a>
+### S54 Telepathic Instruments 当前官方商店
+
+- 原始链接：[Telepathic Instruments 当前官方商店](https://telepathicinstruments.com/)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：Orchid ORC—1 with Case USD699；不是裸机价；官网精选赞誉归厂商筛选，不计入真实反馈样本。
+
+<a id="s55"></a>
+### S55 Orchid 全球发售与 Pistil — 官方公告
+
+- 原始链接：[Orchid 全球发售与 Pistil — 官方公告](https://www.patreon.com/telepathicinstruments/posts/how-to-orchid-10-140069072)
+- 来源性质：厂商公告；发布日期：2025-09-30；核查：2026-10-22。
+- 可访问范围：公开检索正文。
+- 采用内容与限制：宣布2025-10-10全球发布；当时裸机649，不覆盖当前含箱699。Pistil可编辑并回写音色。
+
+<a id="s56"></a>
+### S56 Banan-a-Synth Kickstarter 项目
+
+- 原始链接：[Banan-a-Synth Kickstarter 项目](https://www.kickstarter.com/projects/microkits/bananasynth)
+- 来源性质：众筹项目官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：募资2026-04-08—05-08；最新更新2026-10-14；尚未以此确认量产交付。
+
+<a id="s57"></a>
+### S57 Banan-a-Synth Kickstarter FAQ
+
+- 原始链接：[Banan-a-Synth Kickstarter FAQ](https://www.kickstarter.com/projects/microkits/bananasynth/faqs)
+- 来源性质：众筹发起人FAQ；发布日期：2026-04-07（所引FAQ更新）；核查：2026-10-22。
+- 可访问范围：FAQ检索正文。
+- 采用内容与限制：早鸟预计2026-12、其余2027-02；无MIDI；5小时为开发者计算，尚未完整实测，不作续航规格。
+
+<a id="s58"></a>
+### S58 Artiphon 联合创始人回顾
+
+- 原始链接：[Artiphon 联合创始人回顾](https://www.jacobhallgordon.com/artiphon)
+- 来源性质：创始人第一方回顾；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：明确称2025关闭；本研究不延伸认定具体法律清算状态。
+
+<a id="s59"></a>
+### S59 Artiphon 产品比较旧页
+
+- 原始链接：[Artiphon 产品比较旧页](https://artiphon.com/pages/comparison)
+- 来源性质：厂商官方；发布日期：未标注；核查：2026-10-22。
+- 可访问范围：历史官方检索缓存；当前未恢复商品详情。
+- 采用内容与限制：Chorda12 pads、Orba2 8pads等是历史信息；不当作仍在销售证据。
+
+<a id="s60"></a>
+### S60 Teenage Engineering 官方 press 目录
+
+- 原始链接：[Teenage Engineering 官方 press 目录](https://teenage.engineering/press)
+- 来源性质：厂商官方；发布日期：目录持续更新；各条目有日期；核查：2026-10-22。
+- 可访问范围：页面正文。
+- 采用内容与限制：列出 PO-32 发布稿2017-01-18、OP-Z发布稿2018-09-17、OP-1 field发布稿2022-05-12；这是发布节点，不代替精确零售开售日。
+
+<a id="s61"></a>
+### S61 Artiphon Unveils Orba 3
+
+- 原始链接：[Artiphon Unveils Orba 3](https://sonicstate.com/news/2024/10/24/artiphon-unveils-orba-3/)
+- 来源性质：厂商发布描述的媒体转载；发布日期：2024-10-24；核查：2026-10-22。
+- 可访问范围：检索正文。
+- 采用内容与限制：保留发布稿时间及第三代机内麦克风采样描述；当年USD159.99不作为现价，营销评价不计用户反馈。
+
+<a id="user-evidence"></a>
+## 实际用户反馈 U
+
+以下短引文为可见评论原文；中文为本轮概括，不是逐字翻译。每个链接为一页，页内多人观点不拆成多个独立样本。日期范围是实际编码的帖子/回复时间，不能当作整个页面最后更新时间。社区内容未经实机复现，厂商答复只用于说明背景或处理结局。
+
+<a id="u01"></a>
+### U01 HiChord Batch 2 / firmware 2.09
+
+- [用户帖子或评论原页](https://www.reddit.com/r/HiChord/comments/1qs4ng2/long_time_lurker_total_newb_i_love_my_hichord/)；所引发表日期：2026-01-31；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I’ve spent hours playing this pocket synth on my couch
+- 观察：因体积购买，自述自2025-11购入后在沙发、工休车内和公交使用；赞赏声音深度，抱怨对角摇杆精度、预设名额与续航。
+- 主题编码：场景动机、输入手感、学习记忆、声音探索、留存线索。
+- 边界：自述二手购买；旧批次两预设及电池抱怨不能直接外推现售批次；开发者回复不计用户。
+
+<a id="u02"></a>
+### U02 HiChord Batch 4 / 2.8 beta
+
+- [用户帖子或评论原页](https://www.reddit.com/r/HiChord/comments/1sl3ho6/suggestions_for_hichord_batch_6/)；所引发表日期：2026-04-14—15；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：The volume wheel should turn indefinitely.
+- 观察：双手握持用户希望去掉转轮止点；复用音量/滤波引发意外音量跳变；批评按钮廉价感、菜单随资源变化和冻结；仍总体满意。
+- 主题编码：输入手感、学习记忆、状态稳定、声音探索。
+- 边界：旧批次与beta；不是对当前固件缺陷率的测量，不把用户对BOM或修复成本的猜测当事实。
+
+<a id="u03"></a>
+### U03 Dirtywave M8，型号/固件混合
+
+- [用户帖子或评论原页](https://www.reddit.com/r/synthesizers/comments/1tg1ez8/m8_dirtywave_your_learning_curve_experience/)；所引发表日期：2026-05-17—06-13（所编码回复）；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：put it away for probably 6 months
+- 观察：有用户称熟练后高效且携带外出，也有用户自述因组合键搁置约半年后再学会；另一位自述使用约九个月并完成歌曲。
+- 主题编码：学习记忆、场景动机、留存线索。
+- 边界：同页多回复、型号未一一确认；不把“20分钟”或“几天”当总体学习时长。
+
+<a id="u04"></a>
+### U04 Dirtywave M8，型号待核实
+
+- [用户帖子或评论原页](https://www.reddit.com/r/Dirtywave/comments/1pst5s6/learning_the_m8/)；所引发表日期：2025-12-22；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：Even though I don’t use it as often as I’d like to
+- 观察：用户表示使用频率未达期待；边操作边模仿成曲比只看视频有效；有回复称放下后易忘快捷键。
+- 主题编码：学习记忆、留存线索。
+- 边界：个人学习经历，不代表Model:02硬件问题或全体留存。
+
+<a id="u05"></a>
+### U05 Woovebox，具体硬件代际待核实
+
+- [用户帖子或评论原页](https://www.reddit.com/r/Woovebox/comments/1q00m6v/is_this_more_user_friendly_than_it_looks/)；所引发表日期：2025-12-31—2026-01-05；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：if you are very new to music production, the learning curve might be massive
+- 观察：有音乐软件经验的用户认可一致导航、轻便和续航；回复指出初学者还要学习音乐制作；另有用户希望更便于查阅的手册。
+- 主题编码：学习记忆、场景动机。
+- 边界：以实际操作后的自述为主，无法把积极回复当随机样本；不是全部SE/Pro实测。
+
+<a id="u06"></a>
+### U06 Woovebox / 第三方 Woovie 可视化辅助
+
+- [用户帖子或评论原页](https://www.reddit.com/r/Woovebox/comments/1vj8nha/with_love_the_woovie_21_v0_5_j_for_the/)；所引发表日期：2026-08-10；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I was confused about fragments when I was new
+- 观察：一位自称视觉学习者的用户说图形布局帮助理解fragments与编曲结构；说明纯代码式显示未覆盖所有认知方式。
+- 主题编码：学习记忆。
+- 边界：仅编码该用户使用辅助工具后的回复；开发者争论、未经证实销量陈述排除。
+
+<a id="u07"></a>
+### U07 Woovebox 15B2PRO / Wooveconnect Android
+
+- [用户帖子或评论原页](https://www.reddit.com/r/Woovebox/comments/1qlraoi/wb_and_bluetooth/)；所引发表日期：2026-01-26；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I had almost resigned myself to the fact that it would never work
+- 观察：用户先遇到连接障碍，经支持与App更新后表示立即连上；不能写成持续未修复的蓝牙故障。
+- 主题编码：状态稳定。
+- 边界：明确是数据管理连接而非日常发声依赖；结局为解决。
+
+<a id="u08"></a>
+### U08 PO-33及其他PO；跨设备比较
+
+- [用户帖子或评论原页](https://www.reddit.com/r/pocketoperators/comments/1xbouqo/discussion/)；所引发表日期：2026-10-21；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I don’t use mine all the time, but I still don’t regret buying it.
+- 观察：有用户称PO是随手创意草稿本；有人肯定半年后仍在玩PO家族，也有人说不常用但不后悔。
+- 主题编码：场景动机、留存线索。
+- 边界：PO-12的半年使用不能冒充PO-33持续半年；潜在买家担忧不当已发生痛点。
+
+<a id="u09"></a>
+### U09 PO-33；部分回复涉及PO-12/20
+
+- [用户帖子或评论原页](https://www.reddit.com/r/pocketoperators/comments/1wyxmuj/how_durable_is_the_po33_ko/)；所引发表日期：2026-10-06—18；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：Bought my PO33 in 2019, still running strong
+- 观察：同页既有按钮和屏幕损坏报告，也有2019购入仍完好的PO-33报告；携带保护方式不同。
+- 主题编码：输入手感。
+- 边界：不估故障率；排除用户编造的制造成本；不同PO型号故障不合并成PO-33缺陷。
+
+<a id="u10"></a>
+### U10 OP-Z 原型号
+
+- [用户帖子或评论原页](https://op-forums.com/t/i-finally-managed-to-fix-the-double-triggers-when-nothing-else-worked/31600)；所引发表日期：2026-04-26；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：After two years of leaving my OP-Z to rot in its box
+- 观察：持有者称因重复触发搁置两年，后自行处理；说明输入可靠性可以压倒功能价值。
+- 主题编码：输入手感、留存线索。
+- 边界：维修经验未经本项目复现；不确认用户提出的材料原因，不提供风险维修步骤。
+
+<a id="u11"></a>
+### U11 OP-Z 原型号
+
+- [用户帖子或评论原页](https://www.reddit.com/r/teenageengineering/comments/1ra25x5/saw_someone_on_the_train_with_headphones_attached/)；所引发表日期：2026-02-20—21；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I’ve had it for a year and I get an occasional double trigger
+- 观察：有持有者欣赏外形并已熟悉无屏使用，另有一年使用者报告偶发重复触发；也有长期无故障反例。
+- 主题编码：输入手感、场景动机、留存线索。
+- 边界：对他人在火车上的观察不当本人长期使用记录；不采信维修建议为验证结果。
+
+<a id="u12"></a>
+### U12 CHOMPI，2024固件未标明
+
+- [用户帖子或评论原页](https://www.reddit.com/r/synthesizers/comments/1bikpfz)；所引发表日期：2024-03-19；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：lost a few samples I thought I had saved
+- 观察：自述持有者采样拇指琴和尤克里里后很快得到好听结果，但仍查手册且曾误判保存；另有用户认为超过现代SK-1期待。
+- 主题编码：学习记忆、状态稳定、声音探索。
+- 边界：只编码明确持有者；排除没买过者的贬评。早期反馈不等于当前TAPE/TEMPO缺陷。
+
+<a id="u13"></a>
+### U13 Organelle M
+
+- [用户帖子或评论原页](https://forum.critterandguitari.com/t/main-encoder-issue/11430)；所引发表日期：2026-10-01—08；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：it jumps back and forth
+- 观察：用户报告选择编码器跳动；厂商回复提供零件信息，用户最后确认处理有效。
+- 主题编码：输入手感。
+- 边界：是M的个案，不能外推S2同故障；故障原因没有独立硬件验证。
+
+<a id="u14"></a>
+### U14 Organelle S2 / M，patch及外设条件不同
+
+- [用户帖子或评论原页](https://forum.critterandguitari.com/t/organelles-s2-internal-microphone-always-on-even-changing-the-input-selector/11367)；所引发表日期：2026-07-09—09-24；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：patches still picking up the internal mic
+- 观察：用户报告Mic/Line状态与预期不符；M用户给出启动时外设声卡排序相关复现与绕行；原帖作者还肯定换S2后的乐趣。
+- 主题编码：状态稳定。
+- 边界：仅是用户复现报告；不能认定S2与M同一根因，不能概括所有patch不兼容。
+
+<a id="u15"></a>
+### U15 Organelle M/S/S2 用户回复；OS5首版
+
+- [用户帖子或评论原页](https://forum.critterandguitari.com/t/new-organelle-os-v5/11291)；所引发表日期：2026-04-06—11；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：the PLAY function on OS5 is an INSTANT win
+- 观察：用户赞赏预先整理的PLAY乐器；同时有人报告更新、WiFi连接或编辑模式问题，部分获官方确认及修正回应。
+- 主题编码：声音探索、状态稳定。
+- 边界：PLAY赞誉是20分钟早期体验，不是长期使用；旧OS5问题不能认定当前5.1仍存在。
+
+<a id="u16"></a>
+### U16 Organelle S v4.1 / ORHACK beta
+
+- [用户帖子或评论原页](https://patchstorage.com/orhack/)；所引发表日期：2023-03-06；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：there’s no indication recording is taking place
+- 观察：用户不清楚录音是否开始，作者解释要进入对应模块才显示计时；用户确认找到入口。
+- 主题编码：学习记忆、状态稳定。
+- 边界：第三方beta patch体验；不外推为S2系统级缺陷。
+
+<a id="u17"></a>
+### U17 Orba 3
+
+- [用户帖子或评论原页](https://www.reddit.com/r/orba/comments/1kt5ahs/artiphon_in_administration/)；所引发表日期：2025-05-22；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：I got my Orba 3 and I think it’s faulty
+- 观察：新购用户称设备疑似故障且未获支持，转贴厂商暂停运营回复；与代理商公告交叉核对。
+- 主题编码：状态稳定。
+- 边界：转贴邮件不是独立法律公告；故障成因未核实，不计算服务投诉率。
+
+<a id="u18"></a>
+### U18 Orba 1，非Orba3
+
+- [用户帖子或评论原页](https://www.reddit.com/r/orba/comments/1qiu1bv/orba_1_wont_connect_to_bluetooth/)；所引发表日期：2026-01-21；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：it will not connect at all
+- 观察：用户称Windows及USB/Bluetooth连接失败；是旧型号软件可持续性信号。
+- 主题编码：状态稳定。
+- 边界：不能用Orba1软件问题证明Orba3演奏垫或新采样功能有同样问题。
+
+<a id="u19"></a>
+### U19 CHOMPI 早期持有者评论
+
+- [用户帖子或评论原页](https://www.synthtopia.com/content/2024/01/03/chompi-sampler-hands-on-demo/)；所引发表日期：2024-01-05；核查：2026-10-22。
+- 性质：实际持有者/操作者自述；不是厂商营销或媒体评分。
+- 简短原文：Mine just arrived. It’s a work of genius.
+- 观察：一位到货用户强烈肯定；另有回复认可少学习与少菜单带来的直接性。
+- 主题编码：声音探索。
+- 边界：评论不是媒体作者结论；刚到货不证明长期频率；原文引用合计不超过25英文词。
+
+## 媒体评测与视频线索 M（不计入19页用户反馈）
+
+<a id="m01"></a>
+### M01 MusicTech 对 CHOMPI 早期评测的报道
+
+[原报道](https://musictech.com/news/gear/chompi-sampler-reviews-bugs-ricky-tinez-hainbach/)；2024-01-10；核查2026-10-22。来源性质为媒体对 Ricky Tinez / Hainbach 评测的整理。正文访问受限，仅采用可见检索内容作为早期固件问题线索，不作当前功能结论；不把报道等同实际普通用户评价。
+
+<a id="m02"></a>
+### M02 MATRIXSYNTH 的 Ricky Tinez 视频条目
+
+[原条目](https://www.matrixsynth.com/2024/01/chompi-its-good-at-one-thing.html)；2024-01-06；核查2026-10-22。视频发布者自述/转载元数据，标题讨论声音玩法与可用性。未获取可验证的完整视频或评论，不采用点击量、点赞量或转述当用户样本。
+
+<a id="m03"></a>
+### M03 Hainbach CHOMPI 视频原链接
+
+[YouTube原视频](https://www.youtube.com/watch?v=zJUwxusR4Hs)；视频精确发布日期待核实；核查2026-10-22。由Synthtopia报道嵌入找到。未可靠取得视频正文、时间码、是否赞助或评论，不声称已观看，未编码体验结论。U19编码的是报道页面实际到货用户的评论，两者分开。
+
+<a id="access-gaps"></a>
+## 访问缺口与下一轮补证
+
+| 渠道 | 本轮访问结果 | 对结论的影响 |
+| --- | --- | --- |
+| Kickstarter | 尝试HiChord、Tembo、EH-01等项目与评论；项目部分可读，评论出现拒绝访问或仅框架/数量。 | 可编码评论正文0；不能推断交付满意度或支持者共识。S47/S49/S56只证明可见项目记录。 |
+| Indiegogo | zefiro项目故事可检索，未获可靠逐条评论。 | 早期预计交付不等于已交付；没有本轮普通用户交付证据。 |
+| YouTube | 找到原视频及评测转载，未取得可靠正文/时间码和评论。 | 不统计YouTube用户反馈，不假装观看；媒体线索另列M。 |
+| 商店评分 | minichord与zeptocore可见评分数量，逐条内容未可靠取得。 | 评分量不等于已研究用户数，也不代表长期使用。 |
+| Reddit/品牌论坛 | 已取得19页可编码持有者反馈；型号、固件与解决结局逐条标注。 | 只能作为定性线索；不是随机样本，跨平台身份未全面去重。 |
+| 动态商店页 | 部分只有检索快照价或通用购买按钮。 | 标明可见性；无金额写待核实，无结账不承诺可购买。 |
+
+后续优先补充HiChord现售批次、minichord与zeptocore的持续使用自述，以及尚未交付众筹产品的实际到货反馈；获得证据后更新本台账原位置。不要用众筹总额除人数作为零售价或未来市场规模。
+
+---
+
+<a id="legacy-sources-20260823"></a>
+## 2026-08-23 原242条来源快照（全文保留）
+
+以下相对发表时间、价格和品牌状态属于原采集时点；当前分类与销售状态以本轮研究和CSV为准。
+
 # English Articles & Community Sources — 200+
 
 > Updated: 2026-08-23  

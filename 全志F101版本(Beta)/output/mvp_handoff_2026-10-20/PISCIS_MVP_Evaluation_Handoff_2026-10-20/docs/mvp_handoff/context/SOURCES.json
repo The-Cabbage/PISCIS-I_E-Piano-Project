@@ -1,0 +1,47 @@
+{
+  "snapshot_date": "2026-10-20",
+  "sources": [
+    {
+      "original_workspace_path": "AGENTS.md",
+      "snapshot_path": "docs/mvp_handoff/context/AGENTS.md.txt",
+      "sha256": "d88ae535e654e30f5d678f432f0ead0836adb500335e6491ffe6988f4fbeb093",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "README.md",
+      "snapshot_path": "docs/mvp_handoff/context/README.md.txt",
+      "sha256": "4a2920f0fb06f922b940ffb47318c979f4d20043f3be0973c0dbaa5938047e8d",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "engineering/architecture.md",
+      "snapshot_path": "docs/mvp_handoff/context/engineering__architecture.md.txt",
+      "sha256": "3b02bc264bd572b3e17c986882b4206688a5945a49011ed477b2f8411d579cfb",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "DECISIONS.md",
+      "snapshot_path": "docs/mvp_handoff/context/DECISIONS.md.txt",
+      "sha256": "f95d480dbdc4b90410c8b47b361a96890e0e6d0274dfd390134ae893fa782759",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "EXPERIMENTS.md",
+      "snapshot_path": "docs/mvp_handoff/context/EXPERIMENTS.md.txt",
+      "sha256": "b33b2f9c9b71a26cd50158d71dc8911c0761ead71792478e5f0b8448e0b68be8",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "BACKLOG.md",
+      "snapshot_path": "docs/mvp_handoff/context/BACKLOG.md.txt",
+      "sha256": "b79fca19d9807577ac7745e59584c311e42581ed8c6b461a4d23339a962033de",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    },
+    {
+      "original_workspace_path": "运营与开发策略/PISCIS_1.0_PRD_2026-10-20.md",
+      "snapshot_path": "docs/mvp_handoff/context/运营与开发策略__PISCIS_1.0_PRD_2026-10-20.md.txt",
+      "sha256": "0313f91a47c45eaf439f74d3cbc5909d39c4b316c216ef92e46fa0b470d4ac84",
+      "role": "verbatim upstream context snapshot; original relative links retain their upstream workspace meaning"
+    }
+  ]
+}

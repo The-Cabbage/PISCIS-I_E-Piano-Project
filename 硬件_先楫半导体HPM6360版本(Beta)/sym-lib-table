@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PISCIS_Private")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/private/PISCIS_Private.kicad_sym")(options "")(descr "PISCIS-I private HPM6360IPA2 symbol; official-data-derived"))
+  (lib (name "PISCIS_K10_Battery_Management")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/symbols/vendor-kicad10/Battery_Management.kicad_sym")(options "")(descr "KiCad 10 snapshot: BQ24074 and BQ27441 symbols"))
+  (lib (name "PISCIS_K10_Interface_USB")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/symbols/vendor-kicad10/Interface_USB.kicad_sym")(options "")(descr "KiCad 10 snapshot: TUSB320 symbols"))
+  (lib (name "PISCIS_K10_Memory_Flash")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/symbols/vendor-kicad10/Memory_Flash.kicad_sym")(options "")(descr "KiCad 10 snapshot: W25Q128JVP symbol"))
+  (lib (name "PISCIS_K10_Power_Management")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/symbols/vendor-kicad10/Power_Management.kicad_sym")(options "")(descr "KiCad 10 snapshot: TPS22919 symbol"))
+  (lib (name "PISCIS_K10_Power_Protection")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/symbols/vendor-kicad10/Power_Protection.kicad_sym")(options "")(descr "KiCad 10 snapshot: TPD2EUSB30 symbol"))
+)

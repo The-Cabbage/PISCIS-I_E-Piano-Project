@@ -1,0 +1,404 @@
+EESchema Schematic File Version 4
+LIBS:PISCIS-I_HPM6360_RevA-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 9
+Title "32 MiB SDRAM and 16 MiB QSPI NOR"
+Date "2026-09-27"
+Rev "A"
+Comp "PISCIS-I"
+Comment1 "ENGINEERING PROTOTYPE - VERIFY BEFORE FABRICATION"
+Comment2 "HPM6360 electronic instrument evaluation board"
+Comment3 "Generated from locked Rev.A architecture"
+Comment4 ""
+$EndDescr
+Text Notes 800 550 0    80   ~ 12
+FEMC SDRAM follows official hpm6300evk pinmux; QSPI uses XPI0 Port A
+$Comp
+L PISCIS_RevA:W9825G6KH_6I U4
+U 1 1 66F00025
+P 10200 4800
+F 0 "U4" H 10550 4950 50  0000 C CNN
+F 1 "W9825G6KH-6I" H 10550 4650 50  0000 C CNN
+F 2 "PISCIS_Private:TSOP-54_L22.2-W10.2-P0.80-LS11.8-BL" H 10200 4800 50  0001 C CNN
+F 3 "" H 10200 4800 50  0001 C CNN
+F 4 "C97572" H 10200 4800 50  0001 C CNN "LCSC Part"
+	1    10200 4800
+	1    0    0    -1
+$EndComp
+Text GLabel 9700 3500 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9700 3600 2    40   BiDi ~ 0
+SD_DQ0
+Text GLabel 9700 3700 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9700 3800 2    40   BiDi ~ 0
+SD_DQ1
+Text GLabel 9700 3900 2    40   BiDi ~ 0
+SD_DQ2
+Text GLabel 9700 4000 2    40   BiDi ~ 0
+GND
+Text GLabel 9700 4100 2    40   BiDi ~ 0
+SD_DQ3
+Text GLabel 9700 4200 2    40   BiDi ~ 0
+SD_DQ4
+Text GLabel 9700 4300 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9700 4400 2    40   BiDi ~ 0
+SD_DQ5
+Text GLabel 9700 4500 2    40   BiDi ~ 0
+SD_DQ6
+Text GLabel 9700 4600 2    40   BiDi ~ 0
+GND
+Text GLabel 9700 4700 2    40   BiDi ~ 0
+SD_DQ7
+Text GLabel 9700 4800 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9700 4900 2    40   BiDi ~ 0
+SD_LDQM
+Text GLabel 9700 5000 2    40   BiDi ~ 0
+SD_WE_N
+Text GLabel 9700 5100 2    40   BiDi ~ 0
+SD_CAS_N
+Text GLabel 9700 5200 2    40   BiDi ~ 0
+SD_RAS_N
+Text GLabel 9700 5300 2    40   BiDi ~ 0
+SD_CS_N
+Text GLabel 9700 5400 2    40   BiDi ~ 0
+SD_BA0
+Text GLabel 9700 5500 2    40   BiDi ~ 0
+SD_BA1
+Text GLabel 9700 5600 2    40   BiDi ~ 0
+SD_A10
+Text GLabel 9700 5700 2    40   BiDi ~ 0
+SD_A0
+Text GLabel 9700 5800 2    40   BiDi ~ 0
+SD_A1
+Text GLabel 9700 5900 2    40   BiDi ~ 0
+SD_A2
+Text GLabel 9700 6000 2    40   BiDi ~ 0
+SD_A3
+Text GLabel 9700 6100 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 10700 3500 0    40   BiDi ~ 0
+GND
+Text GLabel 10700 3600 0    40   BiDi ~ 0
+SD_A4
+Text GLabel 10700 3700 0    40   BiDi ~ 0
+SD_A5
+Text GLabel 10700 3800 0    40   BiDi ~ 0
+SD_A6
+Text GLabel 10700 3900 0    40   BiDi ~ 0
+SD_A7
+Text GLabel 10700 4000 0    40   BiDi ~ 0
+SD_A8
+Text GLabel 10700 4100 0    40   BiDi ~ 0
+SD_A9
+Text GLabel 10700 4200 0    40   BiDi ~ 0
+SD_A11
+Text GLabel 10700 4300 0    40   BiDi ~ 0
+SD_A12
+Text GLabel 10700 4400 0    40   BiDi ~ 0
+SD_CKE
+Text GLabel 10700 4500 0    40   BiDi ~ 0
+SD_CLK
+Text GLabel 10700 4600 0    40   BiDi ~ 0
+SD_UDQM
+NoConn ~ 10700 4700
+Text GLabel 10700 4800 0    40   BiDi ~ 0
+GND
+Text GLabel 10700 4900 0    40   BiDi ~ 0
+SD_DQ8
+Text GLabel 10700 5000 0    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 10700 5100 0    40   BiDi ~ 0
+SD_DQ9
+Text GLabel 10700 5200 0    40   BiDi ~ 0
+SD_DQ10
+Text GLabel 10700 5300 0    40   BiDi ~ 0
+GND
+Text GLabel 10700 5400 0    40   BiDi ~ 0
+SD_DQ11
+Text GLabel 10700 5500 0    40   BiDi ~ 0
+SD_DQ12
+Text GLabel 10700 5600 0    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 10700 5700 0    40   BiDi ~ 0
+SD_DQ13
+Text GLabel 10700 5800 0    40   BiDi ~ 0
+SD_DQ14
+Text GLabel 10700 5900 0    40   BiDi ~ 0
+GND
+Text GLabel 10700 6000 0    40   BiDi ~ 0
+SD_DQ15
+Text GLabel 10700 6100 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:R R10
+U 1 1 66F00026
+P 2500 1700
+F 0 "R10" H 2850 1850 50  0000 C CNN
+F 1 "22R" H 2850 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 1700 50  0001 C CNN
+F 3 "" H 2500 1700 50  0001 C CNN
+F 4 "" H 2500 1700 50  0001 C CNN "LCSC Part"
+	1    2500 1700
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 1700 2    40   BiDi ~ 0
+SD_CLK_SRC
+Text GLabel 3000 1700 0    40   BiDi ~ 0
+SD_CLK
+$Comp
+L PISCIS_RevA:R R11
+U 1 1 66F00027
+P 2500 2600
+F 0 "R11" H 2850 2750 50  0000 C CNN
+F 1 "22R" H 2850 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 2600 50  0001 C CNN
+F 3 "" H 2500 2600 50  0001 C CNN
+F 4 "" H 2500 2600 50  0001 C CNN "LCSC Part"
+	1    2500 2600
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 2600 2    40   BiDi ~ 0
+SD_CKE_SRC
+Text GLabel 3000 2600 0    40   BiDi ~ 0
+SD_CKE
+$Comp
+L PISCIS_RevA:R R12
+U 1 1 66F00028
+P 2500 3500
+F 0 "R12" H 2850 3650 50  0000 C CNN
+F 1 "22R" H 2850 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+F 4 "" H 2500 3500 50  0001 C CNN "LCSC Part"
+	1    2500 3500
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 3500 2    40   BiDi ~ 0
+SD_CS_SRC_N
+Text GLabel 3000 3500 0    40   BiDi ~ 0
+SD_CS_N
+$Comp
+L PISCIS_RevA:R R13
+U 1 1 66F00029
+P 2500 4400
+F 0 "R13" H 2850 4550 50  0000 C CNN
+F 1 "22R" H 2850 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 4400 50  0001 C CNN
+F 3 "" H 2500 4400 50  0001 C CNN
+F 4 "" H 2500 4400 50  0001 C CNN "LCSC Part"
+	1    2500 4400
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 4400 2    40   BiDi ~ 0
+SD_RAS_SRC_N
+Text GLabel 3000 4400 0    40   BiDi ~ 0
+SD_RAS_N
+$Comp
+L PISCIS_RevA:R R14
+U 1 1 66F0002A
+P 2500 5300
+F 0 "R14" H 2850 5450 50  0000 C CNN
+F 1 "22R" H 2850 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 5300 50  0001 C CNN
+F 3 "" H 2500 5300 50  0001 C CNN
+F 4 "" H 2500 5300 50  0001 C CNN "LCSC Part"
+	1    2500 5300
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 5300 2    40   BiDi ~ 0
+SD_CAS_SRC_N
+Text GLabel 3000 5300 0    40   BiDi ~ 0
+SD_CAS_N
+$Comp
+L PISCIS_RevA:R R15
+U 1 1 66F0002B
+P 2500 6200
+F 0 "R15" H 2850 6350 50  0000 C CNN
+F 1 "22R" H 2850 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2500 6200 50  0001 C CNN
+F 3 "" H 2500 6200 50  0001 C CNN
+F 4 "" H 2500 6200 50  0001 C CNN "LCSC Part"
+	1    2500 6200
+	1    0    0    -1
+$EndComp
+Text GLabel 2000 6200 2    40   BiDi ~ 0
+SD_WE_SRC_N
+Text GLabel 3000 6200 0    40   BiDi ~ 0
+SD_WE_N
+$Comp
+L PISCIS_RevA:GD25Q128ESIGR U5
+U 1 1 66F0002C
+P 4400 7600
+F 0 "U5" H 4750 7750 50  0000 C CNN
+F 1 "GD25Q128ESIGR" H 4750 7450 50  0000 C CNN
+F 2 "PISCIS_Private:SOP-8_L5.3-W5.3-P1.27-LS8.0-BL" H 4400 7600 50  0001 C CNN
+F 3 "" H 4400 7600 50  0001 C CNN
+F 4 "C2928891" H 4400 7600 50  0001 C CNN "LCSC Part"
+	1    4400 7600
+	1    0    0    -1
+$EndComp
+Text GLabel 3900 7450 2    40   BiDi ~ 0
+QSPI_CS_N
+Text GLabel 3900 7550 2    40   BiDi ~ 0
+QSPI_IO1
+Text GLabel 3900 7650 2    40   BiDi ~ 0
+QSPI_IO2
+Text GLabel 3900 7750 2    40   BiDi ~ 0
+GND
+Text GLabel 4900 7450 0    40   BiDi ~ 0
+QSPI_IO0
+Text GLabel 4900 7550 0    40   BiDi ~ 0
+QSPI_CLK
+Text GLabel 4900 7650 0    40   BiDi ~ 0
+QSPI_IO3
+Text GLabel 4900 7750 0    40   BiDi ~ 0
+3V3_SYS
+$Comp
+L PISCIS_RevA:TP TP10
+U 1 1 66F0002D
+P 6200 7600
+F 0 "TP10" H 6550 7750 50  0000 C CNN
+F 1 "SD_CLK" H 6550 7450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6200 7600 50  0001 C CNN
+F 3 "" H 6200 7600 50  0001 C CNN
+F 4 "" H 6200 7600 50  0001 C CNN "LCSC Part"
+	1    6200 7600
+	1    0    0    -1
+$EndComp
+Text GLabel 5700 7600 2    40   BiDi ~ 0
+SD_CLK
+$Comp
+L PISCIS_RevA:C C20
+U 1 1 66F0002E
+P 7600 8500
+F 0 "C20" H 7950 8650 50  0000 C CNN
+F 1 "100nF" H 7950 8350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7600 8500 50  0001 C CNN
+F 3 "" H 7600 8500 50  0001 C CNN
+F 4 "" H 7600 8500 50  0001 C CNN "LCSC Part"
+	1    7600 8500
+	1    0    0    -1
+$EndComp
+Text GLabel 7100 8500 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 8100 8500 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C21
+U 1 1 66F0002F
+P 8800 8500
+F 0 "C21" H 9150 8650 50  0000 C CNN
+F 1 "100nF" H 9150 8350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8800 8500 50  0001 C CNN
+F 3 "" H 8800 8500 50  0001 C CNN
+F 4 "" H 8800 8500 50  0001 C CNN "LCSC Part"
+	1    8800 8500
+	1    0    0    -1
+$EndComp
+Text GLabel 8300 8500 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9300 8500 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C22
+U 1 1 66F00030
+P 10000 8500
+F 0 "C22" H 10350 8650 50  0000 C CNN
+F 1 "100nF" H 10350 8350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10000 8500 50  0001 C CNN
+F 3 "" H 10000 8500 50  0001 C CNN
+F 4 "" H 10000 8500 50  0001 C CNN "LCSC Part"
+	1    10000 8500
+	1    0    0    -1
+$EndComp
+Text GLabel 9500 8500 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 10500 8500 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C23
+U 1 1 66F00031
+P 11200 8500
+F 0 "C23" H 11550 8650 50  0000 C CNN
+F 1 "100nF" H 11550 8350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11200 8500 50  0001 C CNN
+F 3 "" H 11200 8500 50  0001 C CNN
+F 4 "" H 11200 8500 50  0001 C CNN "LCSC Part"
+	1    11200 8500
+	1    0    0    -1
+$EndComp
+Text GLabel 10700 8500 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 11700 8500 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C24
+U 1 1 66F00032
+P 7600 9400
+F 0 "C24" H 7950 9550 50  0000 C CNN
+F 1 "100nF" H 7950 9250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7600 9400 50  0001 C CNN
+F 3 "" H 7600 9400 50  0001 C CNN
+F 4 "" H 7600 9400 50  0001 C CNN "LCSC Part"
+	1    7600 9400
+	1    0    0    -1
+$EndComp
+Text GLabel 7100 9400 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 8100 9400 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C25
+U 1 1 66F00033
+P 8800 9400
+F 0 "C25" H 9150 9550 50  0000 C CNN
+F 1 "100nF" H 9150 9250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8800 9400 50  0001 C CNN
+F 3 "" H 8800 9400 50  0001 C CNN
+F 4 "" H 8800 9400 50  0001 C CNN "LCSC Part"
+	1    8800 9400
+	1    0    0    -1
+$EndComp
+Text GLabel 8300 9400 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 9300 9400 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C26
+U 1 1 66F00034
+P 10000 9400
+F 0 "C26" H 10350 9550 50  0000 C CNN
+F 1 "100nF" H 10350 9250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10000 9400 50  0001 C CNN
+F 3 "" H 10000 9400 50  0001 C CNN
+F 4 "" H 10000 9400 50  0001 C CNN "LCSC Part"
+	1    10000 9400
+	1    0    0    -1
+$EndComp
+Text GLabel 9500 9400 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 10500 9400 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:C C27
+U 1 1 66F00035
+P 11200 9400
+F 0 "C27" H 11550 9550 50  0000 C CNN
+F 1 "100nF" H 11550 9250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11200 9400 50  0001 C CNN
+F 3 "" H 11200 9400 50  0001 C CNN
+F 4 "" H 11200 9400 50  0001 C CNN "LCSC Part"
+	1    11200 9400
+	1    0    0    -1
+$EndComp
+Text GLabel 10700 9400 2    40   BiDi ~ 0
+3V3_SYS
+Text GLabel 11700 9400 0    40   BiDi ~ 0
+GND
+$EndSCHEMATC

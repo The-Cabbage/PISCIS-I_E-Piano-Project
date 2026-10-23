@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LED_Matrix_Private")(type "KiCad")(uri "${KIPRJMOD}/libraries/private/LED_Matrix_Private.kicad_sym")(options "")(descr "Project-private LED symbols bound to the local 0201 and 0402 footprints"))
+)

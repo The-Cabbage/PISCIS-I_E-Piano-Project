@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-20",
+  "scope": "File inspection only; no source design edits or physical tests.",
+  "tool": "KiCad CLI 10.0.6 and Python standard-library S-expression inspection",
+  "source_sha256": {
+    "PISCIS-I_F101.kicad_sch": "f993338e05788e65ba0ebfc348e29d55bd5f291575aee07c4f13ff5a48260fda",
+    "PISCIS-I_F101.kicad_pcb": "e870668ee5f94b47551822cd4543fa3618128e42a8260e6a91ff381a8a032fe3",
+    "PISCIS-I_F101.kicad_pro": "ed7bd931da22e142647606261ec275250a268a867600741936d407d815312977",
+    "Yuziki_1/ProPrj_ProDoc_Board1_2026-09-27_2026-10-14.kicad_sch": "c2fbeed5906f8b1503799e5eb75364576e0c44b035c76838fe5cb476fd3762ad",
+    "Yuziki_1/ProPrj_ProDoc_Board1_2026-09-27_2026-10-14.kicad_pcb": "c3438112dad83a6425cd305baa53ea5b6f49a7d999b05c99fc05901ae132985a"
+  },
+  "main_schematic_and_pcb_sha256_unchanged_from_initial_read": true,
+  "components": [
+    {
+      "reference": "J5",
+      "value": "PJ-327A-Y",
+      "lib_id": "PISCIS_Private:PJ-327A-Y",
+      "footprint": "PISCIS_Private:AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD"
+    },
+    {
+      "reference": "U1",
+      "value": "ES8388",
+      "lib_id": "Audio:ES8388",
+      "footprint": "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm"
+    },
+    {
+      "reference": "J2",
+      "value": "Conn_01x04_Socket",
+      "lib_id": "Connector:Conn_01x04_Socket",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J1",
+      "value": "Yuzuki_2x20_Female_Socket",
+      "lib_id": "PISCIS_Yuzuki_MVP:Yuzuki_2x20_Female_Socket",
+      "footprint": "PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm"
+    },
+    {
+      "reference": "J3",
+      "value": "Conn_01x03_Socket",
+      "lib_id": "Connector:Conn_01x03_Socket",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+    },
+    {
+      "reference": "SW1",
+      "value": "SKRHADE010",
+      "lib_id": "PISCIS_Controls_Audio:SKRHADE010",
+      "footprint": "PISCIS_Controls_Audio:SW-SMD_SKRHADE010"
+    },
+    {
+      "reference": "J4",
+      "value": "Conn_01x03_Socket",
+      "lib_id": "Connector:Conn_01x03_Socket",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+    }
+  ],
+  "schematic": {
+    "instances": 7,
+    "wires": 40,
+    "global_labels": 40,
+    "non_j1_pin_nodes": 52,
+    "non_j1_nodes_all_unconnected": true
+  },
+  "pcb": {
+    "footprints": 7,
+    "segments": 0,
+    "vias": 0,
+    "zones": 0,
+    "edge_cuts_primitives": [
+      [
+        "gr_rect",
+        [
+          "start",
+          "95.35625",
+          "36.7"
+        ],
+        [
+          "end",
+          "166.275",
+          "131.175"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.2"
+          ],
+          [
+            "type",
+            "solid"
+          ]
+        ],
+        [
+          "fill",
+          "no"
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ],
+        [
+          "uuid",
+          "1674f3d0-8094-4d41-8f5f-a593b5c857bc"
+        ]
+      ]
+    ]
+  },
+  "socket": {
+    "source_file_hashes_match_pinmap": true,
+    "current_j1_nets_match_pinmap": 40,
+    "current_pad_local_coordinates_match_library": 40,
+    "scope": "Current J1 mapping and local footprint geometry only; original source-hole derivation remains covered by historical pinmap/report."
+  },
+  "erc": {
+    "report": "erc_2026-10-20.json",
+    "errors": 68,
+    "warnings": 40,
+    "types": {
+      "pin_not_connected": 50,
+      "pin_not_driven": 11,
+      "power_pin_not_driven": 7,
+      "isolated_pin_label": 40
+    }
+  },
+  "drc": {
+    "status": "Open",
+    "attempted": true,
+    "process_exit_code": 134,
+    "valid_json_report": false,
+    "reason": "KiCad CLI process exited abnormally; cause not diagnosed."
+  },
+  "local_bound_models": [
+    {
+      "reference": "J1",
+      "path": "${KIPRJMOD}/hardware/libraries/yuzuki/PISCIS_Yuzuki_MVP.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "reference": "J1",
+      "path": "${KIPRJMOD}/hardware/libraries/yuzuki/PISCIS_Yuzuki_MVP.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "reference": "J5",
+      "path": "${KIPRJMOD}/hardware/libraries/private/PISCIS_Private.3dshapes/AudioJack_PJ-327A-Y_HX_Reference.wrl",
+      "exists": true
+    },
+    {
+      "reference": "SW1",
+      "path": "${KIPRJMOD}/hardware/libraries/controls_audio/PISCIS_Controls_Audio.3dshapes/SW-SMD_SKRHADE010.wrl",
+      "exists": true
+    }
+  ],
+  "external_bound_models": [
+    {
+      "reference": "J3",
+      "path": "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
+    },
+    {
+      "reference": "U1",
+      "path": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm.step"
+    },
+    {
+      "reference": "J2",
+      "path": "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    },
+    {
+      "reference": "J4",
+      "path": "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
+    }
+  ],
+  "not_verified": [
+    "physical socket fit",
+    "schematic functional correctness",
+    "power integrity",
+    "full PCB DRC",
+    "manufacturability",
+    "target firmware build or flashing",
+    "audio output",
+    "DSP performance",
+    "interaction behavior"
+  ]
+}

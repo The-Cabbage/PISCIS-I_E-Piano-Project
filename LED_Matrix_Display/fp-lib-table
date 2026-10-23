@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LED_Matrix_Private")(type "KiCad")(uri "${KIPRJMOD}/libraries/private/LED_Matrix_Private.pretty")(options "")(descr "Project-private KiCad 10 LED footprint snapshot"))
+)

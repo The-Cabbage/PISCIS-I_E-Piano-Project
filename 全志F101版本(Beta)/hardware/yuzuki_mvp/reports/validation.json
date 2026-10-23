@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "source_holes_matched": 40,
+  "electrical_pin_maps_matched": 40,
+  "maximum_coordinate_error_mm": 0.0,
+  "erc_errors": 0,
+  "erc_warnings": {
+    "isolated_pin_label": 40
+  },
+  "pcb_schematic_parity_issues": 0,
+  "pcb_unconnected_items": 0,
+  "pcb_remaining_drc": {
+    "invalid_outline": 1
+  },
+  "scope": "Socket interface only. Baseboard outline, expansion circuits and routing remain to be designed."
+}

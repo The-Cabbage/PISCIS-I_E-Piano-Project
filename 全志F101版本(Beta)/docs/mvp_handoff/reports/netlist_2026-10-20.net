@@ -1,0 +1,2356 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/admin/Desktop/Code/PISCIS-I_E-Piano_Project/全志F101版本(Beta)/PISCIS-I_F101.kicad_sch")
+		(date "2026-10-20T20:33:13")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "PISCIS-I F101 - Yuzuki MVP Socket Interface")
+				(company "PISCIS-I")
+				(rev "MVP-1")
+				(date "2026-10-20")
+				(source "PISCIS-I_F101.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "J1")
+			(value "Yuzuki_2x20_Female_Socket")
+			(footprint "PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm")
+			(description "2 x 1x20 P2.54mm female sockets; H1=1..20, H2=21..40")
+			(fields
+				(field
+					(name "Assembly_Qty") "2 x 1x20 vertical female socket")
+				(field
+					(name "Footprint") "PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2 x 1x20 P2.54mm female sockets; H1=1..20, H2=21..40")
+			)
+			(libsource
+				(lib "PISCIS_Yuzuki_MVP")
+				(part "Yuzuki_2x20_Female_Socket")
+				(description "Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40")
+			)
+			(property
+				(name "Assembly_Qty")
+				(value "2 x 1x20 vertical female socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf502ec5-437b-54be-9aa1-c1041c850361")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1d4d0f3-0d01-4978-9d59-4160aea1260a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d9f0c622-800b-4359-9ab7-42bb42c4459f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fc598ea7-6cf8-4d74-9915-f2ff45516ddb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "PJ-327A-Y")
+			(footprint "PISCIS_Private:AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD")
+			(datasheet "${KIPRJMOD}/hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf")
+			(description "SHOU HAN C17701692, 3.5mm TRS SMD audio jack; five numbered terminals and two guide bosses. Numbering follows manufacturer drawing.")
+			(fields
+				(field
+					(name "Manufacturer") "SHOU HAN")
+				(field
+					(name "MPN") "PJ-327A-Y")
+				(field
+					(name "LCSC") "C17701692")
+				(field
+					(name "Source") "Symbol/footprint derived from SHOU HAN drawing 2020-06-24 Rev A; https://item.szlcsc.com/18834684.html")
+				(field
+					(name "Model_Status") "Open: HX PJ-327A-Y reference model from JLCEDA/EasyEDA Official Library; not SHOU HAN factory CAD; height differs; mechanical fit unverified.")
+				(field
+					(name "Footprint") "PISCIS_Private:AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD")
+				(field
+					(name "Datasheet") "${KIPRJMOD}/hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf")
+				(field
+					(name "Description") "SHOU HAN C17701692, 3.5mm TRS SMD audio jack; five numbered terminals and two guide bosses. Numbering follows manufacturer drawing.")
+			)
+			(libsource
+				(lib "PISCIS_Private")
+				(part "PJ-327A-Y")
+				(description "SHOU HAN C17701692, 3.5mm TRS SMD audio jack; five numbered terminals and two guide bosses. Numbering follows manufacturer drawing.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SHOU HAN")
+			)
+			(property
+				(name "MPN")
+				(value "PJ-327A-Y")
+			)
+			(property
+				(name "LCSC")
+				(value "C17701692")
+			)
+			(property
+				(name "Source")
+				(value "Symbol/footprint derived from SHOU HAN drawing 2020-06-24 Rev A; https://item.szlcsc.com/18834684.html")
+			)
+			(property
+				(name "Model_Status")
+				(value "Open: HX PJ-327A-Y reference model from JLCEDA/EasyEDA Official Library; not SHOU HAN factory CAD; height differs; mechanical fit unverified.")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "C17701692 PJ-327A-Y SHOU HAN audio jack headphone 3.5mm TRS")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "42cfc7db-5389-4367-99ec-c78ecaee25b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SKRHADE010")
+			(footprint "PISCIS_Controls_Audio:SW-SMD_SKRHADE010")
+			(datasheet "https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "SKRHADE010")
+				(field
+					(name "LCSC Part") "C202415")
+				(field
+					(name "Source") "嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com")
+				(field
+					(name "Pin_Functions") "1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs")
+				(field
+					(name "Footprint") "PISCIS_Controls_Audio:SW-SMD_SKRHADE010")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "PISCIS_Controls_Audio")
+				(part "SKRHADE010")
+				(description "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "SKRHADE010")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C202415")
+			)
+			(property
+				(name "Source")
+				(value "嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com")
+			)
+			(property
+				(name "Pin_Functions")
+				(value "1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multi-Directional Switches")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e07b2e77-e50f-4b9a-971c-86420b5fad10")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ES8388")
+			(footprint "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm")
+			(datasheet "http://www.everest-semi.com/pdf/ES8388%20DS.pdf")
+			(description "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28")
+			(fields
+				(field
+					(name "Footprint") "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm")
+				(field
+					(name "Datasheet") "http://www.everest-semi.com/pdf/ES8388%20DS.pdf")
+				(field
+					(name "Description") "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28")
+			)
+			(libsource
+				(lib "Audio")
+				(part "ES8388")
+				(description "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28")
+			)
+			(property
+				(name "Sheetname")
+				(value "PISCIS-I_F101")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PISCIS-I_F101.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "i2s 2ch i2c spi dsp pcm")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*QFN*4x4mm*P0.45mm*EP2.6*x2.6*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81cebba9-2fd9-4248-aa37-cc48f7d74825")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Audio")
+			(part "ES8388")
+			(description "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28")
+			(docs "http://www.everest-semi.com/pdf/ES8388%20DS.pdf")
+			(footprints
+				(fp "*QFN*4x4mm*P0.45mm*EP2.6*x2.6*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ES8388")
+				(field
+					(name "Footprint") "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm")
+				(field
+					(name "Datasheet") "http://www.everest-semi.com/pdf/ES8388%20DS.pdf")
+				(field
+					(name "Description") "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MCLK")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "DVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "PVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DGND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "SCLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "DSDIN")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "LRCK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "ASDOUT")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "10")
+					(name "VREF")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "ROUT1")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "LOUT1")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "HPGND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "ROUT2")
+					(type "output")
+				)
+				(pin
+					(num "15")
+					(name "LOUT2")
+					(type "output")
+				)
+				(pin
+					(num "16")
+					(name "HPVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "17")
+					(name "AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "AGND")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "ADCVREF")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "VMID")
+					(type "input")
+				)
+				(pin
+					(num "21")
+					(name "RIN2")
+					(type "input")
+				)
+				(pin
+					(num "22")
+					(name "LIN2")
+					(type "input")
+				)
+				(pin
+					(num "23")
+					(name "RIN1")
+					(type "input")
+				)
+				(pin
+					(num "24")
+					(name "LIN1")
+					(type "input")
+				)
+				(pin
+					(num "25")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "26")
+					(name "CE")
+					(type "input")
+				)
+				(pin
+					(num "27")
+					(name "CDATA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "CCLK")
+					(type "input")
+				)
+				(pin
+					(num "29")
+					(name "EPAD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Socket")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x04_Socket")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "PISCIS_Controls_Audio")
+			(part "SKRHADE010")
+			(docs "https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SKRHADE010")
+				(field
+					(name "Footprint") "PISCIS_Controls_Audio:SW-SMD_SKRHADE010")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "SKRHADE010")
+				(field
+					(name "LCSC Part") "C202415")
+				(field
+					(name "Source") "嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com")
+				(field
+					(name "Pin_Functions") "1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "PISCIS_Private")
+			(part "PJ-327A-Y")
+			(description "SHOU HAN C17701692, 3.5mm TRS SMD audio jack; five numbered terminals and two guide bosses. Numbering follows manufacturer drawing.")
+			(docs "${KIPRJMOD}/hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "PJ-327A-Y")
+				(field
+					(name "Footprint") "PISCIS_Private:AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD")
+				(field
+					(name "Datasheet") "${KIPRJMOD}/hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf")
+				(field
+					(name "Description") "SHOU HAN C17701692, 3.5mm TRS SMD audio jack; five numbered terminals and two guide bosses. Numbering follows manufacturer drawing.")
+				(field
+					(name "Manufacturer") "SHOU HAN")
+				(field
+					(name "MPN") "PJ-327A-Y")
+				(field
+					(name "LCSC") "C17701692")
+				(field
+					(name "Source") "Symbol/footprint derived from SHOU HAN drawing 2020-06-24 Rev A; https://item.szlcsc.com/18834684.html")
+				(field
+					(name "Model_Status") "Open: HX PJ-327A-Y reference model from JLCEDA/EasyEDA Official Library; not SHOU HAN factory CAD; height differs; mechanical fit unverified.")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "PISCIS_Yuzuki_MVP")
+			(part "Yuzuki_2x20_Female_Socket")
+			(description "Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Yuzuki_2x20_Female_Socket")
+				(field
+					(name "Footprint") "PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "H1.1_VCC-3V3")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "H1.2_PD6")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "H1.3_PD7")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "H1.4_PD8")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "H1.5_PD9")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "H1.6_PD12")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "H1.7_PD13")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "H1.8_PD14")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "H1.9_PD15")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "H1.10_PD16")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "H1.11_PD17")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "H1.12_PD18")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "H1.13_PD19")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "H1.14_PD20")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "H1.15_PD21")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "H1.16_PE0")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "H1.17_PE1")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "H1.18_PE2")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "H1.19_PE3")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "H1.20_PE4")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "H2.1_PE10")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "H2.2_PE9")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "H2.3_PE8")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "H2.4_PE7")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "H2.5_PE6")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "H2.6_PE5")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "H2.7_GPADC")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "H2.8_PB3")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "H2.9_PB2")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "H2.10_PB1")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "H2.11_PB0")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "H2.12_PD22")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "H2.13_PD0")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "H2.14_PD1")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "H2.15_PD2")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "H2.16_PD3")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "H2.17_PD4")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "H2.18_PD5")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "H2.19_GND")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "H2.20_VBUS")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Audio")
+			(uri "${KICAD10_SYMBOL_DIR}/Audio.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "PISCIS_Controls_Audio")
+			(uri "${KIPRJMOD}/hardware/libraries/controls_audio/PISCIS_Controls_Audio.kicad_sym")
+		)
+		(library
+			(logical "PISCIS_Private")
+			(uri "${KIPRJMOD}/hardware/libraries/private/PISCIS_Private.kicad_sym")
+		)
+		(library
+			(logical "PISCIS_Yuzuki_MVP")
+			(uri "${KIPRJMOD}/hardware/libraries/yuzuki/PISCIS_Yuzuki_MVP.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "39")
+				(pinfunction "H2.19_GND_39")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "GPADC")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "27")
+				(pinfunction "H2.7_GPADC_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "PB0")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "31")
+				(pinfunction "H2.11_PB0_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "PB1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "30")
+				(pinfunction "H2.10_PB1_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "PB2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "29")
+				(pinfunction "H2.9_PB2_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "PB3")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "28")
+				(pinfunction "H2.8_PB3_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "PD0")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "33")
+				(pinfunction "H2.13_PD0_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "PD1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "34")
+				(pinfunction "H2.14_PD1_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "PD2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "35")
+				(pinfunction "H2.15_PD2_35")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "PD3")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "36")
+				(pinfunction "H2.16_PD3_36")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "PD4")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "37")
+				(pinfunction "H2.17_PD4_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "PD5")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "38")
+				(pinfunction "H2.18_PD5_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "PD6")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "H1.2_PD6_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "PD7")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "H1.3_PD7_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "PD8")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "H1.4_PD8_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "PD9")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "H1.5_PD9_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "PD12")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "H1.6_PD12_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "PD13")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "H1.7_PD13_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "PD14")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "H1.8_PD14_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "PD15")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "H1.9_PD15_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "PD16")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "H1.10_PD16_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "PD17")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "11")
+				(pinfunction "H1.11_PD17_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "PD18")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "12")
+				(pinfunction "H1.12_PD18_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "PD19")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "13")
+				(pinfunction "H1.13_PD19_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "PD20")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "14")
+				(pinfunction "H1.14_PD20_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "PD21")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "15")
+				(pinfunction "H1.15_PD21_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "PD22")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "32")
+				(pinfunction "H2.12_PD22_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "PE0")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "16")
+				(pinfunction "H1.16_PE0_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "PE1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "17")
+				(pinfunction "H1.17_PE1_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "PE2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "18")
+				(pinfunction "H1.18_PE2_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "PE3")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "19")
+				(pinfunction "H1.19_PE3_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "PE4")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "20")
+				(pinfunction "H1.20_PE4_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "PE5")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "26")
+				(pinfunction "H2.6_PE5_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "PE6")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "25")
+				(pinfunction "H2.5_PE6_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "PE7")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "24")
+				(pinfunction "H2.4_PE7_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "PE8")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "23")
+				(pinfunction "H2.3_PE8_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "PE9")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "22")
+				(pinfunction "H2.2_PE9_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "PE10")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "21")
+				(pinfunction "H2.1_PE10_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "VBUS")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "40")
+				(pinfunction "H2.20_VBUS_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "VCC-3V3")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "H1.1_VCC-3V3_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J2-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J2-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J2-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J2-Pin_4-Pad4)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J3-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J3-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J3-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J4-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J4-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J4-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J5-Pad1)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J5-Pad2)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J5-Pad3)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(J5-Pad4)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(J5-Pad5)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(SW1-Pad1)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(SW1-Pad2)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(SW1-Pad3)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(SW1-Pad4)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(SW1-Pad5)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(SW1-Pad6)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(SW1-Pad7)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(SW1-Pad8)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U1-ADCVREF-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "ADCVREF_19")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U1-AGND-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "AGND_18")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U1-ASDOUT-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "ASDOUT_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U1-AVDD-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "AVDD_17")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U1-CCLK-Pad28)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "CCLK_28")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U1-CDATA-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "CDATA_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U1-CE-Pad26)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "CE_26")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U1-DGND-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "DGND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U1-DSDIN-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "DSDIN_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U1-DVDD-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "DVDD_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U1-EPAD-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "EPAD_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(U1-HPGND-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "HPGND_13")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(U1-HPVDD-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "HPVDD_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U1-LIN1-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "LIN1_24")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U1-LIN2-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "LIN2_22")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(U1-LOUT1-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "LOUT1_12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(U1-LOUT2-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "LOUT2_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(U1-LRCK-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "LRCK_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(U1-MCLK-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "MCLK_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(U1-NC-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "NC_9")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(U1-NC-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "NC_25")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(U1-PVDD-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "PVDD_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(U1-RIN1-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "RIN1_23")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U1-RIN2-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "RIN2_21")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U1-ROUT1-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "ROUT1_11")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U1-ROUT2-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "ROUT2_14")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U1-SCLK-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SCLK_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(U1-VMID-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "VMID_20")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(U1-VREF-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "VREF_10")
+				(pintype "input")
+			)
+		)
+	)
+)

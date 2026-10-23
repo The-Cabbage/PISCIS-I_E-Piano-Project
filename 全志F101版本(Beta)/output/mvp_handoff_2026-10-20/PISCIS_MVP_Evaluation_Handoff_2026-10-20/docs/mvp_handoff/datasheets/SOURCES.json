@@ -1,0 +1,60 @@
+{
+  "checked_date": "2026-10-20",
+  "page_numbering": "1-based PDF page index; printed page numbers separately documented in DATASHEETS.md",
+  "excluded_by_user": [
+    "MT6701",
+    "OLED"
+  ],
+  "files": [
+    {
+      "part": "F101",
+      "path": "docs/mvp_handoff/datasheets/F101_Datasheet_V0.10_Draft.pdf",
+      "version": "Rev 0.10; 2026-03-09; Draft",
+      "pages": 90,
+      "sha256": "1d085e9ab63af4b1ab79677a877652d7918edde20fd2384b3fc3b466ad2f3e52",
+      "size_bytes": 2650854,
+      "source_url": "https://whycan.com/files/allwinner/f10x/a/F101_Datasheet_V0.10_Draft_Version.pdf",
+      "provenance": "Allwinner-authored PDF hosted by WhyCan; retrieved in this task"
+    },
+    {
+      "part": "F101 User Manual",
+      "path": "docs/mvp_handoff/datasheets/F101_User_Manual_V0.10_Draft.pdf",
+      "version": "Rev 0.10; 2026-01-26; Initial Draft",
+      "pages": 777,
+      "sha256": "5205b53910cdb4e4b17e2353a3d790c4e8b281bfceaff4ef58918892cfd09292",
+      "size_bytes": 6610342,
+      "source_url": "https://whycan.com/files/allwinner/f10x/a/F101_User%20Manual_V0.10_Draft_Version.pdf",
+      "provenance": "Allwinner-authored register manual hosted by WhyCan; retrieved in this task"
+    },
+    {
+      "part": "ES8388",
+      "path": "hardware/libraries/controls_audio/sources/ES8388_DS.pdf",
+      "version": "Revision 5.0; July 2018",
+      "pages": 36,
+      "sha256": "db9300f79df430d022b754b29eb1b6b17ca08e3b91d3ba833606dadc65898258",
+      "size_bytes": 843553,
+      "source_url": "https://datasheet.lcsc.com/datasheet/pdf/b5b69a0d4875954a40e8f8a3f42483af.pdf?productCode=C365736",
+      "provenance": "Existing Everest-authored LCSC-hosted PDF; retained at original library path"
+    },
+    {
+      "part": "SKRHADE010",
+      "path": "hardware/libraries/controls_audio/sources/SKRH_catalog.pdf",
+      "version": "SKRH Series; Update 2510",
+      "pages": 2,
+      "sha256": "83a371241a0babce7f73c8c3bdb3da84f698202c57053dbe77d52d588c17ba2c",
+      "size_bytes": 299017,
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_catalog_mu_02_skrh_en_34aeb8c2e3.pdf",
+      "provenance": "Existing official ALPS catalog; retained at original library path"
+    },
+    {
+      "part": "PJ-327A-Y",
+      "path": "hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf",
+      "version": "SHOU HAN drawing A; 2020-06-24; drawing plus approval specification",
+      "pages": 5,
+      "sha256": "2782b07f6f8164df37f2fe4b7881e5bd8aa1b847fd78bf3b914c247eaed773be",
+      "size_bytes": 3973721,
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20251231/08D5BD65F2341DA0E899FFDF9FFB0326.pdf",
+      "provenance": "Existing SHOU HAN-authored LCSC-hosted PDF; retained at original library path"
+    }
+  ]
+}

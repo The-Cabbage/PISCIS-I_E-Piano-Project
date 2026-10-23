@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PISCIS_Local")(type "KiCad")(uri "${KIPRJMOD}/hardware/footprints.pretty")(options "")(descr "PISCIS-I project-local footprints"))
+  (lib (name "PISCIS_Private")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/private/PISCIS_Private.pretty")(options "")(descr "PISCIS-I private footprint bundle; includes HPM6360IPA2 eLQFP144L candidates"))
+  (lib (name "PISCIS_HPM6360")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/footprints/PISCIS_HPM6360.pretty")(options "")(descr "PISCIS-I curated footprint snapshot with project-local 3D models"))
+)

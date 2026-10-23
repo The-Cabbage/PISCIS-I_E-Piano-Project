@@ -1,0 +1,100 @@
+{
+  "lcsc": "C17701692",
+  "manufacturer": "SHOU HAN",
+  "mpn": "PJ-327A-Y",
+  "date": "2026-10-20",
+  "symbol": "PISCIS_Private:PJ-327A-Y",
+  "footprint": "PISCIS_Private:AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD",
+  "symbol_footprint_source": "https://atta.szlcsc.com/upload/public/pdf/source/20251231/08D5BD65F2341DA0E899FFDF9FFB0326.pdf",
+  "datasheet_drawing": "2020-06-24 Rev A, page 1",
+  "model_source": "嘉立创EDA/EasyEDA官方库: https://lceda.cn/ ; https://easyeda.com ; https://easyeda.com/components/AUDIO-SMD-HX-PJ-327A-Y_a8cb097d182247d2bc48ff2330f9dcac",
+  "model_uuid": "266de6c17b1241c0af4595832c070e14",
+  "model_status": "Open: HX series reference only, not SHOU HAN factory CAD. Model height 4.9mm differs from drawing 4.5/4.6mm; do not treat as enclosure-clearance validation.",
+  "numbered_pads_mm": {
+    "1": [
+      -1.3,
+      -3.4
+    ],
+    "2": [
+      -0.3,
+      3.4
+    ],
+    "3": [
+      2.4,
+      -3.4
+    ],
+    "4": [
+      6.7,
+      3.4
+    ],
+    "5": [
+      8.4,
+      -3.4
+    ]
+  },
+  "pad_size_mm": [
+    2,
+    3
+  ],
+  "npth_centres_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "npth_diameter_mm": 1.0,
+  "pending": "T/R/S terminal names not explicitly assigned; original 1..5 numbers preserved. Physical solder/fit validation pending.",
+  "private_before_sha256": "2b3e60182c4802b2b5bd4468188494d0c9e5e343d1a27a485e9dd20170feec84",
+  "files": {
+    "hardware/libraries/private/PISCIS_Private.pretty/AudioJack_SHOUHAN_PJ-327A-Y_5Pin_SMD.kicad_mod": "6de5643308e54f1056366dcbdea4a771efe454fc7b6a92ea62af1ab08c841712",
+    "hardware/libraries/private/PISCIS_Private.kicad_sym": "03e93d000fc832c52f68d2e12a390655e75279d0ba5d6612d942ee8812126bd7",
+    "hardware/libraries/private/PISCIS_Private.3dshapes/AudioJack_PJ-327A-Y_HX_Reference.wrl": "84d25b9ab8b28282f953b872c20b770e790448f52eb897204a30078b436b35bc",
+    "hardware/libraries/private/PISCIS_Private.3dshapes/AudioJack_PJ-327A-Y_HX_Reference_original.step": "a788adeac02c68ce4adff66c6635db0393387557a58f0f854fbb6322b4e76e60",
+    "hardware/libraries/private/sources/C17701692/footprint_drc.json": "10246c9dcd46ac0713913d103be63bbf99cc512f7ddf8b01a7822eb881940d52",
+    "hardware/libraries/private/sources/C17701692/PJ-327A-Y_datasheet.pdf": "2782b07f6f8164df37f2fe4b7881e5bd8aa1b847fd78bf3b914c247eaed773be",
+    "hardware/libraries/private/sources/C17701692/PJ-327A-Y_unit1.svg": "8b4aa178ecc9d8e4e2a13f8ea7e002da711cff358529e277ca94bf94e10ab7f9",
+    "hardware/libraries/private/sources/C17701692/symbol.png": "3d21d9fcb1c98aaad3e084eb8698756a1b164c74ac09b893450b7aac2ea67a89",
+    "hardware/libraries/private/sources/C17701692/EasyEDA_HX_reference_original.json": "f30e41ee60e75b1f15090e50e216be8239ad3b6b961a0bc501c4a6d9be6da933",
+    "hardware/libraries/private/sources/C17701692/model_top.png": "35d62a833a3fdb63e77ecf2c5a809dee9528d3d37df588106f3839e7eaea1873",
+    "hardware/libraries/private/sources/C17701692/datasheet_page1.png": "2663f5e85b8c29aaddb124e1db7f07b80e1ad7c1540dde945e17a91fc13996c9",
+    "hardware/libraries/private/sources/C17701692/standard_api_lookup.json": "2e5c07eb9432f630b1c0fbaf02bcf601e7e9ddd0d3df5008254d90298764c1f2",
+    "hardware/libraries/private/sources/C17701692/source_snapshot.json": "2241695355cbd28f320e10142fb07b0b41a0cde8d80c23b8929f87137900d805"
+  },
+  "bound_wrl_transform": {
+    "offset_mm": [
+      3.55,
+      0,
+      0
+    ],
+    "rotate_deg": [
+      0,
+      0,
+      0
+    ]
+  },
+  "step_status": "Unmodified HX-series source STEP is supplied separately, not bound or automatically substituted. Its coordinate frame differs from WRL; alignment pending.",
+  "file_checks": {
+    "date": "2026-10-20",
+    "tool": "KiCad CLI/pcbnew 10.0.6",
+    "scope": "New component library files and a temporary independent preview board only; no physical tests or whole-project ERC/DRC.",
+    "native_symbol_svg_export": "PASS",
+    "numbered_symbol_pins": 5,
+    "numbered_footprint_pads": 5,
+    "npth_drills_mm": [
+      1,
+      1
+    ],
+    "npth_pitch_mm": 6,
+    "existing_private_symbols_preserved": 8,
+    "project_schematic_pcb_pro_unchanged": true,
+    "footprint_fixture_drc_violations": 0,
+    "wrl_native_load_and_top_render": "PASS; reference-model five terminals align in orientation with footprint; not precision fit validation",
+    "step_model": "Available as unaligned source reference, not bound",
+    "local_document_links": "PASS",
+    "model_fit_status": "Open; not SHOU HAN factory CAD and height differs."
+  }
+}

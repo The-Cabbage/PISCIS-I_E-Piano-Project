@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PISCIS_Private") (type "KiCad") (uri "${KIPRJMOD}/../libraries/private/PISCIS_Private.pretty") (options "") (descr "PISCIS-I project-private footprints, including AUDIO-SMD_XKB_PJ-320D-B"))
+)

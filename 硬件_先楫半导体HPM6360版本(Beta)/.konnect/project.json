@@ -1,0 +1,18 @@
+{
+  "design_rules": [],
+  "fab_constraints": {
+    "layer_count": 6,
+    "min_clearance_mm": 0.1,
+    "min_trace_width_mm": 0.1,
+    "min_via_drill_mm": 0.2
+  },
+  "naming_conventions": {},
+  "project": {
+    "board_envelope_mm": {
+      "height": 65,
+      "width": 65
+    },
+    "stage": "Rev A0 architecture / not for fabrication"
+  },
+  "sourcing": {}
+}

@@ -1,0 +1,8 @@
+# Local OS, editor, and generated cache files
+.DS_Store
+.idea/
+.history/
+__pycache__/
+*.py[cod]
+node_modules/
+cmake-build-*/

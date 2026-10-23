@@ -1,0 +1,147 @@
+EESchema Schematic File Version 4
+LIBS:PISCIS-I_HPM6360_RevA-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 9
+Title "USB 2.0 Type-A host and VBUS switch"
+Date "2026-09-27"
+Rev "A"
+Comp "PISCIS-I"
+Comment1 "ENGINEERING PROTOTYPE - VERIFY BEFORE FABRICATION"
+Comment2 "HPM6360 electronic instrument evaluation board"
+Comment3 "Generated from locked Rev.A architecture"
+Comment4 ""
+$EndDescr
+Text Notes 800 550 0    80   ~ 12
+USB0 fixed Host; Type-A VBUS is current-limited by MT9700-N
+$Comp
+L PISCIS_RevA:MT9700_N U6
+U 1 1 66F00044
+P 4600 3800
+F 0 "U6" H 4950 3950 50  0000 C CNN
+F 1 "MT9700-N" H 4950 3650 50  0000 C CNN
+F 2 "PISCIS_Private:SOT-23-5_L2.9-W1.6-P0.95-LS2.9-BL" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+F 4 "C42441843" H 4600 3800 50  0001 C CNN "LCSC Part"
+	1    4600 3800
+	1    0    0    -1
+$EndComp
+Text GLabel 4100 3700 2    40   BiDi ~ 0
+USBH_5V
+Text GLabel 4100 3800 2    40   BiDi ~ 0
+GND
+Text GLabel 4100 3900 2    40   BiDi ~ 0
+USBH_OC_N
+Text GLabel 5100 3750 0    40   BiDi ~ 0
+USBH_EN
+Text GLabel 5100 3850 0    40   BiDi ~ 0
+5V_SYS
+$Comp
+L PISCIS_RevA:USB_A J3
+U 1 1 66F00045
+P 8500 3900
+F 0 "J3" H 8850 4050 50  0000 C CNN
+F 1 "USB-A HOST / MIDI" H 8850 3750 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 8500 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0001 C CNN
+F 4 "" H 8500 3900 50  0001 C CNN "LCSC Part"
+	1    8500 3900
+	1    0    0    -1
+$EndComp
+Text GLabel 8000 3850 2    40   BiDi ~ 0
+USBH_5V
+Text GLabel 8000 3950 2    40   BiDi ~ 0
+USBH_DM
+Text GLabel 9000 3850 0    40   BiDi ~ 0
+USBH_DP
+Text GLabel 9000 3950 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:DIODE D2
+U 1 1 66F00046
+P 6500 6500
+F 0 "D2" H 6850 6650 50  0000 C CNN
+F 1 "SMBJ5.0A" H 6850 6350 50  0000 C CNN
+F 2 "PISCIS_Private:SMB_L4.6-W3.6-LS5.3-RD" H 6500 6500 50  0001 C CNN
+F 3 "" H 6500 6500 50  0001 C CNN
+F 4 "C340697" H 6500 6500 50  0001 C CNN "LCSC Part"
+	1    6500 6500
+	1    0    0    -1
+$EndComp
+Text GLabel 6000 6500 2    40   BiDi ~ 0
+USBH_5V
+Text GLabel 7000 6500 0    40   BiDi ~ 0
+GND
+$Comp
+L PISCIS_RevA:ESD5304D_10_TR D5
+U 1 1 66F00047
+P 10800 3900
+F 0 "D5" H 11150 4050 50  0000 C CNN
+F 1 "ESD5304D-10/TR" H 11150 3750 50  0000 C CNN
+F 2 "PISCIS_Private:UDFN-10_L2.5-W1.0-P0.50-BL" H 10800 3900 50  0001 C CNN
+F 3 "" H 10800 3900 50  0001 C CNN
+F 4 "C153722" H 10800 3900 50  0001 C CNN "LCSC Part"
+	1    10800 3900
+	1    0    0    -1
+$EndComp
+Text GLabel 10300 3700 2    40   BiDi ~ 0
+USBH_DM
+Text GLabel 10300 3800 2    40   BiDi ~ 0
+USBH_DP
+Text GLabel 10300 3900 2    40   BiDi ~ 0
+GND
+NoConn ~ 10300 4000
+NoConn ~ 10300 4100
+NoConn ~ 11300 3700
+NoConn ~ 11300 3800
+Text GLabel 11300 3900 0    40   BiDi ~ 0
+GND
+NoConn ~ 11300 4000
+NoConn ~ 11300 4100
+$Comp
+L PISCIS_RevA:TP TP13
+U 1 1 66F00048
+P 8500 8000
+F 0 "TP13" H 8850 8150 50  0000 C CNN
+F 1 "USBH_DP" H 8850 7850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8500 8000 50  0001 C CNN
+F 3 "" H 8500 8000 50  0001 C CNN
+F 4 "" H 8500 8000 50  0001 C CNN "LCSC Part"
+	1    8500 8000
+	1    0    0    -1
+$EndComp
+Text GLabel 8000 8000 2    40   BiDi ~ 0
+USBH_DP
+$Comp
+L PISCIS_RevA:TP TP14
+U 1 1 66F00049
+P 9800 8000
+F 0 "TP14" H 10150 8150 50  0000 C CNN
+F 1 "USBH_DM" H 10150 7850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9800 8000 50  0001 C CNN
+F 3 "" H 9800 8000 50  0001 C CNN
+F 4 "" H 9800 8000 50  0001 C CNN "LCSC Part"
+	1    9800 8000
+	1    0    0    -1
+$EndComp
+Text GLabel 9300 8000 2    40   BiDi ~ 0
+USBH_DM
+$Comp
+L PISCIS_RevA:TP TP15
+U 1 1 66F0004A
+P 11100 8000
+F 0 "TP15" H 11450 8150 50  0000 C CNN
+F 1 "USBH_OC_N" H 11450 7850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11100 8000 50  0001 C CNN
+F 3 "" H 11100 8000 50  0001 C CNN
+F 4 "" H 11100 8000 50  0001 C CNN "LCSC Part"
+	1    11100 8000
+	1    0    0    -1
+$EndComp
+Text GLabel 10600 8000 2    40   BiDi ~ 0
+USBH_OC_N
+Text Notes 7500 6500 0    80   ~ 12
+Place ESD5304D within a few mm of J3; route USB D+/D- as 90-ohm differential pair.
+$EndSCHEMATC
