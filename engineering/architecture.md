@@ -22,7 +22,7 @@
 | 边界 | 现有定义 / 入口 | 适用范围与未决项 |
 | --- | --- | --- |
 | 机械→传感器 / PCB | [弹簧选型](../弹簧选型.md)、[键盘 STL](../Keyboard_2.stl)、[整机 STL](../PISCIS_Edition_5.stl) | 已有资料；对应样机、磁铁、装配公差及模型关系 Open，不从文件名推定冻结版本。 |
-| 键盘→主板 | [Pogo 分支说明](../Keyboard_Scanning_ScaleUp_PogoPin/README.md)与[J2 修复](../Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md) | 仅定义该分支连接；整机事件协议尚未定位。电气针序、USB 通道与应用事件协议是不同层，不能互相替代。 |
+| 键盘→主板 | [Pogo 分支说明](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/README.md)与[J2 修复](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md) | 仅定义该分支连接；整机事件协议尚未定位。电气针序、USB 通道与应用事件协议是不同层，不能互相替代。 |
 | Yuzuki 开发板→底板 | [母座接口、方向与针脚定义](../主机MVP评估板/全志F101版本(Beta)/hardware/yuzuki_mvp/README.md) | 仅母座阶段；未完成底板外围、板框与电源隔离，不代表主控定案。 |
 | HPM Rev.A 主板→控制/音频等 | [Rev.A INTERFACES](../主机MVP评估板/硬件_先楫半导体HPM6360版本(Beta)/hardware/rev_a/INTERFACES.md)、[pinmux](../主机MVP评估板/硬件_先楫半导体HPM6360版本(Beta)/hardware/rev_a/pinmux.csv) | 仅用于该评估板；不可直接套用到首代掌上产品。 |
 | 固件→音频/显示/存储/更新；电脑→设备 | [PRD 第 8–11 节](../运营与开发策略/PISCIS_1.0_PRD_2026-10-20.md) | 目前定位到职责要求，尚未定位整机正式接口实现及规范；确定后只在所属工程维护一份定义，由本表链接。 |
@@ -35,14 +35,14 @@
 | --- | --- | --- |
 | 主机 MVP 评估板 | [独立模块入口](../主机MVP评估板/README.md) | 2026-10-23 迁入全志 F101 Beta 与 HPM6360 Beta；迁移前历史已固化归档，各工程版本边界沿用原说明。已登记为独立子模块。 |
 | 主机正式 PCBA | [独立模块入口](../主机正式PCBA/README.md) | 2026-10-23 初始化，尚未迁入工程；产品适用版本、主控、接口与制造资料待补充。已登记为子模块，初始化提交已上传至私有远程。 |
-| 键盘相关并存工程 | [Keyboard](../Keyboard/README.md)、[Scanning](../Keyboard_Scanning/README.md)、[ScaleUp](../Keyboard_Scanning_ScaleUp/README.md)、[PogoPin](../Keyboard_Scanning_ScaleUp_PogoPin/README.md) | 各有 KiCad 原理图、PCB 及私有库；选用版本、替代关系和实物验证状态未统一确认。库中可选器件不等同于板上实装器件。 |
-| Pogo 键盘检查 | [2026-10-19 审阅](../Keyboard_Scanning_ScaleUp_PogoPin/output/review-2026-10-19/PCB_Review_CN.md)、[2026-10-20 J2 修复](../Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)、[U37 物料字段修正](../Keyboard_Scanning_ScaleUp_PogoPin/output/u37-bom-fix-2026-10-20/validation.json) | 后两项覆盖部分旧问题；旧审阅仍可作问题来源，不能把已修项继续当成现状，也不能据此宣布整板已通过。 |
+| 霍尔键盘（独立子模块） | [Keyboard](../霍尔键盘/Keyboard/README.md)、[Scanning](../霍尔键盘/Keyboard_Scanning/README.md)、[ScaleUp](../霍尔键盘/Keyboard_Scanning_ScaleUp/README.md)、[PogoPin](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/README.md) | 各有 KiCad 原理图、PCB 及私有库；选用版本、替代关系和实物验证状态未统一确认。库中可选器件不等同于板上实装器件。 |
+| Pogo 键盘检查 | [2026-10-19 审阅](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/review-2026-10-19/PCB_Review_CN.md)、[2026-10-20 J2 修复](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)、[U37 物料字段修正](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/u37-bom-fix-2026-10-20/validation.json) | 后两项覆盖部分旧问题；旧审阅仍可作问题来源，不能把已修项继续当成现状，也不能据此宣布整板已通过。 |
 | 全志 Beta / Yuzuki 母座 | [分支说明](../主机MVP评估板/全志F101版本(Beta)/README.md)、[KiCad 工程](<../主机MVP评估板/全志F101版本(Beta)/PISCIS-I_F101.kicad_pro>)、[既有检查输出](<../主机MVP评估板/全志F101版本(Beta)/hardware/yuzuki_mvp/reports/validation.json>) | 母座孔位/网络已有文件级检查；报告仍有板框错误。F101/F133 在产品定义稿中仍为候选，不能由文件夹命名认定最终主控。 |
 | HPM6360 Beta | [分支说明](../主机MVP评估板/硬件_先楫半导体HPM6360版本(Beta)/README.md)、[Rev.A 验证边界](../主机MVP评估板/硬件_先楫半导体HPM6360版本(Beta)/hardware/rev_a/VALIDATION.md) | A0 与 Rev.A 并存。Rev.A 是未布线评估板，A0 需求、POGO 提案及旧任务清单不能当成 Rev.A 或整机规格。 |
 | LED 点阵探索 | [工程说明](../LED_Matrix_Display/README.md) | 独立隐藏点阵评估资料；说明中尚无电路/布局，不替代 PRD 中屏幕要求。 |
 | C++ / MIDI 探索 | [工程配置](../源代码/CMakeLists.txt)、[事件定义](../源代码/src/midievents.hpp)、[解析代码](../源代码/src/midi_parser.hpp) | 已有代码；未验证构建及目标板运行，也未认定为正式键盘协议。 |
 | 浏览器音色与交互原型 | [原型入口](../音色模拟/index.html)、[源码](../音色模拟/src/main.jsx)、[运行配置](../音色模拟/package.json) | React / Three.js / Web Audio 原型；不代表目标硬件的音质、延迟、复音或卡片加载性能。 |
-| 外观与结构参考 | [外观参考目录](../外观设计参考/)、上述 STL、[Pogo 分支 DXF](../Keyboard_Scanning_ScaleUp_PogoPin/PCB_Edition2.dxf) | 用于查找与对照，尚未建立统一装配基线；STL 不自动视为可编辑 CAD 或制造图。 |
+| 外观与结构参考 | [外观参考目录](../外观设计参考/)、上述 STL、[Pogo 分支 DXF](../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/PCB_Edition2.dxf) | 用于查找与对照，尚未建立统一装配基线；STL 不自动视为可编辑 CAD 或制造图。 |
 
 ## BOM 与源文件约定
 

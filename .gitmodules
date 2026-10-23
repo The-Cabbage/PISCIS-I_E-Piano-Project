@@ -4,3 +4,6 @@
 [submodule "主机正式PCBA"]
 	path = 主机正式PCBA
 	url = git@github.com:The-Cabbage/PISCIS-Host-Production-PCBA.git
+[submodule "霍尔键盘"]
+	path = 霍尔键盘
+	url = git@github.com:The-Cabbage/PISCIS-Hall-Keyboard.git

@@ -17,17 +17,17 @@
 | 环节 | 权威来源 / 实现入口 | 本专题要核对的关系 |
 | --- | --- | --- |
 | 产品目标 | [PRD](../../运营与开发策略/PISCIS_1.0_PRD_2026-10-20.md)第 5.1、9.1、12 节 | 按下/释放完整对应、力度需验证、键盘可独立测试；尚无冻结量化值。 |
-| 机械与磁路 | [弹簧选型](../../弹簧选型.md)、[键盘模型](../../Keyboard_2.stl)、[整机模型](../../PISCIS_Edition_5.stl)、[PCB 外形 DXF](../../Keyboard_Scanning_ScaleUp_PogoPin/PCB_Edition2.dxf) | 先确认它们是否对应同一实物版本，再核对预压/行程、磁铁极性/间隙、传感器位置及相邻键影响。 |
-| 电子采样 | [Pogo 分支源原理图](../../Keyboard_Scanning_ScaleUp_PogoPin/PISCIS-I_Keyboard.kicad_sch)、[霍尔页](../../Keyboard_Scanning_ScaleUp_PogoPin/Key_hall.kicad_sch)、[PCB](../../Keyboard_Scanning_ScaleUp_PogoPin/PISCIS-I_Keyboard.kicad_pcb)、[设计审阅](../../Keyboard_Scanning_ScaleUp_PogoPin/output/review-2026-10-19/PCB_Review_CN.md) | 分组 SLEEP、共享总线、模拟开关与 ADC 建立时间相互约束；审阅建议是验证输入，不是已冻结参数。 |
+| 机械与磁路 | [弹簧选型](../../弹簧选型.md)、[键盘模型](../../Keyboard_2.stl)、[整机模型](../../PISCIS_Edition_5.stl)、[PCB 外形 DXF](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/PCB_Edition2.dxf) | 先确认它们是否对应同一实物版本，再核对预压/行程、磁铁极性/间隙、传感器位置及相邻键影响。 |
+| 电子采样 | [Pogo 分支源原理图](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/PISCIS-I_Keyboard.kicad_sch)、[霍尔页](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/Key_hall.kicad_sch)、[PCB](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/PISCIS-I_Keyboard.kicad_pcb)、[设计审阅](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/review-2026-10-19/PCB_Review_CN.md) | 分组 SLEEP、共享总线、模拟开关与 ADC 建立时间相互约束；审阅建议是验证输入，不是已冻结参数。 |
 | 固件采样与校准 | [PRD 职责边界](../../运营与开发策略/PISCIS_1.0_PRD_2026-10-20.md)第 9.1、10 节；实际实现入口待补充 | 检查上电默认状态、先关后开、建立后采样、触发回差、力度估算及校准保护。找到真实实现后链接，不先建空固件目录。 |
-| 对接与通信 | [J2 修复与方向约定](../../Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)、[主板候选入口](../architecture.md) | 对接方向、五针实物、供电/数据链路及应用协议需分别确认；不将 J2 直接认定已能接入任一主板。 |
+| 对接与通信 | [J2 修复与方向约定](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)、[主板候选入口](../architecture.md) | 对接方向、五针实物、供电/数据链路及应用协议需分别确认；不将 J2 直接认定已能接入任一主板。 |
 | 软件事件与声音 | [已有 MIDI 事件代码](../../源代码/src/midievents.hpp)、[浏览器发声原型](../../音色模拟/src/main.jsx) | 可作为探索入口；与真实键盘的事件映射、运行链路和目标板性能尚未确认，当前不是完整实现证据。 |
 | 验证与回到任务 | [已有证据 E-001](../../EXPERIMENTS.md#e-001)、[计划 E-002](../../EXPERIMENTS.md#e-002)、[BACKLOG](../../BACKLOG.md) | 记录具体版本、波形/日志与实际结论，再据此决定机械、电路、时序或算法是否需要改变。 |
 
 ## 关键约束与证据边界
 
 - **Decided**：主板与键盘职责以 [D-002](../../DECISIONS.md#d-002)和 PRD 为准，数字协议仍待确定。不要因现有 MIDI 代码就默认产品必须采用 MIDI。
-- **已有文件级证据**：[J2 修复报告](../../Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)覆盖编号/网络等局部问题；[U37 修正输出](../../Keyboard_Scanning_ScaleUp_PogoPin/output/u37-bom-fix-2026-10-20/validation.json)和[分支说明](../../Keyboard_Scanning_ScaleUp_PogoPin/README.md)已反映器件字段更新。2026-10-19 审阅中的相关旧问题不可直接当成仍未修复。
+- **已有文件级证据**：[J2 修复报告](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)覆盖编号/网络等局部问题；[U37 修正输出](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/u37-bom-fix-2026-10-20/validation.json)和[分支说明](../../霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/README.md)已反映器件字段更新。2026-10-19 审阅中的相关旧问题不可直接当成仍未修复。
 - **Open**：J2 真实五针采购/定制依据及装配方向、选定霍尔型号、扫描互斥和采样稳定性仍需针对拟用版本核对；修复报告没有有效完整 DRC 通过结果，也没有整机实物测试结论。
 - **待验证假设**：现有机械/磁路与分组采样组合可支持稳定触发和力度估算。器件手册典型时间、局部网络一致或 3D 外观，均不能单独证实这一假设。
 

@@ -14,9 +14,9 @@
 **J2 自定义五针接口修复后的文件级一致性检查**
 
 - **日期与验证目标**：来源报告日期为 2026-10-20；检查 J2 编号、网络与局部连接。这里仅索引既有证据，本次文档建设未重新执行 KiCad 检查。
-- **测试条件**：`Keyboard_Scanning_ScaleUp_PogoPin` 中该次修复对应的原理图、PCB 与私有库；源文件和修改范围见[原报告](Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)。结果不得自动套用于之后修改的版本。
+- **测试条件**：`Keyboard_Scanning_ScaleUp_PogoPin` 中该次修复对应的原理图、PCB 与私有库；源文件和修改范围见[原报告](霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)。结果不得自动套用于之后修改的版本。
 - **测试方法（据原报告）**：KiCad 读取与网表导出、完整网络成员集合比较、原生连接图遍历及新增铜对象的局部间距检查。复现细节以原报告和原始输出为准，未记录的工具条件不自行补造。
-- **观测结果（据已有记录）**：[网络比较输出](Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/parity-independent.json)未列出差异；原报告称 J2.5 已有铜连接到 J2.1 与 U42.3。ERC 仍有错误与警告；完整 DRC 异常退出，没有有效的整板通过报告。
+- **观测结果（据已有记录）**：[网络比较输出](霍尔键盘/Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/parity-independent.json)未列出差异；原报告称 J2.5 已有铜连接到 J2.1 与 U42.3。ERC 仍有错误与警告；完整 DRC 异常退出，没有有效的整板通过报告。
 - **结论**：现有证据支持该版本的局部文件修复；不证明整板可制造、真实五针物料匹配或实物通信可靠。Confirmed 只适用于原报告覆盖的检查项。
 - **后续动作**：按[专题](engineering/topics/keyboard-chain.md)核对实物图纸、对接方向、适用源版本与剩余验证项；具体任务只在 BACKLOG 管理。
 
