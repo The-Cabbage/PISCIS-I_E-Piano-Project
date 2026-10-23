@@ -1,6 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "PISCIS_Private") (type "KiCad") (uri "${KIPRJMOD}/../libraries/private/PISCIS_Private.kicad_sym") (options "") (descr "PISCIS-I project-private symbols, including PJ-320D-B-SMT"))
-	(lib (name "PISCIS_RevA") (type "Legacy") (uri "${KIPRJMOD}/PISCIS-I_HPM6360_RevA-cache.lib") (options "") (descr "Generated Rev.A project cache library"))
-	(lib (name "PISCIS-I_HPM6360_RevA-cache") (type "Legacy") (uri "/Users/admin/Desktop/Code/PISCIS-I_E-Piano_Project/硬件_先楫半导体HPM6360版本(Beta)/hardware/rev_a/PISCIS-I_HPM6360_RevA-cache.lib") (options "") (descr "旧版工程缓存库"))
-)

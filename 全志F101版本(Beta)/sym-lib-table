@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "PISCIS_Private")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/private/PISCIS_Private.kicad_sym")(options "")(descr "PISCIS-I project private symbols"))
-  (lib (name "PISCIS_Yuzuki_MVP")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/yuzuki/PISCIS_Yuzuki_MVP.kicad_sym")(options "")(descr "Yuzuki MVP exact mating socket symbol library"))
-  (lib (name "PISCIS_Controls_Audio")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/controls_audio/PISCIS_Controls_Audio.kicad_sym")(options "")(descr "SKRHADE010 C202415 and ES8388 project-local symbols"))
-)

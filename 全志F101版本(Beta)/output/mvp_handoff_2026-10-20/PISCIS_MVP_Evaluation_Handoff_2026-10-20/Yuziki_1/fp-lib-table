@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "ProPrj_ProDoc_Board1_2026-09-27_2026-10-14-import-fps") (type "KiCad") (uri "${KIPRJMOD}/ProPrj_ProDoc_Board1_2026-09-27_2026-10-14-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
-)
