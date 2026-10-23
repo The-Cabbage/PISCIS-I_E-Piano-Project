@@ -33,6 +33,8 @@
 
 | 资料 / 分支 | 源入口 | 当前可确认的资料范围 |
 | --- | --- | --- |
+| 主机 MVP 评估板 | [独立模块入口](../主机MVP评估板/README.md) | 2026-10-23 初始化，尚未迁入工程；评估范围、主控、接口和验证条件待补充。已登记为子模块，初始化提交已上传至私有远程。 |
+| 主机正式 PCBA | [独立模块入口](../主机正式PCBA/README.md) | 2026-10-23 初始化，尚未迁入工程；产品适用版本、主控、接口与制造资料待补充。已登记为子模块，初始化提交已上传至私有远程。 |
 | 键盘相关并存工程 | [Keyboard](../Keyboard/README.md)、[Scanning](../Keyboard_Scanning/README.md)、[ScaleUp](../Keyboard_Scanning_ScaleUp/README.md)、[PogoPin](../Keyboard_Scanning_ScaleUp_PogoPin/README.md) | 各有 KiCad 原理图、PCB 及私有库；选用版本、替代关系和实物验证状态未统一确认。库中可选器件不等同于板上实装器件。 |
 | Pogo 键盘检查 | [2026-10-19 审阅](../Keyboard_Scanning_ScaleUp_PogoPin/output/review-2026-10-19/PCB_Review_CN.md)、[2026-10-20 J2 修复](../Keyboard_Scanning_ScaleUp_PogoPin/output/j2-fix-2026-10-20/J2_Fix_CN.md)、[U37 物料字段修正](../Keyboard_Scanning_ScaleUp_PogoPin/output/u37-bom-fix-2026-10-20/validation.json) | 后两项覆盖部分旧问题；旧审阅仍可作问题来源，不能把已修项继续当成现状，也不能据此宣布整板已通过。 |
 | 全志 Beta / Yuzuki 母座 | [分支说明](../全志F101版本(Beta)/README.md)、[KiCad 工程](<../全志F101版本(Beta)/PISCIS-I_F101.kicad_pro>)、[既有检查输出](<../全志F101版本(Beta)/hardware/yuzuki_mvp/reports/validation.json>) | 母座孔位/网络已有文件级检查；报告仍有板框错误。F101/F133 在产品定义稿中仍为候选，不能由文件夹命名认定最终主控。 |

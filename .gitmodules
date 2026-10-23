@@ -1,0 +1,6 @@
+[submodule "主机MVP评估板"]
+	path = 主机MVP评估板
+	url = git@github.com:The-Cabbage/PISCIS-Host-MVP-Evaluation-Board.git
+[submodule "主机正式PCBA"]
+	path = 主机正式PCBA
+	url = git@github.com:The-Cabbage/PISCIS-Host-Production-PCBA.git
