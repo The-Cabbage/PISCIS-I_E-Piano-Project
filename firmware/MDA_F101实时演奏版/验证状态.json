@@ -1,0 +1,27 @@
+{
+  "stage": "hardware_smoke_passed",
+  "ram_used_bytes": 1065632,
+  "ram_total_bytes": 16777216,
+  "audio_rate": 44100,
+  "frames_per_request": 441,
+  "playback_buffers": 4,
+  "protocol_test": "passed",
+  "hardware_test": "passed_10_seconds",
+  "flash_written": false,
+  "bin_sha256": "1da1296c1b31f13314059dd57009fc6f34d9de48994c9572f8fb7544f7267816",
+  "pc_exe_sha256": "5fb338e937a928f3ddb2fa3530e637587761460e3fc7f31fbfd63e17571effdc",
+  "test_exit_code": 0,
+  "responses": 1004,
+  "audio_blocks": 1003,
+  "worst_board_render_us": 2322,
+  "peak": 9054,
+  "underruns": 0,
+  "effective_playback_rate": 43990.3,
+  "ui_stall_test_passed": true,
+  "core_parameters_unchanged": true,
+  "runtime_record": "output/runs/20261024-235005/state.json",
+  "limitations": [
+    "10-second prototype test; end-to-end latency and long-term stability not measured",
+    "Actual MIDI hardware, ES8388 and display not connected"
+  ]
+}
