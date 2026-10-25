@@ -1,0 +1,55 @@
+{
+  "file": "loose-backups.zip",
+  "sha256": "3d623d6f6cf885a0aa1b68cdec9e2978ec57dd71bf63cab951d55077b0fe4126",
+  "verified_files": 12,
+  "entries": [
+    {
+      "path": "Keyboard/.history/.gitignore",
+      "sha256": "1e18182125437ce3d2ec460b357a9ea06f059d795052de04a9a9f1044b8e20ba"
+    },
+    {
+      "path": "Keyboard/.history/README.txt",
+      "sha256": "79c41e25e7633a1deff5e5a7456573c64f0061d508b7e0e5753d985456fe29e7"
+    },
+    {
+      "path": "Keyboard/hardware/libraries/private/Keyboard_Private.bak",
+      "sha256": "730c7153fdf476fe9426520096fb6e47c36b7cb981b0ae9f5be9b949ddce465c"
+    },
+    {
+      "path": "Keyboard_Scanning/.history/.gitignore",
+      "sha256": "1e18182125437ce3d2ec460b357a9ea06f059d795052de04a9a9f1044b8e20ba"
+    },
+    {
+      "path": "Keyboard_Scanning/.history/README.txt",
+      "sha256": "79c41e25e7633a1deff5e5a7456573c64f0061d508b7e0e5753d985456fe29e7"
+    },
+    {
+      "path": "Keyboard_Scanning/hardware/libraries/private/Keyboard_Private.bak",
+      "sha256": "730c7153fdf476fe9426520096fb6e47c36b7cb981b0ae9f5be9b949ddce465c"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp/.history/.gitignore",
+      "sha256": "1e18182125437ce3d2ec460b357a9ea06f059d795052de04a9a9f1044b8e20ba"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp/.history/README.txt",
+      "sha256": "79c41e25e7633a1deff5e5a7456573c64f0061d508b7e0e5753d985456fe29e7"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp/hardware/libraries/private/Keyboard_Private.bak",
+      "sha256": "730c7153fdf476fe9426520096fb6e47c36b7cb981b0ae9f5be9b949ddce465c"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp_PogoPin/.history/.gitignore",
+      "sha256": "1e18182125437ce3d2ec460b357a9ea06f059d795052de04a9a9f1044b8e20ba"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp_PogoPin/.history/README.txt",
+      "sha256": "79c41e25e7633a1deff5e5a7456573c64f0061d508b7e0e5753d985456fe29e7"
+    },
+    {
+      "path": "Keyboard_Scanning_ScaleUp_PogoPin/hardware/libraries/private/Keyboard_Private.bak",
+      "sha256": "398bb35d0b8f0bfd7e7dee1acfe007aa5fde12b253a0e8965fb44cb36a94ff06"
+    }
+  ]
+}

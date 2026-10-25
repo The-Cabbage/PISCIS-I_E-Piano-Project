@@ -1,0 +1,264 @@
+[
+  {
+    "source": "Keyboard",
+    "source_head": "5e66d44e03706547d670ccd6ca4313ae455ddcd7",
+    "discoverable_commit_objects": 2,
+    "exported_commits": 2,
+    "export_errors": [],
+    "source_fsck_exit": 0,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "e0e2e002e8b3e0c9d501bdaab6e81c2741426f799d159543389d3181a532b2fa",
+        "bytes": 5797730,
+        "verified_files": 92
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard/.history",
+    "source_head": "917331f8ab3088b69f3f0392b0fd1c0e34b5cb13",
+    "discoverable_commit_objects": 814,
+    "exported_commits": 814,
+    "export_errors": [],
+    "source_fsck_exit": 2,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "bfee53e35cc6b148ea3fae86fd06eac786533412478aed226bcd8cee80e5d0b1",
+        "bytes": 67440792,
+        "verified_files": 1700
+      },
+      {
+        "file": "snapshots-002.zip",
+        "sha256": "7d461e5ca28930c354bb258f1a112b3b24fe6e3a166dae7736be70db872a5de5",
+        "bytes": 67563636,
+        "verified_files": 1665
+      },
+      {
+        "file": "snapshots-003.zip",
+        "sha256": "7a2cdcc7cce526edb230e1947f37800b79373fe809e230577b06d12c8d791a4c",
+        "bytes": 25904999,
+        "verified_files": 626
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning",
+    "source_head": "378ae793112254d617aa37349cb4eb32062e9d87",
+    "discoverable_commit_objects": 2,
+    "exported_commits": 2,
+    "export_errors": [],
+    "source_fsck_exit": 0,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "f8d5cdc08d7d767f94db26a2a86e61979a16923ed6ea2415ca2ce9f254af5b3a",
+        "bytes": 6412208,
+        "verified_files": 96
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning/.history",
+    "source_head": "a38942e6075e4e818c6c1d0874e8b65f9839b360",
+    "discoverable_commit_objects": 1349,
+    "exported_commits": 1349,
+    "export_errors": [],
+    "source_fsck_exit": 2,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "0d787ccc0f2869235e3dd260557ec79469cdf8ba65250a51f01762ce2c276325",
+        "bytes": 67422227,
+        "verified_files": 1440
+      },
+      {
+        "file": "snapshots-002.zip",
+        "sha256": "83b99d55cf16a4e75a9ba062e333fb5d3cafa8966e0e919b00ea07a2eca3c234",
+        "bytes": 67392499,
+        "verified_files": 1508
+      },
+      {
+        "file": "snapshots-003.zip",
+        "sha256": "8c61a4c33007644744e7467f6e25071a3abc5e5f83647d69334e628d92c8ceca",
+        "bytes": 67519553,
+        "verified_files": 1484
+      },
+      {
+        "file": "snapshots-004.zip",
+        "sha256": "8b3f91b25938aa3759814d4de6cb41cd24a51bde97f033e7688df225054ad05c",
+        "bytes": 67457361,
+        "verified_files": 1493
+      },
+      {
+        "file": "snapshots-005.zip",
+        "sha256": "4aa2c1bffb1d76c1ab1e89db5c50a42185cf95bce75c6374c9e5ec1cf12edf04",
+        "bytes": 58871864,
+        "verified_files": 1276
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning_ScaleUp",
+    "source_head": "9015bb5b0d04d4542b4a13354bcb3f1577eb1de9",
+    "discoverable_commit_objects": 2,
+    "exported_commits": 2,
+    "export_errors": [],
+    "source_fsck_exit": 0,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "6702de1bf4b35620789df34b676bdf537c1755af66c0cf1a081ae786f08aca92",
+        "bytes": 9119265,
+        "verified_files": 143
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning_ScaleUp/.history",
+    "source_head": "2bd7bf2693d05df0907e352f2eb98dad22d03fe4",
+    "discoverable_commit_objects": 1964,
+    "exported_commits": 1964,
+    "export_errors": [],
+    "source_fsck_exit": 2,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "7b5699ea3a4d3f1bd36ef1c59779f0613254d2314c53f49dc78e493800be8174",
+        "bytes": 67387232,
+        "verified_files": 1397
+      },
+      {
+        "file": "snapshots-002.zip",
+        "sha256": "ac8f01517ba6a8765701ec79de6d36c40a2656204891386df71a13b39f827653",
+        "bytes": 67506182,
+        "verified_files": 1457
+      },
+      {
+        "file": "snapshots-003.zip",
+        "sha256": "e6dea8a2ebaa37675c165d2ce9229ffcb1e10149a58ce1a623838db53d8716bc",
+        "bytes": 67444918,
+        "verified_files": 1430
+      },
+      {
+        "file": "snapshots-004.zip",
+        "sha256": "c704e3c91d64507862f28d6bfe2af1d5561ec2046ba3747e0d1073edbcd842fd",
+        "bytes": 67554716,
+        "verified_files": 1436
+      },
+      {
+        "file": "snapshots-005.zip",
+        "sha256": "07f1077b73ab5f9b9f2f10548bbc6f8cff9d5d478cd4f5f1d2a6d0f6df2c5774",
+        "bytes": 67537346,
+        "verified_files": 1443
+      },
+      {
+        "file": "snapshots-006.zip",
+        "sha256": "af2026a75a373595233e77eeb248597b8a1c9bb2f5a4db0ad7f0bf22d0775d24",
+        "bytes": 67397704,
+        "verified_files": 1446
+      },
+      {
+        "file": "snapshots-007.zip",
+        "sha256": "46023f12a4dd9a5c5ef123f62c13c33802de1d5a4c81f0805e2aaed7b790b9df",
+        "bytes": 67353907,
+        "verified_files": 1419
+      },
+      {
+        "file": "snapshots-008.zip",
+        "sha256": "928c78a91653c7bf1b5bc9d999c5d2007b43cf699f9b781deaa498f52dd3af5a",
+        "bytes": 40834363,
+        "verified_files": 863
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning_ScaleUp_PogoPin",
+    "source_head": "aa7a34ccc19848eb49eb1c149ff89db975ba8329",
+    "discoverable_commit_objects": 2,
+    "exported_commits": 2,
+    "export_errors": [],
+    "source_fsck_exit": 0,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "93a82bb5c09af9e72054e7e8509e21ee8fef31245e156f6ae5913dd76cfbea48",
+        "bytes": 30587267,
+        "verified_files": 329
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  },
+  {
+    "source": "Keyboard_Scanning_ScaleUp_PogoPin/.history",
+    "source_head": "d5f45281ddca17fc3a332b101ed439809aca43a8",
+    "discoverable_commit_objects": 2153,
+    "exported_commits": 2153,
+    "export_errors": [],
+    "source_fsck_exit": 2,
+    "archives": [
+      {
+        "file": "snapshots-001.zip",
+        "sha256": "a82c0772ddb23122c2782415dab65ce4afb3fc8c750533195a61a46b70ad2cf8",
+        "bytes": 67329263,
+        "verified_files": 1376
+      },
+      {
+        "file": "snapshots-002.zip",
+        "sha256": "70fa36e7f9a9ed929e5114b4dfcbe92dce0a1ed2b74526bfe0aa7979fc89f029",
+        "bytes": 67514825,
+        "verified_files": 1420
+      },
+      {
+        "file": "snapshots-003.zip",
+        "sha256": "ffe1a5d0605bd8ad45afa70adc61f56391848b3591a91521e6157cfd09d842cc",
+        "bytes": 67359069,
+        "verified_files": 1407
+      },
+      {
+        "file": "snapshots-004.zip",
+        "sha256": "22336eecf09467b51742da3f74c83b003907abfd42e9971a2865c7d20134e48a",
+        "bytes": 67494942,
+        "verified_files": 1387
+      },
+      {
+        "file": "snapshots-005.zip",
+        "sha256": "5a2fa5ac8fddc6dae7973203aab3304040b5b3434eac4d4a10891dd27ae8c577",
+        "bytes": 67547312,
+        "verified_files": 1438
+      },
+      {
+        "file": "snapshots-006.zip",
+        "sha256": "ffc0ec1e0a9806c9532256668d2632d4b930eab2e8e8ce6717608ab82c914e29",
+        "bytes": 67341611,
+        "verified_files": 1423
+      },
+      {
+        "file": "snapshots-007.zip",
+        "sha256": "607730331bd0cf18039e89ed69bc36498d592f038a2101b1786afe930f640066",
+        "bytes": 67514369,
+        "verified_files": 1422
+      },
+      {
+        "file": "snapshots-008.zip",
+        "sha256": "c5b0fca70c6a96f2255dc58e471ae8efbf73dc552bf0c2a233302e7156fba75c",
+        "bytes": 67355754,
+        "verified_files": 1391
+      },
+      {
+        "file": "snapshots-009.zip",
+        "sha256": "8db8527221fd8343946825c17b3983b2b30eafe3fd203250328e982b5a352ceb",
+        "bytes": 36883457,
+        "verified_files": 761
+      }
+    ],
+    "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+  }
+]

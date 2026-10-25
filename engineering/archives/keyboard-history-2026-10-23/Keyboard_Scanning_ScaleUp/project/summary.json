@@ -1,0 +1,17 @@
+{
+  "source": "Keyboard_Scanning_ScaleUp",
+  "source_head": "9015bb5b0d04d4542b4a13354bcb3f1577eb1de9",
+  "discoverable_commit_objects": 2,
+  "exported_commits": 2,
+  "export_errors": [],
+  "source_fsck_exit": 0,
+  "archives": [
+    {
+      "file": "snapshots-001.zip",
+      "sha256": "6702de1bf4b35620789df34b676bdf537c1755af66c0cf1a081ae786f08aca92",
+      "bytes": 9119265,
+      "verified_files": 143
+    }
+  ],
+  "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+}

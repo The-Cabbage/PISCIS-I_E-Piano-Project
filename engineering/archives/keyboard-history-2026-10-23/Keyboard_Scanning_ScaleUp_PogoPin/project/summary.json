@@ -1,0 +1,17 @@
+{
+  "source": "Keyboard_Scanning_ScaleUp_PogoPin",
+  "source_head": "aa7a34ccc19848eb49eb1c149ff89db975ba8329",
+  "discoverable_commit_objects": 2,
+  "exported_commits": 2,
+  "export_errors": [],
+  "source_fsck_exit": 0,
+  "archives": [
+    {
+      "file": "snapshots-001.zip",
+      "sha256": "93a82bb5c09af9e72054e7e8509e21ee8fef31245e156f6ae5913dd76cfbea48",
+      "bytes": 30587267,
+      "verified_files": 329
+    }
+  ],
+  "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+}

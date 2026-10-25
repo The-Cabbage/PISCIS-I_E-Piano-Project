@@ -1,0 +1,29 @@
+{
+  "source": "Keyboard/.history",
+  "source_head": "917331f8ab3088b69f3f0392b0fd1c0e34b5cb13",
+  "discoverable_commit_objects": 814,
+  "exported_commits": 814,
+  "export_errors": [],
+  "source_fsck_exit": 2,
+  "archives": [
+    {
+      "file": "snapshots-001.zip",
+      "sha256": "bfee53e35cc6b148ea3fae86fd06eac786533412478aed226bcd8cee80e5d0b1",
+      "bytes": 67440792,
+      "verified_files": 1700
+    },
+    {
+      "file": "snapshots-002.zip",
+      "sha256": "7d461e5ca28930c354bb258f1a112b3b24fe6e3a166dae7736be70db872a5de5",
+      "bytes": 67563636,
+      "verified_files": 1665
+    },
+    {
+      "file": "snapshots-003.zip",
+      "sha256": "7a2cdcc7cce526edb230e1947f37800b79373fe809e230577b06d12c8d791a4c",
+      "bytes": 25904999,
+      "verified_files": 626
+    }
+  ],
+  "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+}

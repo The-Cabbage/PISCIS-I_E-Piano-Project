@@ -1,0 +1,65 @@
+{
+  "source": "Keyboard_Scanning_ScaleUp_PogoPin/.history",
+  "source_head": "d5f45281ddca17fc3a332b101ed439809aca43a8",
+  "discoverable_commit_objects": 2153,
+  "exported_commits": 2153,
+  "export_errors": [],
+  "source_fsck_exit": 2,
+  "archives": [
+    {
+      "file": "snapshots-001.zip",
+      "sha256": "a82c0772ddb23122c2782415dab65ce4afb3fc8c750533195a61a46b70ad2cf8",
+      "bytes": 67329263,
+      "verified_files": 1376
+    },
+    {
+      "file": "snapshots-002.zip",
+      "sha256": "70fa36e7f9a9ed929e5114b4dfcbe92dce0a1ed2b74526bfe0aa7979fc89f029",
+      "bytes": 67514825,
+      "verified_files": 1420
+    },
+    {
+      "file": "snapshots-003.zip",
+      "sha256": "ffe1a5d0605bd8ad45afa70adc61f56391848b3591a91521e6157cfd09d842cc",
+      "bytes": 67359069,
+      "verified_files": 1407
+    },
+    {
+      "file": "snapshots-004.zip",
+      "sha256": "22336eecf09467b51742da3f74c83b003907abfd42e9971a2865c7d20134e48a",
+      "bytes": 67494942,
+      "verified_files": 1387
+    },
+    {
+      "file": "snapshots-005.zip",
+      "sha256": "5a2fa5ac8fddc6dae7973203aab3304040b5b3434eac4d4a10891dd27ae8c577",
+      "bytes": 67547312,
+      "verified_files": 1438
+    },
+    {
+      "file": "snapshots-006.zip",
+      "sha256": "ffc0ec1e0a9806c9532256668d2632d4b930eab2e8e8ce6717608ab82c914e29",
+      "bytes": 67341611,
+      "verified_files": 1423
+    },
+    {
+      "file": "snapshots-007.zip",
+      "sha256": "607730331bd0cf18039e89ed69bc36498d592f038a2101b1786afe930f640066",
+      "bytes": 67514369,
+      "verified_files": 1422
+    },
+    {
+      "file": "snapshots-008.zip",
+      "sha256": "c5b0fca70c6a96f2255dc58e471ae8efbf73dc552bf0c2a233302e7156fba75c",
+      "bytes": 67355754,
+      "verified_files": 1391
+    },
+    {
+      "file": "snapshots-009.zip",
+      "sha256": "8db8527221fd8343946825c17b3983b2b30eafe3fd203250328e982b5a352ceb",
+      "bytes": 36883457,
+      "verified_files": 761
+    }
+  ],
+  "verification": "All exported bytes matched Git object SHA-1; all snapshot ZIP members re-read and matched SHA-256. No KiCad GUI restore test."
+}
