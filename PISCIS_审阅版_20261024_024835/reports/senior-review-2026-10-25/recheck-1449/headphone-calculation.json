@@ -1,0 +1,42 @@
+{
+  "status": "Calculated only, not measured",
+  "assumptions": "Ideal voltage source; resistive load; nominal C; excludes amplifier impedance, ESR and tolerances",
+  "results": [
+    {
+      "assumed_resistive_load_ohm": 16,
+      "series_resistor_ohm": 10,
+      "coupling_capacitance_uF": 47,
+      "corner_Hz": 130.24136095899783,
+      "midband_divider_dB": -4.217067306297863,
+      "20Hz_relative_midband_dB": -16.375600741288984,
+      "55Hz_relative_midband_dB": -8.200398792133585
+    },
+    {
+      "assumed_resistive_load_ohm": 18,
+      "series_resistor_ohm": 10,
+      "coupling_capacitance_uF": 47,
+      "corner_Hz": 120.93840660478371,
+      "midband_divider_dB": -3.837710524778262,
+      "20Hz_relative_midband_dB": -15.74786231199841,
+      "55Hz_relative_midband_dB": -7.660463519214024
+    },
+    {
+      "assumed_resistive_load_ohm": 32,
+      "series_resistor_ohm": 10,
+      "coupling_capacitance_uF": 47,
+      "corner_Hz": 80.62560440318913,
+      "midband_divider_dB": -2.3619862415598902,
+      "20Hz_relative_midband_dB": -12.368198190165726,
+      "55Hz_relative_midband_dB": -4.9816185914984725
+    },
+    {
+      "assumed_resistive_load_ohm": 64,
+      "series_resistor_ohm": 10,
+      "coupling_capacitance_uF": 47,
+      "corner_Hz": 45.76047817478302,
+      "midband_divider_dB": -1.2610349149417799,
+      "20Hz_relative_midband_dB": -7.94840177822508,
+      "55Hz_relative_midband_dB": -2.284615629704693
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-25T14:22:45",
+    "ignored_checks": [
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "PISCIS_Private:AudioJack_SameSky_SJ1-3523N_Horizontal 与符号的封装筛选规则 (Jack*) 不匹配",
+            "items": [
+                {
+                    "description": "封装 J5",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 41.2
+                    },
+                    "uuid": "91a70f30-8041-422f-932e-a23baa35f7bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "缺失的封装 R5 (4.7k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R6 (4.7k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        }
+    ],
+    "source": "PISCIS-I_F101.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "被板边截断的丝印 (<电路板配置> 中的 \"丝印\" 约束 间距 0.1500 mm; 实际 0.1400 mm)",
+            "items": [
+                {
+                    "description": "J5 的 线段, 位于 Edge.Cuts",
+                    "pos": {
+                        "x": 155.2,
+                        "y": 38.1
+                    },
+                    "uuid": "47ec874a-7cac-4c61-a217-dbb8a2bed3e1"
+                },
+                {
+                    "description": "J5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 37.9
+                    },
+                    "uuid": "2b5e59e5-5c8b-4c7a-903e-a7df590f8744"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "封装 'QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm' 与库 'Package_DFN_QFN' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 U1",
+                    "pos": {
+                        "x": 151.5,
+                        "y": 63.5
+                    },
+                    "uuid": "534f92c7-a637-4992-bfc7-7ed61193d781"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "丝印间距 (<电路板配置> 中的 \"丝印\" 约束 间距 0.1500 mm; 实际 0.1325 mm)",
+            "items": [
+                {
+                    "description": "C3 的参考字段",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 60.0
+                    },
+                    "uuid": "50796fb7-0a84-451a-9323-eb7bf06e0230"
+                },
+                {
+                    "description": "C3 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 148.811252,
+                        "y": 59.235
+                    },
+                    "uuid": "b5fcbab3-bfe0-4b93-aaac-3673c2c7dbbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "丝印间距 (<电路板配置> 中的 \"丝印\" 约束 间距 0.1500 mm; 实际 0.1243 mm)",
+            "items": [
+                {
+                    "description": "C3 的参考字段",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 60.0
+                    },
+                    "uuid": "50796fb7-0a84-451a-9323-eb7bf06e0230"
+                },
+                {
+                    "description": "U1 的参考字段",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 61.5
+                    },
+                    "uuid": "b9deeb42-106b-4f75-ae34-dd80c2018ddd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "丝印间距 (<电路板配置> 中的 \"丝印\" 约束 间距 0.1500 mm; 实际 0.0598 mm)",
+            "items": [
+                {
+                    "description": "C14 的参考字段",
+                    "pos": {
+                        "x": 161.4,
+                        "y": 63.5
+                    },
+                    "uuid": "dbbc95e7-1f50-45a3-89e4-af15b41528e0"
+                },
+                {
+                    "description": "C13 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 159.804437,
+                        "y": 62.76
+                    },
+                    "uuid": "f889adab-d98e-4a0d-9d17-d8daee4fcade"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "丝印间距 (<电路板配置> 中的 \"丝印\" 约束 间距 0.1500 mm; 实际 0.0524 mm)",
+            "items": [
+                {
+                    "description": "J1 的 矩形, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 115.87,
+                        "y": 74.83
+                    },
+                    "uuid": "4177d7f8-94a2-461d-a58c-80deb2ee4d33"
+                },
+                {
+                    "description": "J1 的封装文本 (20),",
+                    "pos": {
+                        "x": 119.45,
+                        "y": 76.21
+                    },
+                    "uuid": "70b5af04-d3be-48ec-89fc-965a3366427c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

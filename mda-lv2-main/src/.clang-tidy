@@ -1,0 +1,43 @@
+# Copyright 2020-2026 David Robillard <d@drobilla.net>
+# SPDX-License-Identifier: 0BSD OR MIT
+
+Checks: >
+  -*-macro-to-enum,
+  -*-non-private-member-variables-in-classes,
+  -*-special-member-functions,
+  -*-use-auto,
+  -*-vararg,
+  -bugprone-branch-clone,
+  -bugprone-casting-through-void,
+  -bugprone-random-generator-seed,
+  -bugprone-switch-missing-default-case,
+  -cert-err33-c,
+  -cert-msc32-c,
+  -cert-msc51-cpp,
+  -clang-analyzer-optin.cplusplus.VirtualCall,
+  -clang-analyzer-security.ArrayBound,
+  -clang-analyzer-security.insecureAPI.strcpy,
+  -cppcoreguidelines-avoid-non-const-global-variables,
+  -cppcoreguidelines-init-variables,
+  -cppcoreguidelines-prefer-member-initializer,
+  -cppcoreguidelines-pro-bounds-constant-array-index,
+  -cppcoreguidelines-pro-type-union-access,
+  -google-readability-casting,
+  -google-readability-todo,
+  -misc-use-anonymous-namespace,
+  -modernize-avoid-c-style-cast,
+  -modernize-avoid-variadic-functions,
+  -performance-type-promotion-in-math-fn,
+  -readability-convert-member-functions-to-static,
+  -readability-delete-null-pointer,
+  -readability-inconsistent-declaration-parameter-name,
+  -readability-inconsistent-ifelse-braces,
+  -readability-isolate-declaration,
+  -readability-math-missing-parentheses,
+  -readability-non-const-parameter,
+  -readability-redundant-parentheses,
+  -readability-use-std-min-max,
+CheckOptions:
+  - key:   readability-function-cognitive-complexity.Threshold
+    value: '123'
+InheritParentConfig: true

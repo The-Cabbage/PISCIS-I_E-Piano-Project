@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/tmp/piscis-ee-review-20261025/latest/PISCIS-I_F101.kicad_sch</source>
+    <date>2026-10-25T14:21:23</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PISCIS-I F101 - Yuzuki MVP Socket Interface</title>
+        <company>PISCIS-I</company>
+        <rev>MVP-1</rev>
+        <date>2026-10-20</date>
+        <source>PISCIS-I_F101.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f914e63-f18a-43d0-825f-ad0b445d4da3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>712947aa-81a9-44f8-9eef-8c6d485433e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b6fd2aa-e9d3-43c3-9d65-35cdfe624929</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d615ec13-6271-4c85-8a9a-822087343bc9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32c7dfd9-f05a-4039-81a2-e603ef598c92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44156e55-e389-4727-bb83-7d15f187113a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad7c2c16-963e-4d79-a2c0-e25a9b90fbfc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f7c8950-13de-4758-abab-6aa821bebe0f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>482baf8b-c577-4aaf-b679-365ad6fdc1aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be70371b-d64f-4867-9036-6ba6a333e93e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c73edca0-7324-4b7b-afc7-3b692daadb5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>816bec51-f5b1-4384-bac3-51ea8d7d8530</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.8</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_5x5.8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfc026f3-ff30-4d8b-953d-ee57f7a6b44e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.8</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_5x5.8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15be9ef3-dc31-42c5-8c50-97d925031793</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Yuzuki_2x20_Female_Socket</value>
+      <footprint>PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm</footprint>
+      <description>2 x 1x20 P2.54mm female sockets; H1=1..20, H2=21..40</description>
+      <fields>
+        <field name="Assembly_Qty">2 x 1x20 vertical female socket</field>
+        <field name="Footprint">PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">2 x 1x20 P2.54mm female sockets; H1=1..20, H2=21..40</field>
+      </fields>
+      <libsource lib="PISCIS_Yuzuki_MVP" part="Yuzuki_2x20_Female_Socket" description="Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40"/>
+      <property name="Assembly_Qty" value="2 x 1x20 vertical female socket"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf502ec5-437b-54be-9aa1-c1041c850361</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="40"/>
+            <pin num="39"/>
+            <pin num="38"/>
+            <pin num="37"/>
+            <pin num="36"/>
+            <pin num="35"/>
+            <pin num="34"/>
+            <pin num="33"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d4d0f3-0d01-4978-9d59-4160aea1260a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f0c622-800b-4359-9ab7-42bb42c4459f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc598ea7-6cf8-4d74-9915-f2ff45516ddb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>SJ1-3523N</value>
+      <footprint>PISCIS_Private:AudioJack_SameSky_SJ1-3523N_Horizontal</footprint>
+      <datasheet>${KIPRJMOD}/hardware/libraries/private/sources/SJ1-3523N/SJ1-352xN_datasheet.pdf</datasheet>
+      <description>3.5mm TRS, through-hole, no switch; S=manufacturer 1, T=2, R=3</description>
+      <fields>
+        <field name="Manufacturer">Same Sky (formerly CUI Devices)</field>
+        <field name="MPN">SJ1-3523N</field>
+        <field name="Footprint">PISCIS_Private:AudioJack_SameSky_SJ1-3523N_Horizontal</field>
+        <field name="Datasheet">${KIPRJMOD}/hardware/libraries/private/sources/SJ1-3523N/SJ1-352xN_datasheet.pdf</field>
+        <field name="Description">3.5mm TRS, through-hole, no switch; S=manufacturer 1, T=2, R=3</field>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="Manufacturer" value="Same Sky (formerly CUI Devices)"/>
+      <property name="MPN" value="SJ1-3523N"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones phones TRS connector"/>
+      <property name="ki_fp_filters" value="Jack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42cfc7db-5389-4367-99ec-c78ecaee25b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="S"/>
+            <pin num="R"/>
+            <pin num="T"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69a26573-f832-4ee3-83df-03ce1996ba82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2255dcb3-eb3c-4f24-878e-895538ae77ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9833d86f-3d80-41a3-a3d5-151bb51af550</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebec6bfa-4dce-49c2-8857-a5662184954f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9245978-ab82-4567-9c82-25c2ad4c8b52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>200b8565-e6d2-4ee9-9ff0-24c0a95a5b87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SKRHADE010</value>
+      <footprint>PISCIS_Controls_Audio:SW-SMD_SKRHADE010</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html</datasheet>
+      <fields>
+        <field name="Manufacturer">ALPSALPINE(阿尔卑斯阿尔派)</field>
+        <field name="MPN">SKRHADE010</field>
+        <field name="LCSC Part">C202415</field>
+        <field name="Source">嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com</field>
+        <field name="Pin_Functions">1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs</field>
+        <field name="Footprint">PISCIS_Controls_Audio:SW-SMD_SKRHADE010</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PISCIS_Controls_Audio" part="SKRHADE010" description=""/>
+      <property name="Manufacturer" value="ALPSALPINE(阿尔卑斯阿尔派)"/>
+      <property name="MPN" value="SKRHADE010"/>
+      <property name="LCSC Part" value="C202415"/>
+      <property name="Source" value="嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com"/>
+      <property name="Pin_Functions" value="1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="Multi-Directional Switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e07b2e77-e50f-4b9a-971c-86420b5fad10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ES8388</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm</footprint>
+      <datasheet>http://www.everest-semi.com/pdf/ES8388%20DS.pdf</datasheet>
+      <description>Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">http://www.everest-semi.com/pdf/ES8388%20DS.pdf</field>
+        <field name="Description">Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28</field>
+      </fields>
+      <libsource lib="Audio" part="ES8388" description="Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28"/>
+      <property name="Sheetname" value="PISCIS-I_F101"/>
+      <property name="Sheetfile" value="PISCIS-I_F101.kicad_sch"/>
+      <property name="ki_keywords" value="i2s 2ch i2c spi dsp pcm"/>
+      <property name="ki_fp_filters" value="*QFN*4x4mm*P0.45mm*EP2.6*x2.6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81cebba9-2fd9-4248-aa37-cc48f7d74825</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="26"/>
+            <pin num="10"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="29"/>
+            <pin num="9"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="15"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Audio" part="ES8388">
+      <description>Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28</description>
+      <docs>http://www.everest-semi.com/pdf/ES8388%20DS.pdf</docs>
+      <footprints>
+        <fp>*QFN*4x4mm*P0.45mm*EP2.6*x2.6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ES8388</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">http://www.everest-semi.com/pdf/ES8388%20DS.pdf</field>
+        <field name="Description">Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MCLK" type="input"/>
+        <pin num="2" name="DVDD" type="power_in"/>
+        <pin num="3" name="PVDD" type="power_in"/>
+        <pin num="4" name="DGND" type="power_in"/>
+        <pin num="5" name="SCLK" type="bidirectional"/>
+        <pin num="6" name="DSDIN" type="input"/>
+        <pin num="7" name="LRCK" type="bidirectional"/>
+        <pin num="8" name="ASDOUT" type="output"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="VREF" type="input"/>
+        <pin num="11" name="ROUT1" type="output"/>
+        <pin num="12" name="LOUT1" type="output"/>
+        <pin num="13" name="HPGND" type="power_in"/>
+        <pin num="14" name="ROUT2" type="output"/>
+        <pin num="15" name="LOUT2" type="output"/>
+        <pin num="16" name="HPVDD" type="power_in"/>
+        <pin num="17" name="AVDD" type="power_in"/>
+        <pin num="18" name="AGND" type="power_in"/>
+        <pin num="19" name="ADCVREF" type="input"/>
+        <pin num="20" name="VMID" type="input"/>
+        <pin num="21" name="RIN2" type="input"/>
+        <pin num="22" name="LIN2" type="input"/>
+        <pin num="23" name="RIN1" type="input"/>
+        <pin num="24" name="LIN1" type="input"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="CE" type="input"/>
+        <pin num="27" name="CDATA" type="bidirectional"/>
+        <pin num="28" name="CCLK" type="input"/>
+        <pin num="29" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Audio Jack, 3 Poles (Stereo / TRS)</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PISCIS_Controls_Audio" part="SKRHADE010">
+      <docs>https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SKRHADE010</field>
+        <field name="Footprint">PISCIS_Controls_Audio:SW-SMD_SKRHADE010</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Multi-Directional-Switches_ALPS_SKRHADE010_SKRHADE010_C202415.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer">ALPSALPINE(阿尔卑斯阿尔派)</field>
+        <field name="MPN">SKRHADE010</field>
+        <field name="LCSC Part">C202415</field>
+        <field name="Source">嘉立创EDA/EasyEDA官方库; https://lceda.cn/ ; https://easyeda.com</field>
+        <field name="Pin_Functions">1=A; 2=CENTER; 3=C; 4=B; 5=COMMON; 6=D; 7/8=mechanical solder tabs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PISCIS_Yuzuki_MVP" part="Yuzuki_2x20_Female_Socket">
+      <description>Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Yuzuki_2x20_Female_Socket</field>
+        <field name="Footprint">PISCIS_Yuzuki_MVP:Yuzuki_Socket_2x1x20_P2.54mm_Row17.926mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pair of 1x20 female sockets; exact Yuziki_1 hole layout; H1=1..20, H2=21..40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="H1.1_VCC-3V3" type="passive"/>
+        <pin num="2" name="H1.2_PD6" type="passive"/>
+        <pin num="3" name="H1.3_PD7" type="passive"/>
+        <pin num="4" name="H1.4_PD8" type="passive"/>
+        <pin num="5" name="H1.5_PD9" type="passive"/>
+        <pin num="6" name="H1.6_PD12" type="passive"/>
+        <pin num="7" name="H1.7_PD13" type="passive"/>
+        <pin num="8" name="H1.8_PD14" type="passive"/>
+        <pin num="9" name="H1.9_PD15" type="passive"/>
+        <pin num="10" name="H1.10_PD16" type="passive"/>
+        <pin num="11" name="H1.11_PD17" type="passive"/>
+        <pin num="12" name="H1.12_PD18" type="passive"/>
+        <pin num="13" name="H1.13_PD19" type="passive"/>
+        <pin num="14" name="H1.14_PD20" type="passive"/>
+        <pin num="15" name="H1.15_PD21" type="passive"/>
+        <pin num="16" name="H1.16_PE0" type="passive"/>
+        <pin num="17" name="H1.17_PE1" type="passive"/>
+        <pin num="18" name="H1.18_PE2" type="passive"/>
+        <pin num="19" name="H1.19_PE3" type="passive"/>
+        <pin num="20" name="H1.20_PE4" type="passive"/>
+        <pin num="21" name="H2.1_PE10" type="passive"/>
+        <pin num="22" name="H2.2_PE9" type="passive"/>
+        <pin num="23" name="H2.3_PE8" type="passive"/>
+        <pin num="24" name="H2.4_PE7" type="passive"/>
+        <pin num="25" name="H2.5_PE6" type="passive"/>
+        <pin num="26" name="H2.6_PE5" type="passive"/>
+        <pin num="27" name="H2.7_GPADC" type="passive"/>
+        <pin num="28" name="H2.8_PB3" type="passive"/>
+        <pin num="29" name="H2.9_PB2" type="passive"/>
+        <pin num="30" name="H2.10_PB1" type="passive"/>
+        <pin num="31" name="H2.11_PB0" type="passive"/>
+        <pin num="32" name="H2.12_PD22" type="passive"/>
+        <pin num="33" name="H2.13_PD0" type="passive"/>
+        <pin num="34" name="H2.14_PD1" type="passive"/>
+        <pin num="35" name="H2.15_PD2" type="passive"/>
+        <pin num="36" name="H2.16_PD3" type="passive"/>
+        <pin num="37" name="H2.17_PD4" type="passive"/>
+        <pin num="38" name="H2.18_PD5" type="passive"/>
+        <pin num="39" name="H2.19_GND" type="passive"/>
+        <pin num="40" name="H2.20_VBUS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Audio">
+      <uri>${KICAD10_SYMBOL_DIR}/Audio.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Audio">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="PISCIS_Controls_Audio">
+      <uri>${KIPRJMOD}/hardware/libraries/controls_audio/PISCIS_Controls_Audio.kicad_sym</uri>
+    </library>
+    <library logical="PISCIS_Yuzuki_MVP">
+      <uri>${KIPRJMOD}/hardware/libraries/yuzuki/PISCIS_Yuzuki_MVP.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/HP_L_CAND" class="Default">
+      <node ref="J5" pin="T" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/HP_R_CAND" class="Default">
+      <node ref="J5" pin="R" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="39" pinfunction="H2.19_GND_39" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="S" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="HPGND_13" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="AGND_18" pintype="power_in"/>
+      <node ref="U1" pin="26" pinfunction="CE_26" pintype="input"/>
+      <node ref="U1" pin="29" pinfunction="EPAD_29" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="DGND_4" pintype="power_in"/>
+    </net>
+    <net code="4" name="GPADC" class="Default">
+      <node ref="J1" pin="27" pinfunction="H2.7_GPADC_27" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C13-Pad2)" class="Default">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C14-Pad2)" class="Default">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(U1-ADCVREF)" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="ADCVREF_19" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-LOUT1)" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="LOUT1_12" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(U1-ROUT1)" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="ROUT1_11" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(U1-VMID)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VMID_20" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U1-VREF)" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VREF_10" pintype="input"/>
+    </net>
+    <net code="12" name="PB0" class="Default">
+      <node ref="J1" pin="31" pinfunction="H2.11_PB0_31" pintype="passive"/>
+    </net>
+    <net code="13" name="PB1" class="Default">
+      <node ref="J1" pin="30" pinfunction="H2.10_PB1_30" pintype="passive"/>
+    </net>
+    <net code="14" name="PB2" class="Default">
+      <node ref="J1" pin="29" pinfunction="H2.9_PB2_29" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="PB3" class="Default">
+      <node ref="J1" pin="28" pinfunction="H2.8_PB3_28" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="PD0" class="Default">
+      <node ref="J1" pin="33" pinfunction="H2.13_PD0_33" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="17" name="PD1" class="Default">
+      <node ref="J1" pin="34" pinfunction="H2.14_PD1_34" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="18" name="PD2" class="Default">
+      <node ref="J1" pin="35" pinfunction="H2.15_PD2_35" pintype="passive"/>
+    </net>
+    <net code="19" name="PD3" class="Default">
+      <node ref="J1" pin="36" pinfunction="H2.16_PD3_36" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="20" name="PD4" class="Default">
+      <node ref="J1" pin="37" pinfunction="H2.17_PD4_37" pintype="passive"/>
+    </net>
+    <net code="21" name="PD5" class="Default">
+      <node ref="J1" pin="38" pinfunction="H2.18_PD5_38" pintype="passive"/>
+    </net>
+    <net code="22" name="PD6" class="Default">
+      <node ref="J1" pin="2" pinfunction="H1.2_PD6_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="MCLK_1" pintype="input"/>
+    </net>
+    <net code="23" name="PD7" class="Default">
+      <node ref="J1" pin="3" pinfunction="H1.3_PD7_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SCLK_5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="PD8" class="Default">
+      <node ref="J1" pin="4" pinfunction="H1.4_PD8_4" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="LRCK_7" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="PD9" class="Default">
+      <node ref="J1" pin="5" pinfunction="H1.5_PD9_5" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="DSDIN_6" pintype="input"/>
+    </net>
+    <net code="26" name="PD12" class="Default">
+      <node ref="J1" pin="6" pinfunction="H1.6_PD12_6" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="27" name="PD13" class="Default">
+      <node ref="J1" pin="7" pinfunction="H1.7_PD13_7" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="28" name="PD14" class="Default">
+      <node ref="J1" pin="8" pinfunction="H1.8_PD14_8" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="29" name="PD15" class="Default">
+      <node ref="J1" pin="9" pinfunction="H1.9_PD15_9" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="30" name="PD16" class="Default">
+      <node ref="J1" pin="10" pinfunction="H1.10_PD16_10" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="31" name="PD17" class="Default">
+      <node ref="J1" pin="11" pinfunction="H1.11_PD17_11" pintype="passive"/>
+    </net>
+    <net code="32" name="PD18" class="Default">
+      <node ref="J1" pin="12" pinfunction="H1.12_PD18_12" pintype="passive"/>
+    </net>
+    <net code="33" name="PD19" class="Default">
+      <node ref="J1" pin="13" pinfunction="H1.13_PD19_13" pintype="passive"/>
+    </net>
+    <net code="34" name="PD20" class="Default">
+      <node ref="J1" pin="14" pinfunction="H1.14_PD20_14" pintype="passive"/>
+    </net>
+    <net code="35" name="PD21" class="Default">
+      <node ref="J1" pin="15" pinfunction="H1.15_PD21_15" pintype="passive"/>
+    </net>
+    <net code="36" name="PD22" class="Default">
+      <node ref="J1" pin="32" pinfunction="H2.12_PD22_32" pintype="passive"/>
+    </net>
+    <net code="37" name="PE0" class="Default">
+      <node ref="J1" pin="16" pinfunction="H1.16_PE0_16" pintype="passive"/>
+    </net>
+    <net code="38" name="PE1" class="Default">
+      <node ref="J1" pin="17" pinfunction="H1.17_PE1_17" pintype="passive"/>
+    </net>
+    <net code="39" name="PE2" class="Default">
+      <node ref="J1" pin="18" pinfunction="H1.18_PE2_18" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="CCLK_28" pintype="input"/>
+    </net>
+    <net code="40" name="PE3" class="Default">
+      <node ref="J1" pin="19" pinfunction="H1.19_PE3_19" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="CDATA_27" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="PE4" class="Default">
+      <node ref="J1" pin="20" pinfunction="H1.20_PE4_20" pintype="passive"/>
+    </net>
+    <net code="42" name="PE5" class="Default">
+      <node ref="J1" pin="26" pinfunction="H2.6_PE5_26" pintype="passive"/>
+    </net>
+    <net code="43" name="PE6" class="Default">
+      <node ref="J1" pin="25" pinfunction="H2.5_PE6_25" pintype="passive"/>
+    </net>
+    <net code="44" name="PE7" class="Default">
+      <node ref="J1" pin="24" pinfunction="H2.4_PE7_24" pintype="passive"/>
+    </net>
+    <net code="45" name="PE8" class="Default">
+      <node ref="J1" pin="23" pinfunction="H2.3_PE8_23" pintype="passive"/>
+    </net>
+    <net code="46" name="PE9" class="Default">
+      <node ref="J1" pin="22" pinfunction="H2.2_PE9_22" pintype="passive"/>
+    </net>
+    <net code="47" name="PE10" class="Default">
+      <node ref="J1" pin="21" pinfunction="H2.1_PE10_21" pintype="passive"/>
+    </net>
+    <net code="48" name="VBUS" class="Default">
+      <node ref="J1" pin="40" pinfunction="H2.20_VBUS_40" pintype="passive"/>
+    </net>
+    <net code="49" name="VCC-3V3" class="Default">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="H1.1_VCC-3V3_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="HPVDD_16" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="AVDD_17" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="DVDD_2" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="PVDD_3" pintype="power_in"/>
+    </net>
+    <net code="50" name="unconnected-(SW1-Pad7)" class="Default">
+      <node ref="SW1" pin="7" pinfunction="7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(SW1-Pad8)" class="Default">
+      <node ref="SW1" pin="8" pinfunction="8_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-ASDOUT-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="ASDOUT_8" pintype="output+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-LIN1-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="LIN1_24" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-LIN2-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="LIN2_22" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-LOUT2-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="LOUT2_15" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-NC-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="NC_9" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-NC-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="NC_25" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-RIN1-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="RIN1_23" pintype="input+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-RIN2-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="RIN2_21" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-ROUT2-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="ROUT2_14" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

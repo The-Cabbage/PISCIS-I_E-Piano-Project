@@ -1,0 +1,529 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-25T14:49:19",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/315eecec-1417-425d-bf04-7f40175eda4f",
+            "violations": [
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "全局标签 'VCC-3V3'",
+                            "pos": {
+                                "x": 0.5334,
+                                "y": 0.5207
+                            },
+                            "uuid": "27cd5f95-f1e7-45d7-adaa-28be2393f96a"
+                        },
+                        {
+                            "description": "标签 'VCC-3V3'",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 1.3081
+                            },
+                            "uuid": "0a679aea-3fd7-4f15-a040-971c75821a8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD17'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.8763
+                            },
+                            "uuid": "af1d323d-f585-5aaf-acf9-8d4fa88e7b29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD18'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9017
+                            },
+                            "uuid": "af068d80-0c0d-5c93-b459-2b9b9d28ebd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD19'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9271
+                            },
+                            "uuid": "267a6073-2103-5365-808e-27dfe1b7ea0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD20'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9525
+                            },
+                            "uuid": "d9c9f280-560a-5304-b0d5-f0abe8fff3b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD21'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9779
+                            },
+                            "uuid": "fac5dd3e-1b35-5c6a-baf1-99efc856c793"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE0'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.0033
+                            },
+                            "uuid": "2342fe64-7ac9-58cf-a5a7-4c5d1046fa5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE1'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.0287
+                            },
+                            "uuid": "c24e5367-e065-54f7-8f30-94ef87f41e07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE2'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.0541
+                            },
+                            "uuid": "e226c709-67e1-55ef-ba50-b33093869a8c"
+                        },
+                        {
+                            "description": "标签 'PE2'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.4097
+                            },
+                            "uuid": "87a5b16b-5d9e-4202-827f-501e7f4da649"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE3'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.0795
+                            },
+                            "uuid": "d1779040-2a05-5fed-8c3f-f51af6d481a6"
+                        },
+                        {
+                            "description": "标签 'PE3'",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.3843
+                            },
+                            "uuid": "664733d8-1a1c-4ca1-b405-cf40da830485"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE4'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.1049
+                            },
+                            "uuid": "743c328c-9772-5e51-a415-58d654ddbb09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "PD6 和 I2S_MCLK 都连接到同一项上; 将使用 PD6 作为网表中的网络名称",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD6'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.6477
+                            },
+                            "uuid": "41175731-a5a6-5047-b8da-1118db3427f5"
+                        },
+                        {
+                            "description": "标签 'I2S_MCLK'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.6477
+                            },
+                            "uuid": "e24a92c8-6dcb-433d-a40d-16a7c4d811cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "PD7 和 I2S_BCLK 都连接到同一项上; 将使用 PD7 作为网表中的网络名称",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD7'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.6731
+                            },
+                            "uuid": "c124be25-6b12-5d24-af70-0a8d5a9cda53"
+                        },
+                        {
+                            "description": "标签 'I2S_BCLK'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.6731
+                            },
+                            "uuid": "11a5c6ac-7319-4036-8a58-fe6b0113a27e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'VBUS'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.6223
+                            },
+                            "uuid": "60768ac9-b22f-5858-861d-89df0803db5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD5'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.6731
+                            },
+                            "uuid": "697abd06-0a6b-54b7-a351-ec66c7dbd0d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD4'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.6985
+                            },
+                            "uuid": "b8dc7c74-2fba-5295-8a7e-5edbe075c2dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD2'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.7493
+                            },
+                            "uuid": "cf1afe02-2849-5a3c-87e0-f7b1e724a1a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD22'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.8255
+                            },
+                            "uuid": "e81928bd-d01a-5209-ba64-edd373f79e5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PB0'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.8509
+                            },
+                            "uuid": "95d78582-f464-535b-bc41-1e7483c0c5bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PB1'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.8763
+                            },
+                            "uuid": "cb2cfc37-932e-5400-91a9-9f86b3a9ab8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'GPADC'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.9525
+                            },
+                            "uuid": "17f5baa4-341f-5513-86d9-2dc398293aef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE5'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 0.9779
+                            },
+                            "uuid": "4f4349aa-fac8-5174-bb6d-850a49c28a06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE6'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.0033
+                            },
+                            "uuid": "d5d831a6-9c02-59a1-bb65-7e99a2a08354"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE7'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.0287
+                            },
+                            "uuid": "1581824e-e968-58f4-8114-f4f6ee0c1b86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE8'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.0541
+                            },
+                            "uuid": "82ae888e-bc00-54df-ad99-e2a78adda217"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE9'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.0795
+                            },
+                            "uuid": "c2b025e3-c794-5a85-9c57-52803e849143"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'PE10'",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.1049
+                            },
+                            "uuid": "8ffaa8c7-3b3d-50cc-8af0-062fb21c9568"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "PD9 和 I2S_DOUT 都连接到同一项上; 将使用 PD9 作为网表中的网络名称",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD9'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.7239
+                            },
+                            "uuid": "59ccf127-a365-5b61-86e5-98356eead78d"
+                        },
+                        {
+                            "description": "标签 'I2S_DOUT'",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.3335
+                            },
+                            "uuid": "51ceb1d1-99e2-4ecf-a689-68d0f03a6c06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "PD8 和 I2S_LRCK 都连接到同一项上; 将使用 PD8 作为网表中的网络名称",
+                    "items": [
+                        {
+                            "description": "全局标签 'PD8'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.6985
+                            },
+                            "uuid": "8ff7b9ec-de70-57f7-9f00-c19020fe8036"
+                        },
+                        {
+                            "description": "标签 'I2S_LRCK'",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 1.3081
+                            },
+                            "uuid": "5edd638c-573d-4e87-b44b-dfc3d55f89a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "PISCIS-I_F101.kicad_sch"
+}

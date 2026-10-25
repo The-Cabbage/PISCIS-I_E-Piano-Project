@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-24",
+  "scope": "SW1 GPIO schematic connection and PCB net synchronization; OLED J2 schematic and PCB reroute.",
+  "tool": "KiCad CLI/pcbnew 10.0.6; independent S-expression/node comparison",
+  "status": "File checks executed; no physical test.",
+  "source_directory": "/Users/admin/Desktop/Code/PISCIS-I_E-Piano_Project/PISCIS_审阅版_20261024_024835",
+  "gpio_assignment": [
+    {
+      "function": "A",
+      "sw1_pin": "1",
+      "gpio": "PD12",
+      "j1_pad": "6"
+    },
+    {
+      "function": "B",
+      "sw1_pin": "4",
+      "gpio": "PD13",
+      "j1_pad": "7"
+    },
+    {
+      "function": "C",
+      "sw1_pin": "3",
+      "gpio": "PD14",
+      "j1_pad": "8"
+    },
+    {
+      "function": "D",
+      "sw1_pin": "6",
+      "gpio": "PD15",
+      "j1_pad": "9"
+    },
+    {
+      "function": "PRESS",
+      "sw1_pin": "2",
+      "gpio": "PD16",
+      "j1_pad": "10"
+    }
+  ],
+  "gpio_mode_required": "Input with internal pull-up; active low; firmware debounce; release conflicting LCD/LVDS/DSI/UART/TWI alternate functions if enabled by BSP.",
+  "gpio_selection_basis": "F101 DS PDF pp29-30,34-35,50; existing socket pinmap; reference Yuzuki netlist has only chip and H1 nodes on PD12..16; current carrier nodes free before edit.",
+  "oled_j2": [
+    "GND",
+    "VCC-3V3",
+    "PB2 / TWI2-SCK",
+    "PB3 / TWI2-SDA"
+  ],
+  "oled_routing": {
+    "removed_segments": 3,
+    "added_segments": 5,
+    "added_vias": 1,
+    "width_mm": 0.2
+  },
+  "original_geometry_preserved": true,
+  "existing_tracks_and_vias_preserved_except_oled_3_segments": true,
+  "schematic_components_and_wires_preserved": true,
+  "other_net_nodes_unchanged": true,
+  "erc": {
+    "errors": 0,
+    "warnings": 29,
+    "types": {
+      "same_local_global_label": 3,
+      "isolated_pin_label": 22,
+      "multiple_net_names": 4
+    }
+  },
+  "drc": {
+    "geometry_errors": 0,
+    "warnings": 1,
+    "parity_issues": 0,
+    "unconnected_items": 5,
+    "unconnected_scope": "Five SW1 signals only; GPIO PCB tracks intentionally remain unrouted per requested schematic-only switch connection."
+  },
+  "production_ready": false,
+  "before_sha256": {
+    "PISCIS-I_F101.kicad_sch": "ff5de5030c4ca10430aa5f4c5c7cc73151494b9405583bb390a9c4564b41d23e",
+    "PISCIS-I_F101.kicad_pcb": "f60a952e9af6147f06e89bfa2eeb41bbede601e116f86a631e86ebf572395719",
+    "PISCIS-I_F101.kicad_pro": "37042895d66bbcbab1be3b3d6317558386e99ac757421b064307c8e17add5a5a"
+  },
+  "after_sha256": {
+    "PISCIS-I_F101.kicad_sch": "f596b79dcadc2968791255d678fcc7611392b57c0a7e15c5bcde78fec6eda2c5",
+    "PISCIS-I_F101.kicad_pcb": "26a4ed752e820820d622f149a42b838e080cac2bf592aa2604ec0dc3e99c9b2d",
+    "PISCIS-I_F101.kicad_pro": "37042895d66bbcbab1be3b3d6317558386e99ac757421b064307c8e17add5a5a"
+  }
+}

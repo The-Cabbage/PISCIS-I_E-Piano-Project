@@ -1,0 +1,16 @@
+# Copyright 2026 David Robillard <d@drobilla.net>
+# SPDX-License-Identifier: 0BSD OR MIT
+
+Checks: >
+  -*-macro-to-enum,
+  -*-non-private-member-variables-in-classes,
+  -*-special-member-functions,
+  -concurrency-mt-unsafe,
+  -cppcoreguidelines-pro-bounds-avoid-unchecked-container-access,
+  -cppcoreguidelines-pro-type-reinterpret-cast,
+  -fuchsia-default-arguments-*,
+  -llvm-prefer-static-over-anonymous-namespace,
+CheckOptions:
+  - key:   readability-function-cognitive-complexity.Threshold
+    value: '19'
+InheritParentConfig: true

@@ -1,0 +1,47 @@
+# Copyright 2020-2026 David Robillard <d@drobilla.net>
+# SPDX-License-Identifier: 0BSD OR MIT
+
+---
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: DontAlign
+AllowShortEnumsOnASingleLine: false
+AttributeMacros:
+  - INGEN_MODULE_EXPORT
+  - RAUL_REALTIME
+BasedOnStyle: Mozilla
+BraceWrapping:
+  AfterClass: true
+  AfterEnum: false
+  AfterExternBlock: false
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+BreakBeforeBraces: Custom
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
+ForEachMacros:
+  - LV2_ATOM_OBJECT_BODY_FOREACH
+  - LV2_ATOM_OBJECT_FOREACH
+  - LV2_ATOM_SEQUENCE_BODY_FOREACH
+  - LV2_ATOM_SEQUENCE_FOREACH
+  - LV2_ATOM_TUPLE_BODY_FOREACH
+  - LV2_ATOM_TUPLE_FOREACH
+  - LILV_FOREACH
+IndentCaseLabels: false
+IndentPPDirectives: None
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: false
+SpacesInContainerLiterals: false
+StatementMacros:
+  - _Pragma
+  - RAUL_DISABLE_EFFECT_WARNINGS
+  - RAUL_RESTORE_WARNINGS
+TabWidth: 4
+UseTab: AlignWithSpaces
+...

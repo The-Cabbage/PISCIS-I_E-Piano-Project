@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-24",
+  "target": "/Users/admin/Desktop/Code/PISCIS-I_E-Piano_Project/PISCIS_审阅版_20261024_024835",
+  "kicad_version": "10.0.6",
+  "source_before_sha256": {
+    "PISCIS-I_F101.kicad_sch": "f596b79dcadc2968791255d678fcc7611392b57c0a7e15c5bcde78fec6eda2c5",
+    "PISCIS-I_F101.kicad_pcb": "26a4ed752e820820d622f149a42b838e080cac2bf592aa2604ec0dc3e99c9b2d",
+    "PISCIS-I_F101.kicad_pro": "37042895d66bbcbab1be3b3d6317558386e99ac757421b064307c8e17add5a5a",
+    "请先读我.txt": "7188182b78a2101b767bd3e6035503d10d265c7c9ee0eb40b90c070e870c76d6"
+  },
+  "delivered_sha256": {
+    "PISCIS-I_F101.kicad_pcb": "0bf7e91b2113f2aaba3a7ac51622c75273fa432f09c9d46f509d84e47070ca96",
+    "PISCIS-I_F101.kicad_sch": "f596b79dcadc2968791255d678fcc7611392b57c0a7e15c5bcde78fec6eda2c5",
+    "PISCIS-I_F101.kicad_pro": "37042895d66bbcbab1be3b3d6317558386e99ac757421b064307c8e17add5a5a",
+    "请先读我.txt": "2ef80393475ca0ab4cb95f412b31018f7e3190d92025a49a6612598fa8c26caf"
+  },
+  "changed_files": [
+    "PISCIS-I_F101.kicad_pcb",
+    "请先读我.txt"
+  ],
+  "preservation_checks": {
+    "unchanged_non_copper_nodes": true,
+    "unchanged_original_remaining_copper": true,
+    "unchanged_schematic_and_project": true,
+    "unchanged_bottom_zone_settings": true,
+    "removed_by_net": {
+      "VCC-3V3": 2,
+      "PD6": 5,
+      "PD7": 6,
+      "PD8": 7,
+      "PD9": 6,
+      "PE2": 6,
+      "PE3": 4
+    },
+    "before_copper_counts": {
+      "segment": 214,
+      "via": 33
+    },
+    "after_copper_counts": {
+      "segment": 271,
+      "via": 63
+    },
+    "after_zone_count": 2,
+    "final_board_sha256": "0bf7e91b2113f2aaba3a7ac51622c75273fa432f09c9d46f509d84e47070ca96"
+  },
+  "changes": [
+    "完成 SW1 PD12～PD16 的 5 条连接，并清理焊盘附近微小折返。",
+    "I²S 与 PE2/PE3 主要横向走线改为 F.Cu；保留必要的局部 B.Cu 过渡。",
+    "J3 电源支路增加局部换层，线宽保持 0.5 mm。",
+    "增加 F.Cu GND 区域和 10 个 0.6/0.3 mm 接地过孔，重新铺铜。"
+  ],
+  "routing_lengths": {
+    "PD6": {
+      "before": {
+        "total_mm": 60.00242927837119,
+        "bottom_mm": 49.92670273047588
+      },
+      "after": {
+        "total_mm": 59.8852719908458,
+        "bottom_mm": 9.778174593052022
+      }
+    },
+    "PD7": {
+      "before": {
+        "total_mm": 63.42688421944855,
+        "bottom_mm": 52.25807450301773
+      },
+      "after": {
+        "total_mm": 62.958255069347025,
+        "bottom_mm": 11.595331880577405
+      }
+    },
+    "PD8": {
+      "before": {
+        "total_mm": 67.55580045820524,
+        "bottom_mm": 58.87260209745249
+      },
+      "after": {
+        "total_mm": 66.50138487047681,
+        "bottom_mm": 17.298587792504602
+      }
+    },
+    "PD9": {
+      "before": {
+        "total_mm": 66.7676654480095,
+        "bottom_mm": 52.94508119416998
+      },
+      "after": {
+        "total_mm": 66.00614307909451,
+        "bottom_mm": 11.826702730475889
+      }
+    },
+    "PE2": {
+      "before": {
+        "total_mm": 103.14208176543669,
+        "bottom_mm": 99.34000155445977
+      },
+      "after": {
+        "total_mm": 103.1420817654367,
+        "bottom_mm": 69.34000155445977
+      }
+    },
+    "PE3": {
+      "before": {
+        "total_mm": 105.78180261875161,
+        "bottom_mm": 82.80782138553712
+      },
+      "after": {
+        "total_mm": 105.78180261875161,
+        "bottom_mm": 52.84213538553712
+      }
+    },
+    "PD12": {
+      "before": {
+        "total_mm": 0.0,
+        "bottom_mm": 0.0
+      },
+      "after": {
+        "total_mm": 61.669848337928904,
+        "bottom_mm": 8.0
+      }
+    },
+    "PD13": {
+      "before": {
+        "total_mm": 0.0,
+        "bottom_mm": 0.0
+      },
+      "after": {
+        "total_mm": 76.21429710096064,
+        "bottom_mm": 9.399999999999999
+      }
+    },
+    "PD14": {
+      "before": {
+        "total_mm": 0.0,
+        "bottom_mm": 0.0
+      },
+      "after": {
+        "total_mm": 67.93313694193525,
+        "bottom_mm": 8.0
+      }
+    },
+    "PD15": {
+      "before": {
+        "total_mm": 0.0,
+        "bottom_mm": 0.0
+      },
+      "after": {
+        "total_mm": 80.47141254766495,
+        "bottom_mm": 9.27279220613578
+      }
+    },
+    "PD16": {
+      "before": {
+        "total_mm": 0.0,
+        "bottom_mm": 0.0
+      },
+      "after": {
+        "total_mm": 76.47102678095618,
+        "bottom_mm": 8.0
+      }
+    }
+  },
+  "i2s_bottom_length_mm": {
+    "before": 214.00246052511608,
+    "after": 50.49879699660992,
+    "reduction_percent": 76.40270262655078
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 1,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "retained_warning": "U1 lib_footprint_mismatch",
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ]
+  },
+  "erc": {
+    "errors": 0,
+    "warnings": 29,
+    "types": {
+      "same_local_global_label": 3,
+      "isolated_pin_label": 22,
+      "multiple_net_names": 4
+    },
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "rules": {
+    "netclass_clearance_mm": 0.2,
+    "minimum_track_width_mm": 0.2,
+    "minimum_copper_to_edge_mm": 0.5,
+    "added_via_diameter_mm": 0.6,
+    "added_via_drill_mm": 0.3
+  },
+  "verification_boundary": "实际执行 KiCad 文件级检查与几何/保存范围比对；未执行上电、时序、EMI、音频、装配或板厂工艺验证。长度变化不是信号质量实测结果。既有工程禁用的检查项未更改。"
+}

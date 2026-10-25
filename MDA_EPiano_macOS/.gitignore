@@ -1,0 +1,4 @@
+# Rebuildable local output; retain the recorded memory-test evidence.
+/build/*
+!/build/memory_test_results.txt
+/MDA电钢琴.app/

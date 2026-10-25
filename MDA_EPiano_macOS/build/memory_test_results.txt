@@ -1,0 +1,555 @@
+Executed: 2026-10-24T19:08:18.561286+08:00
+Host: macOS-15.3.2-arm64-arm-64bit
+Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: arm64-apple-darwin24.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Scope: offline C++ allocation pool; excludes static samples, shared globals, call stacks, C malloc and macOS/UI.
+Pool is monotonic; metadata/padding included. No heap fallback while active.
+
+Source SHA-256:
+b3aae7c22b805cabfde20569272ae3a843caa15d037f21b430270cd9aced404f  source/AudioEngineInterface.h
+c818ed57dd4b149962c219bd2cb300b04626e8d0501a3ff5b8597045758ee86c  source/ChorusProcessor.hpp
+d139eab0ebc09e7951dde49652ce08b126ee66731d50075dd85e1ab62dcc3c83  source/Freeverb.hpp
+35f311f39ba8b9b3071867dfdf5ee5c3ae7a156cf7e079fac5be2d028e953ace  source/MacAudioModel.hpp
+e3d2f9baa5ec03209ef1d4994962ce21d0dd847b8a22f70742c986dcb1326e6c  source/MdaEPianoEngine.cpp
+a63776955fab2370e65d71c52f7b932b4a721092db29f19d785a798e2ccb1039  source/MdaEPianoEngine.h
+1b102cd7893b45a7957d21d7453192a52d6bc87b8cdbd421189adad9a982416e  source/config.h
+96b805a881f989e13c9c82106f6b6c1e48f79346ec1ce57288860e49ab9e426c  source/main_macos.mm
+6f73ec3263300b1b6cf6c293d040f3e0f3c56729df69ec991e2ef9b20f3be789  source/mdaEPiano.cpp
+efc49d2ca6e3fd96870e079e47481c7b0705217d1927e2a554421ba38ce9dc9b  source/mdaEPiano.h
+5d9ffc47c363b5b52501257df480d799414bb3023e93a244b00c5897b4d7787d  source/mdaEPianoData.h
+45fb59ce9f3570602b17228fe8d610897ab895c70686efe747f79abd1426261b  source/test_core.cpp
+0b6407b04bb4fee6ac4ad0c36961f6ae60f857c04a6cd2790436811b9ee526ee  source/test_memory.cpp
+ad055a4578567d78f449df4de2227601d8463a29c4aa27f0e6c905b8f5451c3d  test_memory.sh
+
+$ ./build/test_memory --pool-bytes 16000000 --engine core
+engine=core
+✅ waves 地址: 0x100a904b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=1772
+init_allocations=4
+init_pool_used_bytes=4334
+total_allocation_attempts=4
+peak_live_payload_bytes=4300
+pool_high_water_bytes=4334
+pool_metadata_and_padding_bytes=34
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=64
+rendered_frames=5302584
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 4334 --engine core --blocks 1
+engine=core
+✅ waves 地址: 0x1047a84b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=4334
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=1772
+init_allocations=4
+init_pool_used_bytes=4334
+total_allocation_attempts=4
+peak_live_payload_bytes=4300
+pool_high_water_bytes=4334
+pool_metadata_and_padding_bytes=34
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=162729
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 4333 --engine core --blocks 1
+engine=core
+✅ waves 地址: 0x10210c4b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=4333
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=4
+peak_live_payload_bytes=3414
+pool_high_water_bytes=3438
+pool_metadata_and_padding_bytes=24
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=output buffers: pool exhausted or allocation attempted after initialization
+failed_request_bytes=886
+failed_request_end_bytes=4334
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 1 --engine core --blocks 1
+engine=core
+pool_capacity_bytes=1
+object_bytes=2480
+engine_object_and_nested_payload_bytes=0
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=1
+peak_live_payload_bytes=0
+pool_high_water_bytes=0
+pool_metadata_and_padding_bytes=0
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=construct: pool exhausted or allocation attempted after initialization
+failed_request_bytes=2480
+failed_request_end_bytes=2488
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 3000 --engine core --blocks 1
+engine=core
+✅ waves 地址: 0x104b844b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=3000
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=3
+peak_live_payload_bytes=2528
+pool_high_water_bytes=2544
+pool_metadata_and_padding_bytes=16
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=output buffers: pool exhausted or allocation attempted after initialization
+failed_request_bytes=886
+failed_request_end_bytes=3438
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 16000000 --engine core --frames 1
+engine=core
+✅ waves 地址: 0x100c504b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=12
+init_allocations=4
+init_pool_used_bytes=2574
+total_allocation_attempts=4
+peak_live_payload_bytes=2540
+pool_high_water_bytes=2574
+pool_metadata_and_padding_bytes=34
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=1
+blocks_per_note=64
+rendered_frames=12024
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 16000000 --engine core --frames 256
+engine=core
+✅ waves 地址: 0x100ea04b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=1032
+init_allocations=4
+init_pool_used_bytes=3596
+total_allocation_attempts=4
+peak_live_payload_bytes=3560
+pool_high_water_bytes=3596
+pool_metadata_and_padding_bytes=36
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=256
+blocks_per_note=64
+rendered_frames=3078144
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 16000000 --engine core --frames 1000
+engine=core
+✅ waves 地址: 0x1005484b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2480
+engine_object_and_nested_payload_bytes=2528
+output_payload_bytes=4008
+init_allocations=4
+init_pool_used_bytes=6572
+total_allocation_attempts=4
+peak_live_payload_bytes=6536
+pool_high_water_bytes=6572
+pool_metadata_and_padding_bytes=36
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=1000
+blocks_per_note=64
+rendered_frames=12024000
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 16000000 --engine wrapper
+engine=wrapper
+✅ waves 地址: 0x1022ac4b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=1772
+init_allocations=30
+init_pool_used_bytes=76606
+total_allocation_attempts=30
+peak_live_payload_bytes=76280
+pool_high_water_bytes=76606
+pool_metadata_and_padding_bytes=326
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=64
+rendered_frames=5302584
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 76606 --engine wrapper --blocks 1
+engine=wrapper
+✅ waves 地址: 0x10071c4b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=76606
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=1772
+init_allocations=30
+init_pool_used_bytes=76606
+total_allocation_attempts=30
+peak_live_payload_bytes=76280
+pool_high_water_bytes=76606
+pool_metadata_and_padding_bytes=326
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=162729
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 76605 --engine wrapper --blocks 1
+engine=wrapper
+✅ waves 地址: 0x102b584b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=76605
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=30
+peak_live_payload_bytes=75394
+pool_high_water_bytes=75710
+pool_metadata_and_padding_bytes=316
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=output buffers: pool exhausted or allocation attempted after initialization
+failed_request_bytes=886
+failed_request_end_bytes=76606
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 1 --engine wrapper --blocks 1
+engine=wrapper
+pool_capacity_bytes=1
+object_bytes=2944
+engine_object_and_nested_payload_bytes=0
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=1
+peak_live_payload_bytes=0
+pool_high_water_bytes=0
+pool_metadata_and_padding_bytes=0
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=construct: pool exhausted or allocation attempted after initialization
+failed_request_bytes=2944
+failed_request_end_bytes=2952
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 3000 --engine wrapper --blocks 1
+engine=wrapper
+pool_capacity_bytes=3000
+object_bytes=2944
+engine_object_and_nested_payload_bytes=0
+output_payload_bytes=1772
+init_allocations=0
+init_pool_used_bytes=0
+total_allocation_attempts=2
+peak_live_payload_bytes=2944
+pool_high_water_bytes=2952
+pool_metadata_and_padding_bytes=8
+runtime_allocation_attempts=0
+allocation_failures=1
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=0
+sample_rate=44100
+frames_per_block=441
+blocks_per_note=1
+rendered_frames=0
+FAIL: phase=construct: pool exhausted or allocation attempted after initialization
+failed_request_bytes=48
+failed_request_end_bytes=3008
+
+
+exit=2
+
+$ ./build/test_memory --pool-bytes 16000000 --engine wrapper --frames 1
+engine=wrapper
+✅ waves 地址: 0x104a244b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=12
+init_allocations=30
+init_pool_used_bytes=74846
+total_allocation_attempts=30
+peak_live_payload_bytes=74520
+pool_high_water_bytes=74846
+pool_metadata_and_padding_bytes=326
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=1
+blocks_per_note=64
+rendered_frames=12024
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 16000000 --engine wrapper --frames 256
+engine=wrapper
+✅ waves 地址: 0x1047884b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=1032
+init_allocations=30
+init_pool_used_bytes=75868
+total_allocation_attempts=30
+peak_live_payload_bytes=75540
+pool_high_water_bytes=75868
+pool_metadata_and_padding_bytes=328
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=256
+blocks_per_note=64
+rendered_frames=3078144
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+$ ./build/test_memory --pool-bytes 16000000 --engine wrapper --frames 1000
+engine=wrapper
+✅ waves 地址: 0x1044804b0
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+pool_capacity_bytes=16000000
+object_bytes=2944
+engine_object_and_nested_payload_bytes=74508
+output_payload_bytes=4008
+init_allocations=30
+init_pool_used_bytes=78844
+total_allocation_attempts=30
+peak_live_payload_bytes=78516
+pool_high_water_bytes=78844
+pool_metadata_and_padding_bytes=328
+runtime_allocation_attempts=0
+allocation_failures=0
+live_payload_after_teardown_bytes=0
+sample_readonly_bytes=844836 (outside pool)
+shared_global_payload_bytes=41 (outside pool)
+voice_capacity=32
+max_observed_voices=32
+sample_rate=44100
+frames_per_block=1000
+blocks_per_note=64
+rendered_frames=12024000
+PASS: bounded C++ pool, note/velocity sweep, voice stealing, sustain, guards, silence, teardown
+
+
+exit=0
+
+PASS: 2 full workload runs; 22 boundary, frame-size and argument checks.
+
+$ ./build/test_core_memory_check
+✅ waves 地址: 0x102a83a50
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+PASS: SPSC queue, 50000 threaded events, panic ordering, 37 keys, Mac key mapping, notes 36-96, 441-frame rendering, guards and silence
+
+exit=0
+
+$ ./build/test_core_memory_sanitized
+✅ waves 地址: 0x10245ea00
+✅ epianoData[0] = -7
+✅ epianoData[1] = -23
+PASS: SPSC queue, 50000 threaded events, panic ordering, 37 keys, Mac key mapping, notes 36-96, 441-frame rendering, guards and silence
+
+exit=0
+
+$ bash -n test_memory.sh build_macos.sh
+
+exit=0
+
+$ xcrun nm -m build/test_memory
+00000001000044b0 (__TEXT,__const) non-external __ZL10epianoData
+exit=0
+
+GUI compile/link only (not launched), exit=0:
+xcrun clang++ -std=c++17 -O2 -mmacosx-version-min=11.0 -Isource -fobjc-arc source/main_macos.mm source/MdaEPianoEngine.cpp source/mdaEPiano.cpp -framework Cocoa -framework AudioToolbox -o build/MDA_EPiano_memory_check
+
+Sanitizer build command (executed before the recorded run):
+xcrun clang++ -std=c++17 -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -Isource -pthread source/test_core.cpp source/MdaEPianoEngine.cpp source/mdaEPiano.cpp -o build/test_core_memory_sanitized

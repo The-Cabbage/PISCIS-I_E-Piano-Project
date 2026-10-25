@@ -1,0 +1,2784 @@
+{
+  "kicad_version": "10.0.6",
+  "footprints": 25,
+  "tracks": 274,
+  "vias": 63,
+  "zones": 2,
+  "socket_pad_mapping_mismatches": [],
+  "reference_module_hashes": {
+    "source_schematic": "c2fbeed5906f8b1503799e5eb75364576e0c44b035c76838fe5cb476fd3762ad",
+    "source_pcb": "c3438112dad83a6425cd305baa53ea5b6f49a7d999b05c99fc05901ae132985a"
+  },
+  "reference_module_hash_matches_pinmap": {
+    "source_schematic": true,
+    "source_pcb": true
+  },
+  "pads": {
+    "C3": [
+      {
+        "pin": "1",
+        "net": "Net-(U1-ADCVREF)",
+        "position_mm": [
+          149.5,
+          58.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          147.6,
+          58.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C13": [
+      {
+        "pin": "1",
+        "net": "Net-(U1-LOUT1)",
+        "position_mm": [
+          159.3,
+          60.0
+        ],
+        "size_mm": [
+          3.0,
+          1.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "Net-(C13-Pad2)",
+        "position_mm": [
+          163.7,
+          60.0
+        ],
+        "size_mm": [
+          3.0,
+          1.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C14": [
+      {
+        "pin": "1",
+        "net": "Net-(U1-ROUT1)",
+        "position_mm": [
+          159.2,
+          67.0
+        ],
+        "size_mm": [
+          3.0,
+          1.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "Net-(C14-Pad2)",
+        "position_mm": [
+          163.6,
+          67.0
+        ],
+        "size_mm": [
+          3.0,
+          1.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C9": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          151.5,
+          52.5
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          151.5,
+          55.45
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C7": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          147.5,
+          68.4
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          147.5,
+          66.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "R2": [
+      {
+        "pin": "1",
+        "net": "Net-(C14-Pad2)",
+        "position_mm": [
+          164.0,
+          71.0875
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "/HP_R_CAND",
+        "position_mm": [
+          164.0,
+          72.9125
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C12": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          155.0,
+          59.9
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          155.0,
+          58.0
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "J3": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          123.92,
+          91.44
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 1,
+        "attribute": 0
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          123.92,
+          93.98
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "3",
+        "net": "PD3",
+        "position_mm": [
+          123.92,
+          96.52
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      }
+    ],
+    "R1": [
+      {
+        "pin": "1",
+        "net": "Net-(C13-Pad2)",
+        "position_mm": [
+          164.0,
+          55.7125
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "/HP_L_CAND",
+        "position_mm": [
+          164.0,
+          53.8875
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "J1": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          99.324,
+          76.2
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 1,
+        "attribute": 0
+      },
+      {
+        "pin": "2",
+        "net": "PD6",
+        "position_mm": [
+          99.324,
+          78.74
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "3",
+        "net": "PD7",
+        "position_mm": [
+          99.324,
+          81.28
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "4",
+        "net": "PD8",
+        "position_mm": [
+          99.324,
+          83.82
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "5",
+        "net": "PD9",
+        "position_mm": [
+          99.324,
+          86.36
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "6",
+        "net": "PD12",
+        "position_mm": [
+          99.324,
+          88.9
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "7",
+        "net": "PD13",
+        "position_mm": [
+          99.324,
+          91.44
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "8",
+        "net": "PD14",
+        "position_mm": [
+          99.324,
+          93.98
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "9",
+        "net": "PD15",
+        "position_mm": [
+          99.324,
+          96.52
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "10",
+        "net": "PD16",
+        "position_mm": [
+          99.324,
+          99.06
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "11",
+        "net": "PD17",
+        "position_mm": [
+          99.324,
+          101.6
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "12",
+        "net": "PD18",
+        "position_mm": [
+          99.324,
+          104.14
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "13",
+        "net": "PD19",
+        "position_mm": [
+          99.324,
+          106.68
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "14",
+        "net": "PD20",
+        "position_mm": [
+          99.324,
+          109.22
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "15",
+        "net": "PD21",
+        "position_mm": [
+          99.324,
+          111.76
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "16",
+        "net": "PE0",
+        "position_mm": [
+          99.324,
+          114.3
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "17",
+        "net": "PE1",
+        "position_mm": [
+          99.324,
+          116.84
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "18",
+        "net": "PE2",
+        "position_mm": [
+          99.324,
+          119.38
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "19",
+        "net": "PE3",
+        "position_mm": [
+          99.324,
+          121.92
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "20",
+        "net": "PE4",
+        "position_mm": [
+          99.324,
+          124.46
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "21",
+        "net": "PE10",
+        "position_mm": [
+          117.25,
+          124.47
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 1,
+        "attribute": 0
+      },
+      {
+        "pin": "22",
+        "net": "PE9",
+        "position_mm": [
+          117.25,
+          121.93
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "23",
+        "net": "PE8",
+        "position_mm": [
+          117.25,
+          119.39
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "24",
+        "net": "PE7",
+        "position_mm": [
+          117.25,
+          116.85
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "25",
+        "net": "PE6",
+        "position_mm": [
+          117.25,
+          114.31
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "26",
+        "net": "PE5",
+        "position_mm": [
+          117.25,
+          111.77
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "27",
+        "net": "GPADC",
+        "position_mm": [
+          117.25,
+          109.23
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "28",
+        "net": "PB3",
+        "position_mm": [
+          117.25,
+          106.69
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "29",
+        "net": "PB2",
+        "position_mm": [
+          117.25,
+          104.15
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "30",
+        "net": "PB1",
+        "position_mm": [
+          117.25,
+          101.61
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "31",
+        "net": "PB0",
+        "position_mm": [
+          117.25,
+          99.07
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "32",
+        "net": "PD22",
+        "position_mm": [
+          117.25,
+          96.53
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "33",
+        "net": "PD0",
+        "position_mm": [
+          117.25,
+          93.99
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "34",
+        "net": "PD1",
+        "position_mm": [
+          117.25,
+          91.45
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "35",
+        "net": "PD2",
+        "position_mm": [
+          117.25,
+          88.91
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "36",
+        "net": "PD3",
+        "position_mm": [
+          117.25,
+          86.37
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "37",
+        "net": "PD4",
+        "position_mm": [
+          117.25,
+          83.83
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "38",
+        "net": "PD5",
+        "position_mm": [
+          117.25,
+          81.29
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "39",
+        "net": "GND",
+        "position_mm": [
+          117.25,
+          78.75
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "40",
+        "net": "VBUS",
+        "position_mm": [
+          117.25,
+          76.21
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      }
+    ],
+    "R4": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          145.175,
+          64.5
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "PE2",
+        "position_mm": [
+          147.0,
+          64.5
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "U1": [
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          150.85,
+          64.15
+        ],
+        "size_mm": [
+          1.05,
+          1.05
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          152.15,
+          64.15
+        ],
+        "size_mm": [
+          1.05,
+          1.05
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          150.85,
+          62.85
+        ],
+        "size_mm": [
+          1.05,
+          1.05
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          152.15,
+          62.85
+        ],
+        "size_mm": [
+          1.05,
+          1.05
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "1",
+        "net": "PD6",
+        "position_mm": [
+          150.15,
+          65.45
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          150.6,
+          65.45
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "3",
+        "net": "VCC-3V3",
+        "position_mm": [
+          151.05,
+          65.45
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "4",
+        "net": "GND",
+        "position_mm": [
+          151.5,
+          65.45
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "5",
+        "net": "PD7",
+        "position_mm": [
+          151.95,
+          65.45
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "6",
+        "net": "PD9",
+        "position_mm": [
+          152.4,
+          65.45
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "7",
+        "net": "PD8",
+        "position_mm": [
+          152.85,
+          65.45
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "8",
+        "net": "unconnected-(U1-ASDOUT-Pad8)",
+        "position_mm": [
+          153.45,
+          64.85
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "9",
+        "net": "unconnected-(U1-NC-Pad9)",
+        "position_mm": [
+          153.45,
+          64.4
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "10",
+        "net": "Net-(U1-VREF)",
+        "position_mm": [
+          153.45,
+          63.95
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "11",
+        "net": "Net-(U1-ROUT1)",
+        "position_mm": [
+          153.45,
+          63.5
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "12",
+        "net": "Net-(U1-LOUT1)",
+        "position_mm": [
+          153.45,
+          63.05
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "13",
+        "net": "GND",
+        "position_mm": [
+          153.45,
+          62.6
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "14",
+        "net": "unconnected-(U1-ROUT2-Pad14)",
+        "position_mm": [
+          153.45,
+          62.15
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "15",
+        "net": "unconnected-(U1-LOUT2-Pad15)",
+        "position_mm": [
+          152.85,
+          61.55
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "16",
+        "net": "VCC-3V3",
+        "position_mm": [
+          152.4,
+          61.55
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "17",
+        "net": "VCC-3V3",
+        "position_mm": [
+          151.95,
+          61.55
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "18",
+        "net": "GND",
+        "position_mm": [
+          151.5,
+          61.55
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "19",
+        "net": "Net-(U1-ADCVREF)",
+        "position_mm": [
+          151.05,
+          61.55
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "20",
+        "net": "Net-(U1-VMID)",
+        "position_mm": [
+          150.6,
+          61.55
+        ],
+        "size_mm": [
+          0.8,
+          0.25
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "21",
+        "net": "unconnected-(U1-RIN2-Pad21)",
+        "position_mm": [
+          150.15,
+          61.55
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "22",
+        "net": "unconnected-(U1-LIN2-Pad22)",
+        "position_mm": [
+          149.55,
+          62.15
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "23",
+        "net": "unconnected-(U1-RIN1-Pad23)",
+        "position_mm": [
+          149.55,
+          62.6
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "24",
+        "net": "unconnected-(U1-LIN1-Pad24)",
+        "position_mm": [
+          149.55,
+          63.05
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "25",
+        "net": "unconnected-(U1-NC-Pad25)",
+        "position_mm": [
+          149.55,
+          63.5
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "26",
+        "net": "GND",
+        "position_mm": [
+          149.55,
+          63.95
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "27",
+        "net": "PE3",
+        "position_mm": [
+          149.55,
+          64.4
+        ],
+        "size_mm": [
+          0.25,
+          0.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "28",
+        "net": "PE2",
+        "position_mm": [
+          149.55,
+          64.85
+        ],
+        "size_mm": [
+          0.179289,
+          0.179289
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 6,
+        "attribute": 1
+      },
+      {
+        "pin": "29",
+        "net": "GND",
+        "position_mm": [
+          151.5,
+          63.5
+        ],
+        "size_mm": [
+          2.6,
+          2.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      }
+    ],
+    "C10": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          151.5,
+          57.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          151.5,
+          59.4
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C5": [
+      {
+        "pin": "1",
+        "net": "Net-(U1-VMID)",
+        "position_mm": [
+          147.0,
+          60.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          145.1,
+          60.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C11": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          155.025,
+          55.95
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          155.025,
+          53.0
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C8": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          152.0,
+          67.5
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          152.0,
+          69.4
+        ],
+        "size_mm": [
+          1.0,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "J5": [
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          162.0,
+          41.2
+        ],
+        "size_mm": [
+          1.2,
+          1.2
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          162.0,
+          38.7
+        ],
+        "size_mm": [
+          1.2,
+          1.2
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          157.0,
+          46.2
+        ],
+        "size_mm": [
+          1.2,
+          1.2
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          152.0,
+          41.2
+        ],
+        "size_mm": [
+          1.2,
+          1.2
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          152.0,
+          38.7
+        ],
+        "size_mm": [
+          1.2,
+          1.2
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "R",
+        "net": "/HP_R_CAND",
+        "position_mm": [
+          162.0,
+          46.2
+        ],
+        "size_mm": [
+          1.8,
+          2.5
+        ],
+        "drill_mm": [
+          0.8,
+          1.5
+        ],
+        "shape": 2,
+        "attribute": 0
+      },
+      {
+        "pin": "S",
+        "net": "GND",
+        "position_mm": [
+          157.0,
+          41.2
+        ],
+        "size_mm": [
+          2.5,
+          1.8
+        ],
+        "drill_mm": [
+          1.5,
+          0.8
+        ],
+        "shape": 2,
+        "attribute": 0
+      },
+      {
+        "pin": "T",
+        "net": "/HP_L_CAND",
+        "position_mm": [
+          152.0,
+          46.2
+        ],
+        "size_mm": [
+          1.8,
+          2.5
+        ],
+        "drill_mm": [
+          0.8,
+          1.5
+        ],
+        "shape": 2,
+        "attribute": 0
+      }
+    ],
+    "R3": [
+      {
+        "pin": "1",
+        "net": "VCC-3V3",
+        "position_mm": [
+          145.175,
+          62.5
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "PE3",
+        "position_mm": [
+          147.0,
+          62.5
+        ],
+        "size_mm": [
+          1.025,
+          1.4
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C2": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          146.55,
+          56.0
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "Net-(U1-ADCVREF)",
+        "position_mm": [
+          149.5,
+          56.0
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "SW1": [
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          134.153883,
+          47.2
+        ],
+        "size_mm": [
+          0.75,
+          0.75
+        ],
+        "drill_mm": [
+          0.75,
+          0.75
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "",
+        "net": "",
+        "position_mm": [
+          136.833883,
+          49.88
+        ],
+        "size_mm": [
+          1.05,
+          1.05
+        ],
+        "drill_mm": [
+          1.05,
+          1.05
+        ],
+        "shape": 0,
+        "attribute": 3
+      },
+      {
+        "pin": "1",
+        "net": "PD12",
+        "position_mm": [
+          131.833883,
+          50.18
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "PD16",
+        "position_mm": [
+          132.843883,
+          51.19
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "3",
+        "net": "PD14",
+        "position_mm": [
+          133.853883,
+          52.2
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "4",
+        "net": "PD13",
+        "position_mm": [
+          137.133883,
+          44.88
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "5",
+        "net": "GND",
+        "position_mm": [
+          138.143883,
+          45.89
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "6",
+        "net": "PD15",
+        "position_mm": [
+          139.153883,
+          46.9
+        ],
+        "size_mm": [
+          1.5,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "7",
+        "net": "unconnected-(SW1-Pad7)",
+        "position_mm": [
+          132.633883,
+          45.68
+        ],
+        "size_mm": [
+          2.0,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      },
+      {
+        "pin": "8",
+        "net": "unconnected-(SW1-Pad8)",
+        "position_mm": [
+          138.353883,
+          51.4
+        ],
+        "size_mm": [
+          2.0,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 1,
+        "attribute": 1
+      }
+    ],
+    "J2": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          107.34,
+          41.575
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 1,
+        "attribute": 0
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          109.88,
+          41.575
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "3",
+        "net": "PB2",
+        "position_mm": [
+          112.42,
+          41.575
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "4",
+        "net": "PB3",
+        "position_mm": [
+          114.96,
+          41.575
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      }
+    ],
+    "C1": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          155.7,
+          67.475
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "Net-(U1-VREF)",
+        "position_mm": [
+          155.7,
+          64.525
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "J4": [
+      {
+        "pin": "1",
+        "net": "PD1",
+        "position_mm": [
+          161.92,
+          91.44
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 1,
+        "attribute": 0
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          161.92,
+          93.98
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      },
+      {
+        "pin": "3",
+        "net": "PD0",
+        "position_mm": [
+          161.92,
+          96.52
+        ],
+        "size_mm": [
+          1.7,
+          1.7
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ],
+        "shape": 0,
+        "attribute": 0
+      }
+    ],
+    "C4": [
+      {
+        "pin": "1",
+        "net": "Net-(U1-VMID)",
+        "position_mm": [
+          144.5,
+          58.0
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "position_mm": [
+          141.55,
+          58.0
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ],
+    "C6": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "position_mm": [
+          147.5,
+          73.45
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      },
+      {
+        "pin": "2",
+        "net": "VCC-3V3",
+        "position_mm": [
+          147.5,
+          70.5
+        ],
+        "size_mm": [
+          1.15,
+          1.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ],
+        "shape": 4,
+        "attribute": 1
+      }
+    ]
+  },
+  "routing": {
+    "Net-(U1-ADCVREF)": {
+      "total_mm": 6.192031021678297,
+      "F.Cu_mm": 6.192031021678297,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "GND": {
+      "total_mm": 34.395601197289004,
+      "F.Cu_mm": 34.395601197289004,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 28
+    },
+    "Net-(U1-LOUT1)": {
+      "total_mm": 8.109188309203677,
+      "F.Cu_mm": 8.109188309203677,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "Net-(C13-Pad2)": {
+      "total_mm": 4.411764068711928,
+      "F.Cu_mm": 4.411764068711928,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "Net-(U1-ROUT1)": {
+      "total_mm": 8.547056274847714,
+      "F.Cu_mm": 8.547056274847714,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "Net-(C14-Pad2)": {
+      "total_mm": 4.667398987322334,
+      "F.Cu_mm": 4.667398987322334,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "VCC-3V3": {
+      "total_mm": 156.45433655082923,
+      "F.Cu_mm": 142.0856487136084,
+      "B.Cu_mm": 14.36868783722081,
+      "widths_mm": [
+        0.2,
+        0.5
+      ],
+      "vias": 4
+    },
+    "/HP_R_CAND": {
+      "total_mm": 32.97450576850888,
+      "F.Cu_mm": 32.97450576850888,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.3
+      ],
+      "vias": 0
+    },
+    "PD3": {
+      "total_mm": 13.832489168102786,
+      "F.Cu_mm": 13.832489168102786,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "/HP_L_CAND": {
+      "total_mm": 16.28993866176395,
+      "F.Cu_mm": 16.28993866176395,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.3
+      ],
+      "vias": 0
+    },
+    "PD6": {
+      "total_mm": 59.885271990845816,
+      "F.Cu_mm": 50.107097397793794,
+      "B.Cu_mm": 9.778174593052023,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PD7": {
+      "total_mm": 62.95825506934702,
+      "F.Cu_mm": 51.362923188769614,
+      "B.Cu_mm": 11.595331880577405,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PD8": {
+      "total_mm": 66.50138487047681,
+      "F.Cu_mm": 49.202797077972214,
+      "B.Cu_mm": 17.298587792504605,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 3
+    },
+    "PD9": {
+      "total_mm": 66.00614307909453,
+      "F.Cu_mm": 54.17944034861864,
+      "B.Cu_mm": 11.82670273047588,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PD12": {
+      "total_mm": 61.66984833792892,
+      "F.Cu_mm": 53.66984833792892,
+      "B.Cu_mm": 8.0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PD13": {
+      "total_mm": 76.98150584779123,
+      "F.Cu_mm": 67.58150584779122,
+      "B.Cu_mm": 9.4,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 4
+    },
+    "PD14": {
+      "total_mm": 67.93313694193526,
+      "F.Cu_mm": 59.93313694193526,
+      "B.Cu_mm": 8.0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PD15": {
+      "total_mm": 80.47141254766495,
+      "F.Cu_mm": 71.19862034152916,
+      "B.Cu_mm": 9.272792206135787,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 4
+    },
+    "PD16": {
+      "total_mm": 76.4710267809562,
+      "F.Cu_mm": 68.4710267809562,
+      "B.Cu_mm": 8.0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 2
+    },
+    "PE2": {
+      "total_mm": 103.14208176543667,
+      "F.Cu_mm": 33.80208021097691,
+      "B.Cu_mm": 69.34000155445977,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 3
+    },
+    "PE3": {
+      "total_mm": 105.78180261875158,
+      "F.Cu_mm": 52.939667233214465,
+      "B.Cu_mm": 52.84213538553713,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 4
+    },
+    "PB3": {
+      "total_mm": 150.53752234340607,
+      "F.Cu_mm": 145.48830878103297,
+      "B.Cu_mm": 5.049213562373095,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 1
+    },
+    "PB2": {
+      "total_mm": 153.84501584426778,
+      "F.Cu_mm": 153.84501584426778,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "PD0": {
+      "total_mm": 48.2695158570222,
+      "F.Cu_mm": 48.2695158570222,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "PD1": {
+      "total_mm": 51.37399420598222,
+      "F.Cu_mm": 51.37399420598222,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "Net-(U1-VREF)": {
+      "total_mm": 2.4881727983645296,
+      "F.Cu_mm": 2.4881727983645296,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    },
+    "Net-(U1-VMID)": {
+      "total_mm": 8.728122108503285,
+      "F.Cu_mm": 8.728122108503285,
+      "B.Cu_mm": 0,
+      "widths_mm": [
+        0.2
+      ],
+      "vias": 0
+    }
+  },
+  "edge_graphics_bbox_including_stroke_mm": [
+    71.11875,
+    94.675
+  ]
+}

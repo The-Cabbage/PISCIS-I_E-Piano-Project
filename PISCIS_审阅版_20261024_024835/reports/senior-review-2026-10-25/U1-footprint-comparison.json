@@ -1,0 +1,408 @@
+[
+  {
+    "pin": "1",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "2",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "3",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "4",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "5",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "6",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "7",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "8",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "9",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "10",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "11",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "12",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "13",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "14",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "15",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "16",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "17",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "18",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "19",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "20",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "21",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "standard_bbox_mm": [
+      0.25,
+      0.8
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "22",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "23",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "24",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "25",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "26",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "27",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 4,
+    "standard_shape": 4
+  },
+  {
+    "pin": "28",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "standard_bbox_mm": [
+      0.8,
+      0.25
+    ],
+    "placed_shape": 6,
+    "standard_shape": 6
+  },
+  {
+    "pin": "29",
+    "center_diff_mm": 0.0,
+    "placed_bbox_mm": [
+      2.6,
+      2.6
+    ],
+    "standard_bbox_mm": [
+      2.6,
+      2.6
+    ],
+    "placed_shape": 1,
+    "standard_shape": 1
+  }
+]

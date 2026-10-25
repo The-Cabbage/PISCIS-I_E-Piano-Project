@@ -1,0 +1,128 @@
+{
+  "capture_time": "2026-10-25T14:49:17+08:00",
+  "timezone": "Asia/Shanghai",
+  "kicad_version": "10.0.6",
+  "source_sha256": {
+    "PISCIS-I_F101.kicad_sch": "9f80176e32bed7d540f019ee3debf73262a58c84f84e430e2755b7bb1d590943",
+    "PISCIS-I_F101.kicad_pcb": "a4dd26bbb96bc9bd096ac36ea00137360fa38c29aa382a1ce466a51f1e9a1629",
+    "PISCIS-I_F101.kicad_pro": "f9e6199105ef21fa88122c4cffdc0f62e033fc21de2a80ec4e3ef142ffb7dc75"
+  },
+  "source_unmodified_by_review": true,
+  "erc": {
+    "errors": 0,
+    "warnings": 29,
+    "report": "ERC.json"
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 1,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "report": "DRC.json",
+    "refill_zones_in_memory": true,
+    "save_board": false
+  },
+  "strict_drc": {
+    "geometry_errors": 0,
+    "geometry_warnings": 6,
+    "schematic_parity_warnings": 1,
+    "unconnected": 0,
+    "report": "DRC-strict.json",
+    "temporary_rule_changes": {
+      "min_clearance_mm": 0.15,
+      "min_silk_clearance_mm": 0.15,
+      "enabled_warnings": [
+        "missing_courtyard",
+        "footprint_filters_mismatch",
+        "footprint_type_mismatch",
+        "track_not_centered_on_via"
+      ]
+    }
+  },
+  "previous_finding_F01": "Closed: R5 and R6 placed, net assignments match schematic, DRC finds no unconnected or missing footprints",
+  "manufacturing_export_check": {
+    "output_files": {
+      "PISCIS-I_F101-NPTH-drl_map.svg": {
+        "bytes": 62318,
+        "sha256": "5097cb973a7c2bcb877712d75b7d944ee0424d93b2bc241f09b6eabed206f506"
+      },
+      "PISCIS-I_F101-NPTH.drl": {
+        "bytes": 552,
+        "sha256": "ee29e1bf0664a1f80e39105996cc448a08180e4a5443baea1531d26b48af0ae4"
+      },
+      "PISCIS-I_F101-F_Cu.gtl": {
+        "bytes": 163614,
+        "sha256": "86c4343aca45c36586718a9dc1d0b6d043de6fef9aa38059f44aca7832f7f902"
+      },
+      "PISCIS-I_F101-B_Cu.gbl": {
+        "bytes": 108266,
+        "sha256": "f5360c72f83279dd4b3da68bf9df2dbc112a06fd51e6d77e4dd3e5727b6488bd"
+      },
+      "PISCIS-I_F101-F_Paste.gtp": {
+        "bytes": 8011,
+        "sha256": "ffc7fe86e1013aeccdf388a2a602801f62a94692da1f26a01de28a15c900b512"
+      },
+      "PISCIS-I_F101-F_Silkscreen.gto": {
+        "bytes": 146171,
+        "sha256": "3c9807d94ca65133dcf398e36f5c9e95e600750ac913cb4d5b11c71a7fd09a50"
+      },
+      "PISCIS-I_F101-B_Mask.gbs": {
+        "bytes": 3034,
+        "sha256": "5bce71bff62aab9e8426e835856e1f85c7e46798d63b6c1a15e5d649d040fffc"
+      },
+      "PISCIS-I_F101-B_Silkscreen.gbo": {
+        "bytes": 460,
+        "sha256": "29b63581253d05f9077ea0f63ffeb48daa2dc3c72e954c8825045e325ab2e8ba"
+      },
+      "PISCIS-I_F101-Edge_Cuts.gm1": {
+        "bytes": 1212,
+        "sha256": "b0b5c9791811b14f111bdcf0cde1bf43870124ff1848c7bda650cf4a73744ced"
+      },
+      "PISCIS-I_F101-PTH.drl": {
+        "bytes": 2184,
+        "sha256": "ce8b3b8bdbc9210cb95092b06c79079e6c9e704d1b5c4a9642edc4e6865fca55"
+      },
+      "drill-report.txt": {
+        "bytes": 826,
+        "sha256": "111e605da233a94f86ad822350cce41fd81bf7b62dc3c0ea7d23fba647b6bc05"
+      },
+      "PISCIS-I_F101-job.gbrjob": {
+        "bytes": 2612,
+        "sha256": "cdbcd9a768d2d41b178d831b029ff80e1f36331213b0f6b608f6ed25cf9a637b"
+      },
+      "PISCIS-I_F101-PTH-drl_map.svg": {
+        "bytes": 69677,
+        "sha256": "5f10c1891f57a2a980468eeaa4515cbb0db3d65a16ec0eeb02e1ba000b2ca19c"
+      },
+      "PISCIS-I_F101-F_Mask.gts": {
+        "bytes": 11851,
+        "sha256": "8d6fc60af3d746b3c098281f11192b2ccbaa655ae23e9f33f34fd79894295b32"
+      }
+    },
+    "plated_holes": 116,
+    "plated_slots_included": 3,
+    "nonplated_holes": 7,
+    "slot_tool_mm": 0.8,
+    "slot_center_travel_mm": 0.7,
+    "pth_npth_separate": true,
+    "drill_origin": "absolute",
+    "independent_gerber_cam_visual_review": false,
+    "fab_house_dfm": false,
+    "production_package_released": false
+  },
+  "commands": [
+    "kicad-cli sch erc --severity-all --format json --output output/ERC.json PISCIS-I_F101.kicad_sch",
+    "kicad-cli sch export netlist --format kicadxml --output output/netlist.xml PISCIS-I_F101.kicad_sch",
+    "kicad-cli pcb drc --refill-zones --schematic-parity --severity-all --all-track-errors --format json --output output/DRC.json PISCIS-I_F101.kicad_pcb",
+    "Same DRC command against a separate strict-rule project copy; see temporary_rule_changes",
+    "kicad-cli pcb export gerbers --layers F.Cu,B.Cu,F.Mask,B.Mask,F.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts --output output/cam-check/ PISCIS-I_F101.kicad_pcb",
+    "kicad-cli pcb export drill --format excellon --excellon-separate-th --excellon-oval-format route --generate-map --map-format svg --generate-report --report-path output/cam-check/drill-report.txt --output output/cam-check/ PISCIS-I_F101.kicad_pcb"
+  ],
+  "not_executed": [
+    "Power-on/load/noise/audio or timing measurements",
+    "Physical mating or enclosure fit",
+    "Firmware build or operation",
+    "Independent Gerber/NC-drill CAM reconstruction",
+    "Fab-specific DFM acceptance"
+  ]
+}

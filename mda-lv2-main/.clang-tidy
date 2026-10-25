@@ -1,0 +1,45 @@
+# Copyright 2020-2026 David Robillard <d@drobilla.net>
+# SPDX-License-Identifier: 0BSD OR MIT
+
+Checks: >
+  *,
+  -*-avoid-c-arrays,
+  -*-braces-around-statements,
+  -*-magic-numbers,
+  -*-member-init,
+  -*-named-parameter,
+  -*-narrowing-conversions,
+  -*-no-malloc,
+  -*-use-auto,
+  -altera-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-multi-level-implicit-pointer-conversion,
+  -cppcoreguidelines-macro-usage,
+  -cppcoreguidelines-owning-memory,
+  -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-pro-type-cstyle-cast,
+  -cppcoreguidelines-use-enum-class,
+  -google-runtime-int,
+  -hicpp-multiway-paths-covered,
+  -hicpp-no-array-decay,
+  -hicpp-signed-bitwise,
+  -llvm-header-guard,
+  -llvmlibc-*,
+  -misc-confusable-identifiers,
+  -misc-const-correctness,
+  -misc-include-cleaner,
+  -misc-unused-parameters,
+  -modernize-loop-convert,
+  -modernize-use-trailing-return-type,
+  -performance-enum-size,
+  -readability-identifier-length,
+  -readability-implicit-bool-conversion,
+CheckOptions:
+  - key:   hicpp-uppercase-literal-suffix.NewSuffixes
+    value: 'L;U;UL;ULL'
+  - key:   readability-uppercase-literal-suffix.NewSuffixes
+    value: 'L;U;UL;ULL'
+WarningsAsErrors: '*'
+HeaderFilterRegex: '.*'
+FormatStyle: file

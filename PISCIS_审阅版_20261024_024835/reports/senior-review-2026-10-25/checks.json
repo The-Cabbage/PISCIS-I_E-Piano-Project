@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "kicad_version": "10.0.6",
+  "source_sha256": {
+    "PISCIS-I_F101.kicad_sch": "9f80176e32bed7d540f019ee3debf73262a58c84f84e430e2755b7bb1d590943",
+    "PISCIS-I_F101.kicad_pcb": "3f6932e14f120c8322d0f909c33e211862fb05b052f79789e19f3acfda158e31",
+    "PISCIS-I_F101.kicad_pro": "d444ded258143b8b4845a70e27ef441b6df0ca1b0ecf5fe5571185df5f4b40ca"
+  },
+  "scope": "Read-only review of the 2026-10-25 14:19 source snapshot. Schematic gained R5/R6 during review through an external edit. PCB did not change. No source PCB, schematic or project rules saved by this review.",
+  "commands": [
+    {
+      "purpose": "ERC, final snapshot, original rules",
+      "command": "kicad-cli sch erc --severity-all --format json --output ERC-current.json PISCIS-I_F101.kicad_sch",
+      "completed": true,
+      "errors": 0,
+      "warnings": 29
+    },
+    {
+      "purpose": "DRC, final snapshot, in-memory refill, original rules",
+      "command": "kicad-cli pcb drc --refill-zones --schematic-parity --severity-all --all-track-errors --format json --output DRC-current.json PISCIS-I_F101.kicad_pcb",
+      "completed": true,
+      "geometry_errors": 0,
+      "geometry_warnings": 1,
+      "unconnected": 0,
+      "schematic_parity_warnings": 2,
+      "schematic_parity_warning_type": "missing_footprint",
+      "missing_footprints": [
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "purpose": "DRC before external update, identical PCB but earlier schematic",
+      "completed": true,
+      "geometry_errors": 0,
+      "geometry_warnings": 1,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "source_hash_file": "source-sha256-before-external-update.json"
+    },
+    {
+      "purpose": "Stricter DRC on the final source snapshot, in a separate temporary project copy",
+      "command": "kicad-cli pcb drc --refill-zones --schematic-parity --severity-all --all-track-errors --format json --output DRC-strict.json strict/PISCIS-I_F101.kicad_pcb",
+      "rule_changes": {
+        "min_clearance_mm": 0.15,
+        "min_silk_clearance_mm": 0.15,
+        "enabled_warnings": [
+          "missing_courtyard",
+          "footprint_filters_mismatch",
+          "footprint_type_mismatch",
+          "track_not_centered_on_via"
+        ]
+      },
+      "completed": true,
+      "geometry_errors": 0,
+      "geometry_warnings": 6,
+      "unconnected": 0,
+      "schematic_parity_warnings": 3
+    }
+  ],
+  "execution_note": "Sandboxed DRC attempts exited 255 without valid reports. Successful DRC runs were executed with sandbox escalation on identical temporary snapshots. No board save was requested. See DRC-current.json for the final snapshot. Source edits detected during review were external, preserved, and incorporated.",
+  "not_executed": [
+    "Physical assembly",
+    "Power-on or load measurement",
+    "Audio playback or frequency/noise/distortion measurement",
+    "Oscilloscope timing/EMI tests",
+    "Final Gerber/NC-drill CAM review or fab-specific DFM",
+    "Firmware build or target execution"
+  ]
+}

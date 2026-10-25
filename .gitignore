@@ -6,3 +6,7 @@ __pycache__/
 *.py[cod]
 node_modules/
 cmake-build-*/
+
+# KiCad local session state
+*.kicad_prl
+~*.lck

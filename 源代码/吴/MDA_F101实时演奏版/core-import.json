@@ -1,0 +1,22 @@
+[
+  {
+    "file": "mdaEPiano.cpp",
+    "source": "D:\\MIDI工具箱\\Windows电钢琴\\source\\mdaEPiano.cpp",
+    "sha256": "6f73ec3263300b1b6cf6c293d040f3e0f3c56729df69ec991e2ef9b20f3be789"
+  },
+  {
+    "file": "mdaEPiano.h",
+    "source": "D:\\MIDI工具箱\\Windows电钢琴\\source\\mdaEPiano.h",
+    "sha256": "efc49d2ca6e3fd96870e079e47481c7b0705217d1927e2a554421ba38ce9dc9b"
+  },
+  {
+    "file": "mdaEPianoData.h",
+    "source": "D:\\MIDI工具箱\\Windows电钢琴\\source\\mdaEPianoData.h",
+    "sha256": "5d9ffc47c363b5b52501257df480d799414bb3023e93a244b00c5897b4d7787d"
+  },
+  {
+    "file": "config.h",
+    "source": "D:\\MIDI工具箱\\Windows电钢琴\\source\\config.h",
+    "sha256": "1b102cd7893b45a7957d21d7453192a52d6bc87b8cdbd421189adad9a982416e"
+  }
+]

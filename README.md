@@ -37,6 +37,40 @@ PISCIS 是面向碎片化演奏、旋律即兴与声音探索的掌上数字乐�
 7. **完成后少量收尾**：任务勾选 `[x]` 留在原分区，积累过多时借助 Git 历史清理；没有第四种任务状态。重大取舍补决策，执行过的验证补条件、结果和证据。接口变化检查直接使用方，失效结论保留原证据并标清适用版本。
 8. **保持离线可用**：内部链接使用相对路径；本地资料可离线阅读，外部来源仅作延伸参考。相关变更一起纳入对应 Git 仓库；部分子工程有独立 `.git`，根仓库的提交不能替代子工程版本记录，不自动合并仓库或重建工程。
 
+## 模块提交与整机版本
+
+新增主机模块：[主机MVP评估板](主机MVP评估板/README.md)、[主机正式PCBA](主机正式PCBA/README.md)。两者已登记为子模块，初始化提交已上传至各自私有 GitHub 仓库，MVP 模块已迁入全志 F101 Beta 与 HPM6360 Beta，并完成迁移前历史归档；不由目录名称推定冻结方案。
+
+已将四个 `Keyboard*` 工程归入一个[霍尔键盘](霍尔键盘/README.md)独立仓库，由根仓库作为单个 Git submodule 管理；[音色模拟](音色模拟/index.html) 同样作为独立子模块管理，远程为私有仓库。历史先固化为[普通文件归档](engineering/archives/keyboard-history-2026-10-23/README.md)，目录迁移已完成，原始 Git 数据完整保留于本机备份区。根仓库记录模块的精确提交，不自动跟随模块 `main`；登记模块不表示选定整机基线。
+
+小模块更新时，只在对应模块提交并推送；根仓库显示模块版本变化可以暂时保留，到大版本集成时再更新指针。例如：
+
+```sh
+git -C 霍尔键盘 switch main
+git -C 霍尔键盘 add <本次修改的文件>
+git -C 霍尔键盘 commit -m "说明模块改动"
+git -C 霍尔键盘 push origin main
+```
+
+大版本更新时，先确认要纳入的模块提交已推送且工作区干净，再从根目录显式暂存本次选定模块及相关整机文档。以下以 `霍尔键盘` 为例，其余模块按需列出：
+
+```sh
+git submodule status
+git add 霍尔键盘 README.md DECISIONS.md
+git commit -m "记录本次整机版本与模块组合"
+git push --recurse-submodules=check origin main
+```
+
+需要发布标记时再给已确认的根仓库提交打 tag，版本号由实际发布决定。根提交只保存模块指针，不能保存模块未提交的文件。`--recurse-submodules=check` 用于检查提交是否已存在于模块远程跟踪分支；首次配置完成后仍需实际验证远程可获取。
+
+首次获取整套工程：
+
+```sh
+git clone --recurse-submodules git@github.com:The-Cabbage/PISCIS-I_E-Piano-Project.git
+```
+
+已有克隆在工作区干净时运行 `git submodule update --init --recursive`，即可检出根提交固定的模块组合；切换根版本后同样执行。该命令通常让模块处于 detached HEAD，继续开发前先在模块内切换到工作分支。不要用 `git submodule update --remote` 复现大版本，它会跟随远程分支而非固定组合。回退或切换前先保存模块未提交改动。
+
 ## 何时扩展
 
 | 阶段 | 只在出现实际需求时增加 |
