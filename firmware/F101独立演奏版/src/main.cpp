@@ -31,11 +31,12 @@ K_THREAD_STACK_DEFINE(midi_stack, 4096);
 struct k_thread midi_thread;
 
 class PlaybackVolume {
-    static constexpr float max_gain = 8.0f;
+    static constexpr float startup_gain = 16.0f;
+    static constexpr float max_gain = 80.0f; // +20 dB over the previous 8x maximum
     // Leave approximately 3 dB of digital peak headroom for the analog gain.
     static constexpr float ceiling = 0.70f;
-    float gain = max_gain;
-    float target = max_gain;
+    float gain = startup_gain;
+    float target = startup_gain;
     float limiter_gain = 1.0f;
     float pending_peak = 0.0f;
     float pending_left[frames]{};
@@ -49,9 +50,10 @@ class PlaybackVolume {
 public:
     void set(uint8_t value)
     {
-        // A squared taper gives finer control near the quiet end of the knob.
+        // Keep finer control at lower levels with the wider gain range.
         const float position = value / 127.0f;
-        target = max_gain * position * position;
+        const float squared_position = position * position;
+        target = max_gain * squared_position * squared_position;
     }
 
     void interleave(int16_t *pcm)
@@ -73,7 +75,7 @@ public:
         // arrives, while a slower release keeps it from following the waveform.
         const float largest = peak > pending_peak ? peak : pending_peak;
         const float safe_gain = largest > ceiling ? ceiling / largest : 1.0f;
-        const float recovery = limiter_gain + (1.0f - limiter_gain) * 0.04f;
+        const float recovery = limiter_gain + (1.0f - limiter_gain) * 0.08f;
         const float next_gain = recovery < safe_gain ? recovery : safe_gain;
         const float limiter_step = (next_gain - limiter_gain) / frames;
         for (unsigned i = 0; i < frames; ++i) {

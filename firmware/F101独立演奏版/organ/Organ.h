@@ -24,9 +24,7 @@ class Organ {
     int activeBars=0;uint8_t barIndices[9]{};float barGains[9]{};
     bool keys[128]{}; int count=0,held=0,percNote=60,voiceLimit=maxVoices; bool pedal=false;
     float percEnv=0,atk,rel,accentDecay,percDecay,driveScale;
-    // Bound the summed voice amplitude before waveshaping, especially for pure flute chords.
     static constexpr float outputGain=1.3462323f;
-    float voiceGain=1.f,voiceGainTarget=1.f,headroomWeight=1.f;
     struct Delay {
         float data[delaySize]{}; int write=0;
         float process(float x,float delay){
@@ -85,8 +83,6 @@ public:
         for(int d=0;d<9;++d)if(p.bars[d]){barIndices[activeBars]=uint8_t(d);float gain=powf(2.f,(float(p.bars[d])-8.f)*.5f);barGains[activeBars++]=gain;totalGain+=gain;}
         // Normalize preset loudness without changing gain as notes enter or leave.
         barScale=.20f/maximum(1.f,totalGain);
-        // Include each preset's output level in the budget. Leave room for percussion/effects.
-        headroomWeight=.70f/maximum(.001f,barScale*totalGain*p.volume*outputGain);
         percDecay=expf(-1.f/((p.fast?.18f:.55f)*rate));
         driveScale=1.f/maximum(.05f,shape(1.f+p.drive*12.f));
     }
@@ -124,7 +120,7 @@ public:
         if(fresh&&(silent||restrike)){percEnv=1.f;percAttack=0;percNote=n;}
     }
     void reset(){
-        count=held=0;pedal=false;memset(keys,0,sizeof(keys));percEnv=0;voiceGain=voiceGainTarget=1.f;tremPhase=0;
+        count=held=0;pedal=false;memset(keys,0,sizeof(keys));percEnv=0;tremPhase=0;
         vibratoDelay.clear();hornDelay.clear();drumDelay.clear();lowpass=tone1=tone2=percAttack=0;
     }
     int activeVoices()const{return count;}
@@ -133,7 +129,7 @@ public:
         for(int n=24;n<=114;++n){advance(phase[n],inc[n]);wheel[n]=sine(phase[n]);}
         // One shared 4 Hz oscillator keeps held chord notes moving together.
         advance(tremPhase,4.f/rate);const float tremWave=sine(tremPhase);
-        float dry=0,voiceWeight=0;
+        float dry=0;
         for(int i=0;i<count;){auto& v=voices[i];float target=v.gate?1.f:0.f;
             if(v.reattackSamples>0){v.env*=.975f;--v.reattackSamples;}
             else v.env+=(target-v.env)*(target>v.env?atk:(!v.gate&&pedal?v.pedalRelease:rel));
@@ -148,15 +144,9 @@ public:
             float sum=0;for(int d=0;d<activeBars;++d)sum+=wheel[v.wheelIds[barIndices[d]]]*barGains[d];
             const float amplitude=v.env*v.velocity*(1.f+v.accent);
             dry+=sum*amplitude*(1.f+v.tremDepth*tremWave);
-            // Use maximum tremolo depth for the bound, not its oscillating waveform.
-            voiceWeight+=amplitude*(1.f+v.tremDepth);++i;
+            ++i;
         }
-        // Continuous envelope-based headroom: no rounded voice counts and no audio-rate
-        // waveform clipping to control chord volume. Attack envelopes make attenuation
-        // continuous; slow recovery avoids pumping as notes are released.
-        voiceGainTarget=minimum(1.f,headroomWeight/maximum(.0001f,voiceWeight));
-        voiceGain=minimum(voiceGainTarget,voiceGain+(voiceGainTarget-voiceGain)*.00023f);
-        dry*=barScale*voiceGain;
+        dry*=barScale;
         // Soft percussion onset; no synthetic key-click noise or idle leakage.
         percAttack+=(1.f-percAttack)*atk;
         if(patch.percussion){dry+=wheel[foldback(percNote+(patch.third?19:12))]*percEnv*percAttack*(patch.soft?.045f:.08f);percEnv*=(!held&&!pedal)?(1.f-rel):percDecay;}
@@ -182,9 +172,9 @@ public:
             left=.8f*mono+.2f*(hd*(1.f-.12f*hs)+dd*(1.f-.08f*ds));
             right=.8f*mono+.2f*(hd*(1.f+.12f*hs)+dd*(1.f+.08f*ds));
         }
-        // Reduce the previous 1.6 gain by 1.5 dB, before the existing soft limiter.
-        l=limit(left*patch.volume*outputGain);r=limit(right*patch.volume*outputGain);
+        // Keep the floating-point mix intact for the shared playback limiter.
+        l=left*patch.volume*outputGain;r=right*patch.volume*outputGain;
     }
-    void render(int16_t* l,int16_t* r,unsigned frames){for(unsigned i=0;i<frames;++i){float a,b;sample(a,b);l[i]=int16_t(clamp(a,-1.f,1.f)*32767.f);r[i]=int16_t(clamp(b,-1.f,1.f)*32767.f);}}
+    void render(int16_t* l,int16_t* r,unsigned frames){for(unsigned i=0;i<frames;++i){float a,b;sample(a,b);l[i]=int16_t(limit(a)*32767.f);r[i]=int16_t(limit(b)*32767.f);}}
 };
 }

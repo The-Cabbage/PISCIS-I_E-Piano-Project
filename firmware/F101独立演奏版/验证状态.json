@@ -1,5 +1,7 @@
 {
   "status": "standalone_prototype_confirmed_by_player",
+  "tested_source_commit": "d537a5568d88fe60fe505fa3fe6712521cb4f04f",
+  "tested_max_software_gain": 8,
   "hardware": {
     "processor_board": "YuzukiNeko F101 V1.4",
     "carrier": "PISCIS prototype mainboard",
@@ -11,7 +13,7 @@
   "observations": [
     "电脑端 MIDI 抓包确认此键盘的旋钮在通道 7 上发送 CC79。",
     "最新应用写入后，Flash 读回内容的 SHA-256 与写入镜像一致。",
-    "用户在实物上试听并确认最新独立演奏版本可用。"
+    "用户在实物上试听并确认该基线版本可独立演奏。"
   ],
   "flash_application": {
     "verified_date": "2026-11-07",
@@ -19,5 +21,9 @@
     "image_bytes": 1292400,
     "image_sha256": "15f25105a7f1718dabe4a53f5b116bd91de3be229f61447f46ede8961686ded6"
   },
-  "validation_scope": "实测覆盖这套原型和这一把 MIDI 键盘。音量及多音表现来自主观试听，跨型号兼容性和量产指标仍待验证。"
+  "validation_scope": "实测覆盖这套原型和这一把 MIDI 键盘。音量及多音表现来自主观试听，跨型号兼容性和量产指标仍待验证。",
+  "volume_update": {
+    "max_software_gain": 80,
+    "hardware_status": "pending_board_listening_test"
+  }
 }
