@@ -33,8 +33,8 @@ struct k_thread midi_thread;
 class PlaybackVolume {
     static constexpr float startup_gain = 16.0f;
     static constexpr float max_gain = 80.0f; // +20 dB over the previous 8x maximum
-    // Leave approximately 3 dB of digital peak headroom for the analog gain.
-    static constexpr float ceiling = 0.70f;
+    // Keep some digital peak headroom while letting chords build higher peaks.
+    static constexpr float ceiling = 0.82f;
     float gain = startup_gain;
     float target = startup_gain;
     float limiter_gain = 1.0f;

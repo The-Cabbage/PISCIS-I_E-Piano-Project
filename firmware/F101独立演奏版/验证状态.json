@@ -12,7 +12,7 @@
   },
   "observations": [
     "电脑端 MIDI 抓包确认此键盘的旋钮在通道 7 上发送 CC79。",
-    "最新应用写入后，Flash 读回内容的 SHA-256 与写入镜像一致。",
+    "8 倍增益基线的 Flash 读回内容与写入镜像的 SHA-256 一致。",
     "用户在实物上试听并确认该基线版本可独立演奏。"
   ],
   "flash_application": {
@@ -24,6 +24,20 @@
   "validation_scope": "实测覆盖这套原型和这一把 MIDI 键盘。音量及多音表现来自主观试听，跨型号兼容性和量产指标仍待验证。",
   "volume_update": {
     "max_software_gain": 80,
-    "hardware_status": "pending_board_listening_test"
+    "tested_digital_peak_limit": 0.70,
+    "tested_source_commit": "90a6f794482b38678a17a957ea14d6379ed497c7",
+    "tested_image_sha256": "3bf4121211ad7c3a8300caeb6e5335df87cff632fb49d42b8614c10cd59e0c57",
+    "hardware_status": "flash_readback_verified_and_auditioned"
+  },
+  "peak_limit_update": {
+    "digital_peak_limit": 0.82,
+    "hardware_status": "flash_readback_verified_audition_pending",
+    "flash_application": {
+      "verified_date": "2026-11-08",
+      "offset": "0x200000",
+      "image_bytes": 1292400,
+      "image_sha256": "3fee3252ac8d134e75ea1a875bcb485a13fbe3a1ec243866cb8c0be620462611"
+    },
+    "bootloader_note": "第一份引导副本在写入前与旧记录不同，另外两份与旧记录一致。三份副本的写入前后读回均一致。"
   }
 }
