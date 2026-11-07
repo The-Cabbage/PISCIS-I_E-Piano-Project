@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20.0)
+find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
+project(piscis_standalone)
+target_include_directories(app PRIVATE core organ synth)
+target_sources(app PRIVATE src/main.cpp src/midi_host.c core/mdaEPiano.cpp)
+target_compile_options(app PRIVATE $<$<COMPILE_LANGUAGE:CXX>:-fno-threadsafe-statics>)

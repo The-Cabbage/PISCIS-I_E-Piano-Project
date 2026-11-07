@@ -1,0 +1,38 @@
+/* PISCIS carrier layout from eed377f8b195, subject to physical-board check. */
+&pio {
+    piscis_i2s_pins: piscis_i2s_pins {
+        tx {
+            pinmux = <ALLWINNER_PINMUX(ALLWINNER_PIO_PD, 6, 4)
+                      ALLWINNER_PINMUX(ALLWINNER_PIO_PD, 7, 4)
+                      ALLWINNER_PINMUX(ALLWINNER_PIO_PD, 8, 4)
+                      ALLWINNER_PINMUX(ALLWINNER_PIO_PD, 9, 4)>;
+        };
+    };
+    piscis_codec_i2c_pins: piscis_codec_i2c_pins {
+        bus {
+            pinmux = <ALLWINNER_PINMUX(ALLWINNER_PIO_PE, 2, 4)
+                      ALLWINNER_PINMUX(ALLWINNER_PIO_PE, 3, 4)>;
+            bias-pull-up;
+        };
+    };
+};
+
+&uart4 { status = "disabled"; };
+&smhc2 { status = "disabled"; };
+&usbotg { status = "disabled"; };
+&usbhci { status = "okay"; };
+
+&i2c0 {
+    status = "okay";
+    pinctrl-0 = <&piscis_codec_i2c_pins>;
+    pinctrl-names = "default";
+    clock-frequency = <100000>;
+};
+
+&i2s0 {
+    status = "okay";
+    pinctrl-0 = <&piscis_i2s_pins>;
+    pinctrl-names = "default";
+    slot-width = <32>;
+    mclk-fs = <256>;
+};
